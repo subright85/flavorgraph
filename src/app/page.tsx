@@ -69,10 +69,10 @@ function Thumb({ name, category, size, radius }: { name: string; category: strin
   );
 }
 
-function nameHash(name: string) {
-  let h = 5381;
-  for (let i = 0; i < name.length; i++) h = (h * 33 ^ name.charCodeAt(i)) & 0xffffffff;
-  return Math.abs(h);
+function nameHash(s: string): number {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
+  return h;
 }
 
 /* ── Ingredient Card ── */
@@ -116,10 +116,10 @@ function TripletChip({ c, rank }: { c: TripletCandidate; rank: number }) {
   return (
     <div style={{
       display: "flex", alignItems: "center", gap: 7,
-      background: "rgba(0,0,0,0.03)",
-      border: `1px solid ${scoreColor(c.avg_score)}66`,
+      background: "rgba(255,255,255,0.06)",
+      border: `1px solid ${scoreColor(c.avg_score)}55`,
       borderRadius: 9, padding: "6px 10px 6px 7px",
-      boxShadow: "0 1px 4px rgba(0,0,0,0.06)",
+      boxShadow: "0 1px 5px rgba(80,60,120,0.07)",
     }}>
       <Thumb name={c.name} category={c.category} size={22} radius={6} />
       <span style={{ fontSize: 10, color: "var(--text-muted)", fontWeight: 700 }}>#{rank}</span>
@@ -145,8 +145,8 @@ function TripletExpand({ a, b }: { a: string; b: string }) {
   return (
     <div style={{
       margin: "0 0 6px", padding: "12px 16px 14px",
-      background: "rgba(0,113,227,0.05)",
-      border: "1px solid rgba(0,113,227,0.15)", borderTop: "none",
+      background: "rgba(99,102,241,0.08)",
+      border: "1px solid rgba(99,102,241,0.20)", borderTop: "none",
       borderRadius: "0 0 10px 10px",
     }}>
       <div style={{ fontSize: 11, color: "var(--text-muted)", fontWeight: 600, marginBottom: 10 }}>
@@ -180,15 +180,15 @@ function PairRow({ p, rank, isExpanded, ingredient, onToggle }: {
           display: "flex", alignItems: "center", gap: 10,
           padding: "10px 14px 10px 17px",
           borderRadius: isExpanded ? "10px 10px 0 0" : 10,
-          background: isExpanded ? "rgba(0,113,227,0.07)" : hovered ? "rgba(0,0,0,0.04)" : "rgba(0,0,0,0.02)",
-          border: `1px solid ${isExpanded ? "rgba(0,113,227,0.22)" : "rgba(0,0,0,0.06)"}`,
+          background: isExpanded ? "rgba(99,102,241,0.12)" : hovered ? "rgba(255,255,255,0.08)" : "rgba(255,255,255,0.04)",
+          border: `1px solid ${isExpanded ? "rgba(99,102,241,0.35)" : "rgba(255,255,255,0.10)"}`,
           borderBottom: isExpanded ? "none" : undefined,
           cursor: "pointer", transition: "all 0.12s",
           overflow: "hidden",
         }}
       >
         {/* Left accent bar — microinteraction: active state indicator */}
-        <div style={{ position: "absolute", left: 0, top: 0, bottom: 0, width: 3, background: isExpanded ? "var(--accent)" : hovered ? "rgba(0,113,227,0.40)" : "transparent", borderRadius: "3px 0 0 3px", transition: "background 0.15s" }} />
+        <div style={{ position: "absolute", left: 0, top: 0, bottom: 0, width: 3, background: isExpanded ? "var(--accent)" : hovered ? "rgba(99,102,241,0.55)" : "transparent", borderRadius: "3px 0 0 3px", transition: "background 0.15s" }} />
         <span style={{ fontSize: 10, color: "var(--text-muted)", fontWeight: 700, minWidth: 24, textAlign: "right" }}>
           #{rank}
         </span>
@@ -332,9 +332,9 @@ export default function Home() {
           style={{
             position: "fixed", inset: 0, zIndex: -1,
             width: "100%", height: "100%", objectFit: "cover",
-            filter: "blur(60px) brightness(1.15) saturate(0.6)",
+            filter: "blur(40px) brightness(0.28) saturate(1.5)",
             transform: "scale(1.12)",
-            opacity: 0.18,
+            opacity: 1,
             animation: "bgFadeIn 0.6s ease",
           }}
         />
@@ -347,9 +347,9 @@ export default function Home() {
         {/* Logo — network graph mark */}
         <div style={{
           width: 38, height: 38, borderRadius: 11, flexShrink: 0,
-          background: "linear-gradient(145deg, #0071E3 0%, #0093FF 100%)",
+          background: "linear-gradient(145deg, #4f46e5 0%, #7c3aed 100%)",
           display: "flex", alignItems: "center", justifyContent: "center",
-          boxShadow: "0 2px 12px rgba(0,113,227,0.30)",
+          boxShadow: "0 2px 14px rgba(99,102,241,0.35)",
         }}>
           <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="11" cy="4"  r="2.6" fill="white" fillOpacity="0.95"/>
@@ -372,7 +372,7 @@ export default function Home() {
         </div>
 
         {/* Divider */}
-        <div style={{ width: 1, height: 30, background: "rgba(0,0,0,0.10)", marginLeft: 2, flexShrink: 0 }} />
+        <div style={{ width: 1, height: 30, background: "rgba(255,255,255,0.10)", marginLeft: 2, flexShrink: 0 }} />
 
         {/* Stat badges — derived live from loaded data */}
         {ingredients.length > 0 && (
@@ -384,8 +384,8 @@ export default function Home() {
             ]).map(([num, label]) => (
               <div key={label} style={{
                 display: "flex", flexDirection: "column", alignItems: "center",
-                background: "rgba(0,0,0,0.04)", borderRadius: 8, padding: "4px 11px",
-                border: "1px solid rgba(0,0,0,0.07)",
+                background: "rgba(255,255,255,0.05)", borderRadius: 8, padding: "4px 11px",
+                border: "1px solid rgba(255,255,255,0.08)",
               }}>
                 <span style={{ fontSize: 13, fontWeight: 800, color: "var(--accent)", lineHeight: 1.1 }}>{num}</span>
                 <span style={{ fontSize: 9, color: "var(--text-muted)", textTransform: "uppercase", letterSpacing: "0.07em", marginTop: 1 }}>{label}</span>
@@ -398,7 +398,7 @@ export default function Home() {
         <a href="/about" style={{
           marginLeft: "auto", fontSize: 12, color: "var(--text-secondary)", fontWeight: 600,
           padding: "6px 13px", borderRadius: 8, textDecoration: "none",
-          background: "rgba(0,0,0,0.04)", border: "1px solid rgba(0,0,0,0.08)",
+          background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.10)",
         }}>Methodology ↗</a>
       </nav>
 
@@ -457,17 +457,17 @@ export default function Home() {
                 onChange={e => setSearch(e.target.value)}
                 style={{
                   width: "100%", padding: "8px 36px 8px 30px", borderRadius: 10,
-                  border: "1px solid rgba(0,0,0,0.09)",
-                  background: "rgba(255,255,255,0.92)",
+                  border: "1px solid rgba(255,255,255,0.12)",
+                  background: "rgba(255,255,255,0.06)",
                   backdropFilter: "blur(12px)",
                   fontSize: 13, color: "var(--text-primary)",
                   outline: "none",
-                  boxShadow: "0 1px 4px rgba(0,0,0,0.06)",
+                  boxShadow: "0 1px 6px rgba(0,0,0,0.25)",
                 }}
               />
-              <svg style={{ position: "absolute", left: 11, top: "50%", transform: "translateY(-50%)", pointerEvents: "none", opacity: 0.35 }} width="14" height="14" viewBox="0 0 14 14" fill="none">
-                <circle cx="6" cy="6" r="4.5" stroke="#1c1c1e" strokeWidth="1.5"/>
-                <line x1="9.5" y1="9.5" x2="12.5" y2="12.5" stroke="#1c1c1e" strokeWidth="1.5" strokeLinecap="round"/>
+              <svg style={{ position: "absolute", left: 11, top: "50%", transform: "translateY(-50%)", pointerEvents: "none", opacity: 0.4 }} width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <circle cx="6" cy="6" r="4.5" stroke="white" strokeWidth="1.5"/>
+                <line x1="9.5" y1="9.5" x2="12.5" y2="12.5" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
               </svg>
               {search ? (
                 <span style={{ position: "absolute", right: 10, top: "50%", transform: "translateY(-50%)", fontSize: 11, color: "var(--text-muted)", fontWeight: 600, pointerEvents: "none" }}>
@@ -485,8 +485,8 @@ export default function Home() {
                 onClick={() => setFilterCat(null)}
                 style={{
                   padding: "4px 11px", borderRadius: 20, flexShrink: 0,
-                  border: "1px solid " + (filterCat === null ? "var(--accent)" : "rgba(0,0,0,0.08)"),
-                  background: filterCat === null ? "rgba(0,113,227,0.10)" : "rgba(0,0,0,0.03)",
+                  border: "1px solid " + (filterCat === null ? "var(--accent)" : "rgba(255,255,255,0.12)"),
+                  background: filterCat === null ? "rgba(99,102,241,0.18)" : "rgba(255,255,255,0.04)",
                   color: filterCat === null ? "var(--accent)" : "var(--text-muted)",
                   fontSize: 11, fontWeight: 700, cursor: "pointer",
                   textTransform: "uppercase", letterSpacing: "0.05em",
@@ -496,8 +496,8 @@ export default function Home() {
                   onClick={() => setFilterCat(filterCat === cat ? null : cat)}
                   style={{
                     padding: "4px 11px", borderRadius: 20, flexShrink: 0,
-                    border: "1px solid " + (filterCat === cat ? (CATEGORY_COLOR[cat] ?? "var(--accent)") + "88" : "rgba(0,0,0,0.07)"),
-                    background: filterCat === cat ? (CATEGORY_COLOR[cat] ?? "#0071E3") + "18" : "rgba(0,0,0,0.03)",
+                    border: "1px solid " + (filterCat === cat ? (CATEGORY_COLOR[cat] ?? "var(--accent)") + "aa" : "rgba(255,255,255,0.10)"),
+                    background: filterCat === cat ? (CATEGORY_COLOR[cat] ?? "#6366f1") + "22" : "rgba(255,255,255,0.04)",
                     color: filterCat === cat ? (CATEGORY_COLOR[cat] ?? "var(--accent)") : "var(--text-muted)",
                     fontSize: 11, fontWeight: 700, cursor: "pointer",
                     textTransform: "capitalize",
@@ -506,8 +506,9 @@ export default function Home() {
             </div>
             <div style={{
               flex: 1, overflowY: "auto", overflowX: "hidden",
-              display: "flex", flexDirection: "column",
-              gap: 4, padding: "2px 2px 6px",
+              display: "grid", gridTemplateColumns: "repeat(4, 1fr)",
+              gap: 8, padding: "2px 2px 6px",
+              alignContent: "start",
             }}>
               {filteredIngredients.map(ing => (
                 <IngredientCard
@@ -530,9 +531,9 @@ function EmptyState({ ingredients, onPick }: { ingredients: Ingredient[]; onPick
     <div style={{ ...glass, flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 16, padding: 32 }}>
       <div style={{
         width: 72, height: 72, borderRadius: 22,
-        background: "linear-gradient(145deg, #0071E3 0%, #0093FF 100%)",
+        background: "linear-gradient(145deg, #4f46e5 0%, #7c3aed 100%)",
         display: "flex", alignItems: "center", justifyContent: "center",
-        boxShadow: "0 4px 24px rgba(0,113,227,0.28)",
+        boxShadow: "0 4px 28px rgba(99,102,241,0.40)",
       }}>
         <svg width="38" height="38" viewBox="0 0 38 38" fill="none">
           <circle cx="19" cy="7"  r="4.5" fill="white" fillOpacity="0.95"/>
@@ -562,13 +563,13 @@ function EmptyState({ ingredients, onPick }: { ingredients: Ingredient[]; onPick
             <div key={s.num} style={{
               display: "flex", alignItems: "center", gap: 8,
               padding: "8px 14px 8px 8px",
-              background: "rgba(0,0,0,0.03)",
-              border: "1px solid rgba(0,0,0,0.07)",
+              background: "rgba(255,255,255,0.04)",
+              border: "1px solid rgba(255,255,255,0.10)",
               borderRadius: 999,
             }}>
               <span style={{
                 width: 22, height: 22, borderRadius: "50%",
-                background: "rgba(0,113,227,0.12)",
+                background: "rgba(99,102,241,0.25)",
                 display: "flex", alignItems: "center", justifyContent: "center",
                 fontSize: 11, fontWeight: 800, color: "var(--accent)",
               }}>{s.num}</span>
@@ -593,14 +594,14 @@ function EmptyState({ ingredients, onPick }: { ingredients: Ingredient[]; onPick
                     style={{
                       display: "flex", alignItems: "center", gap: 8,
                       padding: "5px 14px 5px 5px", borderRadius: 20,
-                      border: "1px solid rgba(0,113,227,0.28)",
-                      background: "rgba(0,113,227,0.08)",
+                      border: "1px solid rgba(99,102,241,0.35)",
+                      background: "rgba(99,102,241,0.10)",
                       cursor: "pointer", fontSize: 12, fontWeight: 600,
                       color: "var(--accent)", transition: "all 0.12s",
                       textTransform: "capitalize",
                     }}
-                    onMouseEnter={e => { (e.currentTarget as HTMLElement).style.background = "rgba(0,113,227,0.16)"; }}
-                    onMouseLeave={e => { (e.currentTarget as HTMLElement).style.background = "rgba(0,113,227,0.08)"; }}
+                    onMouseEnter={e => { (e.currentTarget as HTMLElement).style.background = "rgba(99,102,241,0.20)"; }}
+                    onMouseLeave={e => { (e.currentTarget as HTMLElement).style.background = "rgba(99,102,241,0.10)"; }}
                   >
                     {img ? (
                       <img src={img} alt={name} style={{ width: 22, height: 22, borderRadius: "50%", objectFit: "cover", flexShrink: 0 }} />
@@ -615,7 +616,7 @@ function EmptyState({ ingredients, onPick }: { ingredients: Ingredient[]; onPick
           </div>
         </div>
       )}
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 8, marginTop: 12, padding: "14px 18px", background: "rgba(0,0,0,0.03)", border: "1px solid rgba(0,0,0,0.07)", borderRadius: 12, maxWidth: 520 }}>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 8, marginTop: 12, padding: "14px 18px", background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: 12, maxWidth: 520 }}>
         <div style={{ fontSize: 11, color: "var(--text-muted)", textTransform: "uppercase", letterSpacing: "0.06em", fontWeight: 700 }}>How to read the score</div>
         <div style={{ display: "flex", gap: 16, flexWrap: "wrap", justifyContent: "center" }}>
           {([
