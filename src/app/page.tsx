@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState, useCallback } from "react";
+import Image from "next/image";
 import { KNOWN_IMAGES } from "@/lib/imageCache";
 
 /* ── Types ── */
@@ -53,7 +54,14 @@ function Thumb({ name, category, size, radius }: { name: string; category: strin
   return (
     <div style={{ width: size, height: size, borderRadius: radius, overflow: "hidden", flexShrink: 0, border: "1px solid rgba(0,0,0,0.08)" }}>
       {img && !err ? (
-        <img src={img} alt={name} onError={() => setErr(true)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+        <Image
+          src={img}
+          alt={name}
+          width={size}
+          height={size}
+          onError={() => setErr(true)}
+          style={{ width: "100%", height: "100%", objectFit: "cover" }}
+        />
       ) : (
         <div style={{ width: "100%", height: "100%", background: `linear-gradient(135deg, ${c}55, ${c}22)` }} />
       )}
@@ -85,17 +93,20 @@ function IngredientCard({ ing, selected, onClick }: { ing: Ingredient; selected:
         transition: "transform 0.22s ease, box-shadow 0.22s ease, border-color 0.15s",
       }}
     >
-      {/* Full-bleed Unsplash photo — no emoji, no swatch. */}
+      {/* Full-bleed photo via next/image — automatically resized + AVIF/WebP. */}
       {img && !imgErr ? (
-        <img
+        <Image
           src={img}
           alt={ing.name}
+          fill
+          sizes="(max-width: 768px) 33vw, 110px"
           onError={() => setImgErr(true)}
           style={{
-            width: "100%", height: "100%", objectFit: "cover", display: "block",
+            objectFit: "cover",
             transform: hovered || selected ? "scale(1.09)" : "scale(1)",
             transition: "transform 0.45s ease-out",
           }}
+          priority={false}
         />
       ) : (
         <div style={{ width: "100%", height: "100%", background: `linear-gradient(160deg, ${c}40 0%, ${c}18 100%)` }} />
