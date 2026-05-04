@@ -247,39 +247,28 @@ function PairPanel({ ingredient, result, loading }: { ingredient: string; result
 
   return (
     <div style={{ ...glass, flex: 1, display: "flex", flexDirection: "column", overflow: "hidden" }}>
-      {/* Hero header */}
-      <div style={{ height: 152, position: "relative", flexShrink: 0, overflow: "hidden", borderRadius: "var(--radius) var(--radius) 0 0" }}>
+      {/* Hero header — full-bleed photo background, text only. No icon thumbnail. */}
+      <div style={{ height: 200, position: "relative", flexShrink: 0, overflow: "hidden", borderRadius: "var(--radius) var(--radius) 0 0" }}>
         {img && !heroErr ? (
           <img src={img} alt={ingredient} onError={() => setHeroErr(true)}
-            style={{ width: "100%", height: "100%", objectFit: "cover", filter: "blur(28px) brightness(0.28)", transform: "scale(1.18)", position: "absolute", inset: 0 }} />
+            style={{ width: "100%", height: "100%", objectFit: "cover", filter: "brightness(0.55) saturate(1.1)", transform: "scale(1.05)", position: "absolute", inset: 0 }} />
         ) : (
           <div style={{ position: "absolute", inset: 0, background: `linear-gradient(135deg, ${c}60, ${c}20)` }} />
         )}
-        <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.55))" }} />
-        <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", gap: 20, padding: "20px 28px" }}>
-          <div style={{ width: 76, height: 76, borderRadius: 16, overflow: "hidden", flexShrink: 0, border: "2px solid rgba(255,255,255,0.3)", boxShadow: "0 6px 24px rgba(0,0,0,0.35)" }}>
-            {img && !heroErr ? (
-              <img src={img} alt={ingredient} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
-            ) : (
-              <div style={{ width: "100%", height: "100%", background: c + "50", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 34 }}>
-                {INGREDIENT_EMOJI[ingredient] ?? "🍽️"}
-              </div>
-            )}
+        {/* vignette + bottom darken so the title stays legible over the photo */}
+        <div style={{ position: "absolute", inset: 0, background: "linear-gradient(180deg, rgba(0,0,0,0.18) 0%, rgba(0,0,0,0.45) 55%, rgba(0,0,0,0.78) 100%)" }} />
+        <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "20px 32px 24px" }}>
+          <div style={{ fontSize: 10, color: "rgba(255,255,255,0.65)", textTransform: "uppercase", letterSpacing: "0.18em", fontWeight: 700, marginBottom: 8 }}>
+            Selected Ingredient
           </div>
-          <div>
-            <div style={{ fontSize: 10, color: "rgba(255,255,255,0.5)", textTransform: "uppercase", letterSpacing: "0.12em", fontWeight: 600, marginBottom: 5 }}>
-              Selected Ingredient
-            </div>
-            <div style={{ color: "#fff", fontWeight: 900, fontSize: 32, textTransform: "capitalize", letterSpacing: "-0.03em", lineHeight: 1, display: "flex", alignItems: "center", gap: 10 }}>
-              <span style={{ fontSize: 28 }}>{INGREDIENT_EMOJI[ingredient] ?? "🍽️"}</span>
-              {ingredient}
-            </div>
-            {result && (
-              <div style={{ color: "rgba(255,255,255,0.5)", fontSize: 12, marginTop: 6 }}>
-                {result.compound_count} aromatic compounds · {result.pairings.length} flavor pairings ranked
-              </div>
-            )}
+          <div style={{ color: "#fff", fontWeight: 900, fontSize: 38, textTransform: "capitalize", letterSpacing: "-0.03em", lineHeight: 1.05, textShadow: "0 2px 18px rgba(0,0,0,0.7)" }}>
+            {ingredient}
           </div>
+          {result && (
+            <div style={{ color: "rgba(255,255,255,0.65)", fontSize: 12, marginTop: 9 }}>
+              {result.compound_count} aromatic compounds · {result.pairings.length} flavor pairings ranked
+            </div>
+          )}
         </div>
       </div>
 

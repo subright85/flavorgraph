@@ -1,55 +1,44 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getDb, isSeeded } from "@/lib/db";
-import { seed } from "@/lib/seed";
+import { getDb, isSeeded, isPrecomputed } from "@/lib/db";
+import { seed, precomputePairsAndTriplets } from "@/lib/seed";
 
-interface IngredientRow { id: number; name: string; category: string }
-interface CompoundRow { name: string }
-
+// All triplets ranked by avg pair score, served from the pre-computed
+// `triplet_score` table (~1,140 rows). No per-request cubic loop.
 export async function GET(req: NextRequest) {
-  const limit = Math.min(100, Number(req.nextUrl.searchParams.get("limit") ?? "50"));
+  const limit = Math.min(200, Number(req.nextUrl.searchParams.get("limit") ?? "50"));
 
   if (!isSeeded()) seed();
+  if (!isPrecomputed()) precomputePairsAndTriplets();
   const db = getDb();
 
-  const ingredients = db.prepare("SELECT id, name, category FROM ingredient ORDER BY name").all() as IngredientRow[];
+  const total = (db.prepare("SELECT COUNT(*) AS n FROM triplet_score").get() as { n: number }).n;
 
-  const compoundMap = new Map<number, Set<string>>();
-  for (const ing of ingredients) {
-    const compounds = db.prepare(
-      "SELECT c.name FROM compound c JOIN ingredient_compound ic ON ic.compound_id = c.id WHERE ic.ingredient_id = ?"
-    ).all(ing.id) as CompoundRow[];
-    compoundMap.set(ing.id, new Set(compounds.map(r => r.name)));
-  }
-
-  const triplets: {
-    a: string; b: string; c: string;
+  const rows = db.prepare(`
+    SELECT
+      ts.ing_a, ts.ing_b, ts.ing_c,
+      ts.avg_pair_score, ts.shared_count, ts.shared_compounds,
+      ia.category AS a_category,
+      ib.category AS b_category,
+      ic.category AS c_category
+    FROM triplet_score ts
+    JOIN ingredient ia ON ia.name = ts.ing_a
+    JOIN ingredient ib ON ib.name = ts.ing_b
+    JOIN ingredient ic ON ic.name = ts.ing_c
+    ORDER BY ts.avg_pair_score DESC, ts.shared_count DESC
+    LIMIT ?
+  `).all(limit) as {
+    ing_a: string; ing_b: string; ing_c: string;
+    avg_pair_score: number; shared_count: number; shared_compounds: string;
     a_category: string; b_category: string; c_category: string;
-    shared_count: number; shared_compounds: string[];
-    avg_pair_score: number;
-  }[] = [];
+  }[];
 
-  for (let i = 0; i < ingredients.length; i++) {
-    for (let j = i + 1; j < ingredients.length; j++) {
-      for (let k = j + 1; k < ingredients.length; k++) {
-        const ia = ingredients[i], ib = ingredients[j], ic = ingredients[k];
-        const sa = compoundMap.get(ia.id)!;
-        const sb = compoundMap.get(ib.id)!;
-        const sc = compoundMap.get(ic.id)!;
-        const shared = [...sa].filter(c => sb.has(c) && sc.has(c));
+  const triplets = rows.map((r) => ({
+    a: r.ing_a, b: r.ing_b, c: r.ing_c,
+    a_category: r.a_category, b_category: r.b_category, c_category: r.c_category,
+    shared_count: r.shared_count,
+    shared_compounds: JSON.parse(r.shared_compounds) as string[],
+    avg_pair_score: r.avg_pair_score,
+  }));
 
-        // avg pair score
-        const pairScore = (setA: Set<string>, setB: Set<string>) => {
-          const s = [...setA].filter(c => setB.has(c)).length;
-          const t = new Set([...setA, ...setB]).size;
-          return t > 0 ? Math.round((s / t) * 100) : 0;
-        };
-        const avg = Math.round((pairScore(sa, sb) + pairScore(sb, sc) + pairScore(sa, sc)) / 3);
-
-        triplets.push({ a: ia.name, b: ib.name, c: ic.name, a_category: ia.category, b_category: ib.category, c_category: ic.category, shared_count: shared.length, shared_compounds: shared, avg_pair_score: avg });
-      }
-    }
-  }
-
-  triplets.sort((a, b) => b.avg_pair_score - a.avg_pair_score || b.shared_count - a.shared_count);
-  return NextResponse.json({ total: triplets.length, triplets: triplets.slice(0, limit) });
+  return NextResponse.json({ total, triplets });
 }
