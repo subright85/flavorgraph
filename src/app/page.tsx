@@ -373,15 +373,48 @@ export default function Home() {
         @keyframes bgFadeIn { from { opacity: 0 } to { opacity: 1 } }
       `}</style>
       {/* Nav */}
-      <nav style={{ ...glass, display: "flex", alignItems: "center", padding: "10px 22px", gap: 8, flexShrink: 0 }}>
+      <nav style={{ ...glass, display: "flex", alignItems: "center", padding: "12px 24px", gap: 14, flexShrink: 0 }}>
+        {/* Logo icon */}
+        <div style={{
+          width: 38, height: 38, borderRadius: 10, flexShrink: 0,
+          background: "linear-gradient(135deg, #0066ff 0%, #7b68ee 100%)",
+          display: "flex", alignItems: "center", justifyContent: "center",
+          fontSize: 19, boxShadow: "0 3px 12px rgba(0,102,255,0.28)",
+        }}>⚗️</div>
+
+        {/* Title + subtitle */}
         <div>
-          <span style={{ fontWeight: 800, fontSize: 17, color: "var(--accent)", letterSpacing: "-0.03em" }}>FlavorGraph</span>
-          <span style={{ fontSize: 11, color: "var(--text-muted)", marginLeft: 8 }}>Flavor chemistry pairing</span>
+          <div style={{ fontWeight: 900, fontSize: 21, color: "var(--text-primary)", letterSpacing: "-0.045em", lineHeight: 1 }}>
+            FlavorGraph
+          </div>
+          <div style={{ fontSize: 11, color: "var(--text-muted)", marginTop: 3, letterSpacing: "0.01em" }}>
+            Flavor chemistry pairing
+          </div>
         </div>
-        <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 18 }}>
-          <span style={{ fontSize: 12, color: "var(--text-muted)" }}>20 ingredients · 190 pairs · 1,140 triplets</span>
-          <a href="/about" style={{ fontSize: 12, color: "var(--accent)", fontWeight: 600 }}>Methodology ↗</a>
+
+        {/* Divider */}
+        <div style={{ width: 1, height: 30, background: "rgba(100,80,200,0.15)", marginLeft: 2, flexShrink: 0 }} />
+
+        {/* Stat badges */}
+        <div style={{ display: "flex", gap: 6 }}>
+          {([["20", "ingredients"], ["190", "pairs"], ["1,140", "triplets"]] as const).map(([num, label]) => (
+            <div key={label} style={{
+              display: "flex", flexDirection: "column", alignItems: "center",
+              background: "rgba(100,80,200,0.07)", borderRadius: 8, padding: "4px 11px",
+              border: "1px solid rgba(100,80,200,0.1)",
+            }}>
+              <span style={{ fontSize: 13, fontWeight: 800, color: "var(--accent)", lineHeight: 1.1 }}>{num}</span>
+              <span style={{ fontSize: 9, color: "var(--text-muted)", textTransform: "uppercase", letterSpacing: "0.07em", marginTop: 1 }}>{label}</span>
+            </div>
+          ))}
         </div>
+
+        {/* Methodology link */}
+        <a href="/about" style={{
+          marginLeft: "auto", fontSize: 12, color: "var(--text-secondary)", fontWeight: 600,
+          padding: "6px 13px", borderRadius: 8, textDecoration: "none",
+          background: "rgba(100,80,200,0.06)", border: "1px solid rgba(100,80,200,0.12)",
+        }}>Methodology ↗</a>
       </nav>
 
       {/* Main layout — desktop: side-by-side grid + panel.
