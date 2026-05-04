@@ -9,10 +9,12 @@
     "seed": "npx ts-node -e \"require('./src/lib/seed').seed()\""
   },
   "dependencies": {
+    "@types/d3": "^7.4.3",
+    "better-sqlite3": "^9.4.3",
+    "d3": "^7.9.0",
     "next": "^15.0.0",
     "react": "^18.3.0",
-    "react-dom": "^18.3.0",
-    "better-sqlite3": "^9.4.3"
+    "react-dom": "^18.3.0"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.8",
