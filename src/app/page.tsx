@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState, useCallback } from "react";
-import { INGREDIENT_EMOJI } from "@/lib/emojis";
 import { KNOWN_IMAGES } from "@/lib/imageCache";
 
 /* ── Types ── */
@@ -46,7 +45,7 @@ function CategoryPill({ cat }: { cat: string }) {
   );
 }
 
-/* ── Small thumbnail with error fallback ── */
+/* ── Small thumbnail with category-color fallback (no emoji) ── */
 function Thumb({ name, category, size, radius }: { name: string; category: string; size: number; radius: number }) {
   const [err, setErr] = useState(false);
   const img = KNOWN_IMAGES[name];
@@ -56,28 +55,19 @@ function Thumb({ name, category, size, radius }: { name: string; category: strin
       {img && !err ? (
         <img src={img} alt={name} onError={() => setErr(true)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
       ) : (
-        <div style={{ width: "100%", height: "100%", background: c + "28", display: "flex", alignItems: "center", justifyContent: "center", fontSize: size * 0.45 }}>
-          {INGREDIENT_EMOJI[name] ?? "🍽️"}
-        </div>
+        <div style={{ width: "100%", height: "100%", background: `linear-gradient(135deg, ${c}55, ${c}22)` }} />
       )}
     </div>
   );
 }
 
 /* ── Ingredient Card ── */
-function nameHash(name: string): number {
-  let h = 5381;
-  for (const ch of name) h = ((h << 5) + h) ^ ch.charCodeAt(0);
-  return Math.abs(h);
-}
 
 function IngredientCard({ ing, selected, onClick }: { ing: Ingredient; selected: boolean; onClick: () => void }) {
+  const [imgErr, setImgErr] = useState(false);
   const [hovered, setHovered] = useState(false);
+  const img = KNOWN_IMAGES[ing.name];
   const c = CATEGORY_COLOR[ing.category] ?? "#888";
-  const h = nameHash(ing.name);
-  const angle = 110 + (h % 100);
-  // Secondary color: shift hue by rotating the hex — simple brightness variation
-  const secondHex = c + Math.floor(128 + (h % 80)).toString(16).slice(-2);
 
   return (
     <div
@@ -85,47 +75,58 @@ function IngredientCard({ ing, selected, onClick }: { ing: Ingredient; selected:
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       style={{
-        borderRadius: 12, overflow: "hidden", cursor: "pointer",
-        display: "flex", height: 68, flexShrink: 0,
-        border: selected ? "2.5px solid var(--accent)" : "1.5px solid rgba(255,255,255,0.6)",
+        borderRadius: 14, aspectRatio: "3/4", position: "relative",
+        overflow: "hidden", cursor: "pointer", flexShrink: 0,
+        border: selected ? "2.5px solid var(--accent)" : "2px solid rgba(255,255,255,0.45)",
         boxShadow: selected
-          ? `0 0 0 3px ${c}40, 0 6px 22px rgba(80,60,120,0.2)`
-          : hovered ? "0 4px 16px rgba(80,60,120,0.14)" : "0 2px 8px rgba(80,60,120,0.07)",
-        transform: selected ? "scale(1.02)" : hovered ? "scale(1.01)" : "scale(1)",
-        transition: "all 0.18s ease",
+          ? "0 0 0 4px rgba(0,102,255,0.2), 0 10px 32px rgba(80,60,120,0.25)"
+          : hovered ? "0 8px 24px rgba(80,60,120,0.18)" : "0 2px 10px rgba(80,60,120,0.08)",
+        transform: selected ? "scale(1.04)" : hovered ? "scale(1.02)" : "scale(1)",
+        transition: "transform 0.22s ease, box-shadow 0.22s ease, border-color 0.15s",
       }}
     >
-      {/* Color swatch */}
-      <div style={{
-        width: 64, flexShrink: 0,
-        background: `linear-gradient(${angle}deg, ${c}, ${secondHex})`,
-        display: "flex", alignItems: "center", justifyContent: "center",
-        fontSize: 26,
-        transform: hovered || selected ? "scale(1.04)" : "scale(1)",
-        transition: "transform 0.3s ease",
-      }}>
-        {INGREDIENT_EMOJI[ing.name] ?? "🍽️"}
-      </div>
-      {/* Text */}
-      <div style={{
-        flex: 1, padding: "0 14px",
-        display: "flex", flexDirection: "column", justifyContent: "center",
-        background: selected
-          ? `linear-gradient(90deg, ${c}18, rgba(255,255,255,0.72))`
-          : hovered ? "rgba(255,255,255,0.78)" : "rgba(255,255,255,0.62)",
-        transition: "background 0.18s",
-      }}>
-        <div style={{ fontWeight: 700, fontSize: 13, textTransform: "capitalize", color: "var(--text-primary)", letterSpacing: "-0.01em" }}>
+      {/* Full-bleed Unsplash photo — no emoji, no swatch. */}
+      {img && !imgErr ? (
+        <img
+          src={img}
+          alt={ing.name}
+          onError={() => setImgErr(true)}
+          style={{
+            width: "100%", height: "100%", objectFit: "cover", display: "block",
+            transform: hovered || selected ? "scale(1.09)" : "scale(1)",
+            transition: "transform 0.45s ease-out",
+          }}
+        />
+      ) : (
+        <div style={{ width: "100%", height: "100%", background: `linear-gradient(160deg, ${c}40 0%, ${c}18 100%)` }} />
+      )}
+
+      {/* Cinematic gradient overlay so the bottom label stays legible */}
+      <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.25) 55%, rgba(0,0,0,0.04) 100%)" }} />
+
+      {/* Selected top accent bar */}
+      {selected && <div style={{ position: "absolute", top: 0, left: 0, right: 0, height: 3, background: "var(--accent)", borderRadius: "14px 14px 0 0" }} />}
+
+      {/* Bottom label — name + category. Generous padding so ascenders don't clip. */}
+      <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "16px 12px 14px" }}>
+        <div style={{
+          color: "#fff", fontSize: 12, fontWeight: 800,
+          textTransform: "capitalize", letterSpacing: "-0.01em", lineHeight: 1.3,
+          textShadow: "0 1px 6px rgba(0,0,0,0.9)",
+          overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
+        }}>
           {ing.name}
         </div>
-        <div style={{ marginTop: 4 }}>
-          <CategoryPill cat={ing.category} />
-        </div>
+        <span style={{
+          display: "inline-block", marginTop: 6,
+          background: "rgba(0,0,0,0.45)", color: "rgba(255,255,255,0.82)",
+          borderRadius: 5, padding: "2px 7px", fontSize: 9, fontWeight: 700,
+          textTransform: "uppercase", letterSpacing: "0.07em",
+          lineHeight: 1.5,
+        }}>
+          {ing.category}
+        </span>
       </div>
-      {/* Selection indicator */}
-      {selected && (
-        <div style={{ width: 3, flexShrink: 0, background: "var(--accent)" }} />
-      )}
     </div>
   );
 }
@@ -359,8 +360,9 @@ export default function Home() {
           </div>
           <div style={{
             flex: 1, overflowY: "auto", overflowX: "hidden",
-            display: "flex", flexDirection: "column",
-            gap: 7, padding: "2px 2px 6px",
+            display: "grid", gridTemplateColumns: "repeat(3, 1fr)",
+            gap: 8, padding: "2px 2px 6px",
+            alignContent: "start",
           }}>
           {filteredIngredients.map(ing => (
             <IngredientCard
@@ -389,22 +391,34 @@ export default function Home() {
                 <div style={{ display: "flex", gap: 8, flexWrap: "wrap", justifyContent: "center" }}>
                   {["chocolate", "strawberry", "vanilla", "coffee", "lemon"]
                     .filter(n => ingredients.some(i => i.name === n))
-                    .map(name => (
-                      <button key={name} onClick={() => selectIngredient(name)}
-                        style={{
-                          display: "flex", alignItems: "center", gap: 6,
-                          padding: "6px 14px", borderRadius: 20,
-                          border: "1px solid rgba(0,102,255,0.2)",
-                          background: "rgba(0,102,255,0.06)",
-                          cursor: "pointer", fontSize: 12, fontWeight: 600,
-                          color: "var(--accent)", transition: "all 0.12s",
-                        }}
-                        onMouseEnter={e => { (e.currentTarget as HTMLElement).style.background = "rgba(0,102,255,0.13)"; }}
-                        onMouseLeave={e => { (e.currentTarget as HTMLElement).style.background = "rgba(0,102,255,0.06)"; }}
-                      >
-                        {INGREDIENT_EMOJI[name] ?? "🍽️"} {name}
-                      </button>
-                    ))
+                    .map(name => {
+                      const ingr = ingredients.find(i => i.name === name);
+                      const cat = ingr?.category ?? "";
+                      const cc  = CATEGORY_COLOR[cat] ?? "#888";
+                      const img = KNOWN_IMAGES[name];
+                      return (
+                        <button key={name} onClick={() => selectIngredient(name)}
+                          style={{
+                            display: "flex", alignItems: "center", gap: 8,
+                            padding: "5px 14px 5px 5px", borderRadius: 20,
+                            border: "1px solid rgba(0,102,255,0.2)",
+                            background: "rgba(0,102,255,0.06)",
+                            cursor: "pointer", fontSize: 12, fontWeight: 600,
+                            color: "var(--accent)", transition: "all 0.12s",
+                            textTransform: "capitalize",
+                          }}
+                          onMouseEnter={e => { (e.currentTarget as HTMLElement).style.background = "rgba(0,102,255,0.13)"; }}
+                          onMouseLeave={e => { (e.currentTarget as HTMLElement).style.background = "rgba(0,102,255,0.06)"; }}
+                        >
+                          {img ? (
+                            <img src={img} alt={name} style={{ width: 22, height: 22, borderRadius: "50%", objectFit: "cover", flexShrink: 0 }} />
+                          ) : (
+                            <span style={{ width: 22, height: 22, borderRadius: "50%", background: `linear-gradient(135deg, ${cc}55, ${cc}22)`, flexShrink: 0 }} />
+                          )}
+                          {name}
+                        </button>
+                      );
+                    })
                   }
                 </div>
               </div>
