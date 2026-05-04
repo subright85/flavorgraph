@@ -16,11 +16,19 @@
   --radius-sm: 8px;
 }
 
-html, body {
+html {
   font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   background: var(--page-bg);
   background-attachment: fixed;
   color: var(--text-primary);
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  /* Transparent so the page-level <img> background can show through. The
+     html element above carries the gradient fallback when nothing's
+     selected. */
+  background: transparent;
   height: 100%;
   overflow: hidden;
 }

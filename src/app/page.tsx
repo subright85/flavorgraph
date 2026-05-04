@@ -308,6 +308,17 @@ function PairPanel({ ingredient, result, loading }: { ingredient: string; result
 }
 
 /* ── ROOT PAGE ── */
+function useIsMobile() {
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 768);
+    check();
+    window.addEventListener("resize", check);
+    return () => window.removeEventListener("resize", check);
+  }, []);
+  return isMobile;
+}
+
 export default function Home() {
   const [ingredients, setIngredients] = useState<Ingredient[]>([]);
   const [selected, setSelected] = useState<string | null>(null);
@@ -315,6 +326,7 @@ export default function Home() {
   const [loadingMap, setLoadingMap] = useState(false);
   const [search, setSearch] = useState("");
   const filteredIngredients = ingredients.filter(ing => ing.name.includes(search.toLowerCase()));
+  const isMobile = useIsMobile();
 
   useEffect(() => {
     fetch("/api/ingredients").then(r => r.json()).then(d => setIngredients(d.ingredients ?? []));
@@ -372,13 +384,23 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Main two-column layout */}
-      <div style={{ flex: 1, display: "flex", gap: 14, overflow: "hidden" }}>
-        {/* Left: ingredient card grid */}
-        <div style={{ width: 338, flexShrink: 0, display: "flex", flexDirection: "column", gap: 8, overflow: "hidden" }}>
-          <div style={{ position: "relative", flexShrink: 0 }}>
+      {/* Main layout — desktop: side-by-side grid + panel.
+                         mobile: panel on top, horizontal carousel at bottom. */}
+      <div style={{ flex: 1, display: "flex", flexDirection: isMobile ? "column" : "row", gap: 14, overflow: "hidden" }}>
+        {/* Right (or top on mobile): pair rankings */}
+        <div style={{ order: isMobile ? 0 : 1, flex: 1, display: "flex", overflow: "hidden" }}>
+          {selected ? (
+            <PairPanel ingredient={selected} result={mapResult} loading={loadingMap} />
+          ) : (
+            <EmptyState ingredients={ingredients} onPick={selectIngredient} />
+          )}
+        </div>
+
+        {isMobile ? (
+          /* Mobile: horizontal-scroll carousel of ingredient cards at the bottom. */
+          <div style={{ order: 1, flexShrink: 0, display: "flex", flexDirection: "column", gap: 8 }}>
             <input
-              placeholder="Search ingredients…"
+              placeholder="Search…"
               value={search}
               onChange={e => setSearch(e.target.value)}
               style={{
@@ -388,90 +410,124 @@ export default function Home() {
                 backdropFilter: "blur(12px)",
                 fontSize: 13, color: "var(--text-primary)",
                 outline: "none",
-                boxShadow: "0 1px 6px rgba(80,60,120,0.06)",
               }}
             />
-            {search && (
-              <span style={{ position: "absolute", right: 10, top: "50%", transform: "translateY(-50%)", fontSize: 11, color: "var(--text-muted)", fontWeight: 600, pointerEvents: "none" }}>
-                {filteredIngredients.length}/{ingredients.length}
-              </span>
-            )}
-          </div>
-          <div style={{
-            flex: 1, overflowY: "auto", overflowX: "hidden",
-            display: "grid", gridTemplateColumns: "repeat(3, 1fr)",
-            gap: 8, padding: "2px 2px 6px",
-            alignContent: "start",
-          }}>
-          {filteredIngredients.map(ing => (
-            <IngredientCard
-              key={ing.name}
-              ing={ing}
-              selected={selected === ing.name}
-              onClick={() => selectIngredient(ing.name)}
-            />
-          ))}
-          </div>
-        </div>
-
-        {/* Right: pair rankings */}
-        {selected ? (
-          <PairPanel ingredient={selected} result={mapResult} loading={loadingMap} />
-        ) : (
-          <div style={{ ...glass, flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 14 }}>
-            <div style={{ fontSize: 60 }}>🧪</div>
-            <div style={{ fontWeight: 700, fontSize: 18, color: "var(--text-primary)" }}>Explore Flavor Pairings</div>
-            <div style={{ fontSize: 13, color: "var(--text-muted)", textAlign: "center", maxWidth: 260, lineHeight: 1.6 }}>
-              Select any ingredient card to discover its best flavor matches — then click a pair to find the ideal third ingredient
-            </div>
-            {ingredients.length > 0 && (
-              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 8, marginTop: 4 }}>
-                <div style={{ fontSize: 11, color: "var(--text-muted)", fontWeight: 600, letterSpacing: "0.05em", textTransform: "uppercase" }}>Quick picks</div>
-                <div style={{ display: "flex", gap: 8, flexWrap: "wrap", justifyContent: "center" }}>
-                  {["chocolate", "strawberry", "vanilla", "coffee", "lemon"]
-                    .filter(n => ingredients.some(i => i.name === n))
-                    .map(name => {
-                      const ingr = ingredients.find(i => i.name === name);
-                      const cat = ingr?.category ?? "";
-                      const cc  = CATEGORY_COLOR[cat] ?? "#888";
-                      const img = KNOWN_IMAGES[name];
-                      return (
-                        <button key={name} onClick={() => selectIngredient(name)}
-                          style={{
-                            display: "flex", alignItems: "center", gap: 8,
-                            padding: "5px 14px 5px 5px", borderRadius: 20,
-                            border: "1px solid rgba(0,102,255,0.2)",
-                            background: "rgba(0,102,255,0.06)",
-                            cursor: "pointer", fontSize: 12, fontWeight: 600,
-                            color: "var(--accent)", transition: "all 0.12s",
-                            textTransform: "capitalize",
-                          }}
-                          onMouseEnter={e => { (e.currentTarget as HTMLElement).style.background = "rgba(0,102,255,0.13)"; }}
-                          onMouseLeave={e => { (e.currentTarget as HTMLElement).style.background = "rgba(0,102,255,0.06)"; }}
-                        >
-                          {img ? (
-                            <img src={img} alt={name} style={{ width: 22, height: 22, borderRadius: "50%", objectFit: "cover", flexShrink: 0 }} />
-                          ) : (
-                            <span style={{ width: 22, height: 22, borderRadius: "50%", background: `linear-gradient(135deg, ${cc}55, ${cc}22)`, flexShrink: 0 }} />
-                          )}
-                          {name}
-                        </button>
-                      );
-                    })
-                  }
-                </div>
-              </div>
-            )}
-            <div style={{ display: "flex", gap: 16, marginTop: 8 }}>
-              {([["5+", "Decent", "#f97316"], ["15+", "Good", "#f59e0b"], ["30+", "Excellent", "#22c55e"]] as const).map(([score, label, color]) => (
-                <div key={label} style={{ display: "flex", alignItems: "center", gap: 5 }}>
-                  <div style={{ width: 8, height: 8, borderRadius: "50%", background: color }} />
-                  <span style={{ fontSize: 11, color: "var(--text-muted)" }}>{score} {label}</span>
+            <div style={{
+              display: "flex", gap: 8, overflowX: "auto", overflowY: "hidden",
+              padding: "2px 2px 8px",
+              scrollSnapType: "x mandatory",
+              WebkitOverflowScrolling: "touch",
+            }}>
+              {filteredIngredients.map(ing => (
+                <div key={ing.name} style={{ width: 110, flexShrink: 0, scrollSnapAlign: "start" }}>
+                  <IngredientCard
+                    ing={ing}
+                    selected={selected === ing.name}
+                    onClick={() => selectIngredient(ing.name)}
+                  />
                 </div>
               ))}
             </div>
           </div>
+        ) : (
+          /* Desktop sidebar */
+          <div style={{ order: 0, width: 338, flexShrink: 0, display: "flex", flexDirection: "column", gap: 8, overflow: "hidden" }}>
+            <div style={{ position: "relative", flexShrink: 0 }}>
+              <input
+                placeholder="Search ingredients…"
+                value={search}
+                onChange={e => setSearch(e.target.value)}
+                style={{
+                  width: "100%", padding: "8px 12px", borderRadius: 10,
+                  border: "1px solid rgba(100,80,200,0.18)",
+                  background: "rgba(255,255,255,0.7)",
+                  backdropFilter: "blur(12px)",
+                  fontSize: 13, color: "var(--text-primary)",
+                  outline: "none",
+                  boxShadow: "0 1px 6px rgba(80,60,120,0.06)",
+                }}
+              />
+              {search && (
+                <span style={{ position: "absolute", right: 10, top: "50%", transform: "translateY(-50%)", fontSize: 11, color: "var(--text-muted)", fontWeight: 600, pointerEvents: "none" }}>
+                  {filteredIngredients.length}/{ingredients.length}
+                </span>
+              )}
+            </div>
+            <div style={{
+              flex: 1, overflowY: "auto", overflowX: "hidden",
+              display: "grid", gridTemplateColumns: "repeat(3, 1fr)",
+              gap: 8, padding: "2px 2px 6px",
+              alignContent: "start",
+            }}>
+              {filteredIngredients.map(ing => (
+                <IngredientCard
+                  key={ing.name}
+                  ing={ing}
+                  selected={selected === ing.name}
+                  onClick={() => selectIngredient(ing.name)}
+                />
+              ))}
+            </div>
+          </div>
         )}
+      </div>
+    </div>
+  );
+}
+
+function EmptyState({ ingredients, onPick }: { ingredients: Ingredient[]; onPick: (n: string) => void }) {
+  return (
+    <div style={{ ...glass, flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 14, padding: 24 }}>
+      <div style={{ fontSize: 60 }}>🧪</div>
+      <div style={{ fontWeight: 700, fontSize: 18, color: "var(--text-primary)", textAlign: "center" }}>Explore Flavor Pairings</div>
+      <div style={{ fontSize: 13, color: "var(--text-muted)", textAlign: "center", maxWidth: 280, lineHeight: 1.6 }}>
+        Pick any ingredient to discover its best flavor matches — click a pair to find the ideal third ingredient.
+      </div>
+      {ingredients.length > 0 && (
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 8, marginTop: 4 }}>
+          <div style={{ fontSize: 11, color: "var(--text-muted)", fontWeight: 600, letterSpacing: "0.05em", textTransform: "uppercase" }}>Quick picks</div>
+          <div style={{ display: "flex", gap: 8, flexWrap: "wrap", justifyContent: "center" }}>
+            {["chocolate", "strawberry", "vanilla", "coffee", "lemon"]
+              .filter(n => ingredients.some(i => i.name === n))
+              .map(name => {
+                const ingr = ingredients.find(i => i.name === name);
+                const cat = ingr?.category ?? "";
+                const cc = CATEGORY_COLOR[cat] ?? "#888";
+                const img = KNOWN_IMAGES[name];
+                return (
+                  <button key={name} onClick={() => onPick(name)}
+                    style={{
+                      display: "flex", alignItems: "center", gap: 8,
+                      padding: "5px 14px 5px 5px", borderRadius: 20,
+                      border: "1px solid rgba(0,102,255,0.2)",
+                      background: "rgba(0,102,255,0.06)",
+                      cursor: "pointer", fontSize: 12, fontWeight: 600,
+                      color: "var(--accent)", transition: "all 0.12s",
+                      textTransform: "capitalize",
+                    }}
+                    onMouseEnter={e => { (e.currentTarget as HTMLElement).style.background = "rgba(0,102,255,0.13)"; }}
+                    onMouseLeave={e => { (e.currentTarget as HTMLElement).style.background = "rgba(0,102,255,0.06)"; }}
+                  >
+                    {img ? (
+                      <img src={img} alt={name} style={{ width: 22, height: 22, borderRadius: "50%", objectFit: "cover", flexShrink: 0 }} />
+                    ) : (
+                      <span style={{ width: 22, height: 22, borderRadius: "50%", background: `linear-gradient(135deg, ${cc}55, ${cc}22)`, flexShrink: 0 }} />
+                    )}
+                    {name}
+                  </button>
+                );
+              })
+            }
+          </div>
+        </div>
+      )}
+      <div style={{ display: "flex", gap: 16, marginTop: 8 }}>
+        {([["5+", "Decent", "#f97316"], ["15+", "Good", "#f59e0b"], ["30+", "Excellent", "#22c55e"]] as const).map(([score, label, color]) => (
+          <div key={label} style={{ display: "flex", alignItems: "center", gap: 5 }}>
+            <div style={{ width: 8, height: 8, borderRadius: "50%", background: color }} />
+            <span style={{ fontSize: 11, color: "var(--text-muted)" }}>{score} {label}</span>
+          </div>
+        ))}
       </div>
     </div>
   );
