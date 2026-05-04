@@ -65,50 +65,67 @@ function Thumb({ name, category, size, radius }: { name: string; category: strin
 }
 
 /* ── Ingredient Card ── */
+function nameHash(name: string): number {
+  let h = 5381;
+  for (const ch of name) h = ((h << 5) + h) ^ ch.charCodeAt(0);
+  return Math.abs(h);
+}
+
 function IngredientCard({ ing, selected, onClick }: { ing: Ingredient; selected: boolean; onClick: () => void }) {
-  const [imgErr, setImgErr] = useState(false);
-  const img = KNOWN_IMAGES[ing.name];
+  const [hovered, setHovered] = useState(false);
   const c = CATEGORY_COLOR[ing.category] ?? "#888";
+  const h = nameHash(ing.name);
+  const angle = 110 + (h % 100);
+  // Secondary color: shift hue by rotating the hex — simple brightness variation
+  const secondHex = c + Math.floor(128 + (h % 80)).toString(16).slice(-2);
 
   return (
     <div
       onClick={onClick}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
       style={{
-        borderRadius: 12, aspectRatio: "1", position: "relative",
-        overflow: "hidden", cursor: "pointer",
-        border: selected ? "2.5px solid var(--accent)" : "2px solid rgba(255,255,255,0.5)",
+        borderRadius: 12, overflow: "hidden", cursor: "pointer",
+        display: "flex", height: 68, flexShrink: 0,
+        border: selected ? "2.5px solid var(--accent)" : "1.5px solid rgba(255,255,255,0.6)",
         boxShadow: selected
-          ? "0 0 0 4px rgba(0,102,255,0.18), 0 6px 24px rgba(80,60,120,0.18)"
-          : "0 2px 10px rgba(80,60,120,0.08)",
-        transform: selected ? "scale(1.04)" : "scale(1)",
+          ? `0 0 0 3px ${c}40, 0 6px 22px rgba(80,60,120,0.2)`
+          : hovered ? "0 4px 16px rgba(80,60,120,0.14)" : "0 2px 8px rgba(80,60,120,0.07)",
+        transform: selected ? "scale(1.02)" : hovered ? "scale(1.01)" : "scale(1)",
         transition: "all 0.18s ease",
       }}
     >
-      {img && !imgErr ? (
-        <img src={img} alt={ing.name} onError={() => setImgErr(true)}
-          style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
-      ) : (
-        <div style={{
-          width: "100%", height: "100%",
-          background: `linear-gradient(135deg, ${c}35, ${c}15)`,
-          display: "flex", alignItems: "center", justifyContent: "center",
-        }}>
-          <span style={{ fontSize: 36, opacity: 0.75 }}>{INGREDIENT_EMOJI[ing.name] ?? "🍽️"}</span>
-        </div>
-      )}
-      <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(0,0,0,0.82) 0%, rgba(0,0,0,0.15) 50%, transparent 100%)" }} />
-      <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, padding: "10px 9px 8px" }}>
-        <div style={{ color: "#fff", fontSize: 11, fontWeight: 700, textTransform: "capitalize", textShadow: "0 1px 4px rgba(0,0,0,0.7)", marginBottom: 3, lineHeight: 1.2 }}>
-          {INGREDIENT_EMOJI[ing.name]} {ing.name}
-        </div>
-        <span style={{
-          background: "rgba(0,0,0,0.35)", color: "rgba(255,255,255,0.8)",
-          borderRadius: 8, padding: "0px 5px", fontSize: 9, fontWeight: 600,
-          textTransform: "uppercase", letterSpacing: "0.06em",
-        }}>
-          {ing.category}
-        </span>
+      {/* Color swatch */}
+      <div style={{
+        width: 64, flexShrink: 0,
+        background: `linear-gradient(${angle}deg, ${c}, ${secondHex})`,
+        display: "flex", alignItems: "center", justifyContent: "center",
+        fontSize: 26,
+        transform: hovered || selected ? "scale(1.04)" : "scale(1)",
+        transition: "transform 0.3s ease",
+      }}>
+        {INGREDIENT_EMOJI[ing.name] ?? "🍽️"}
       </div>
+      {/* Text */}
+      <div style={{
+        flex: 1, padding: "0 14px",
+        display: "flex", flexDirection: "column", justifyContent: "center",
+        background: selected
+          ? `linear-gradient(90deg, ${c}18, rgba(255,255,255,0.72))`
+          : hovered ? "rgba(255,255,255,0.78)" : "rgba(255,255,255,0.62)",
+        transition: "background 0.18s",
+      }}>
+        <div style={{ fontWeight: 700, fontSize: 13, textTransform: "capitalize", color: "var(--text-primary)", letterSpacing: "-0.01em" }}>
+          {ing.name}
+        </div>
+        <div style={{ marginTop: 4 }}>
+          <CategoryPill cat={ing.category} />
+        </div>
+      </div>
+      {/* Selection indicator */}
+      {selected && (
+        <div style={{ width: 3, flexShrink: 0, background: "var(--accent)" }} />
+      )}
     </div>
   );
 }
@@ -171,20 +188,26 @@ function TripletExpand({ a, b }: { a: string; b: string }) {
 function PairRow({ p, rank, isExpanded, ingredient, onToggle }: {
   p: Pairing; rank: number; isExpanded: boolean; ingredient: string; onToggle: () => void;
 }) {
+  const [hovered, setHovered] = useState(false);
   return (
-    <div style={{ marginBottom: isExpanded ? 0 : 6 }}>
+    <div style={{ marginBottom: isExpanded ? 0 : 6, position: "relative" }}>
       <div
         onClick={onToggle}
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
         style={{
           display: "flex", alignItems: "center", gap: 10,
-          padding: "10px 14px",
+          padding: "10px 14px 10px 17px",
           borderRadius: isExpanded ? "10px 10px 0 0" : 10,
-          background: isExpanded ? "rgba(0,102,255,0.07)" : "rgba(255,255,255,0.62)",
+          background: isExpanded ? "rgba(0,102,255,0.07)" : hovered ? "rgba(255,255,255,0.82)" : "rgba(255,255,255,0.62)",
           border: `1px solid ${isExpanded ? "rgba(0,102,255,0.22)" : "rgba(255,255,255,0.85)"}`,
           borderBottom: isExpanded ? "none" : undefined,
           cursor: "pointer", transition: "all 0.12s",
+          overflow: "hidden",
         }}
       >
+        {/* Left accent bar — microinteraction: active state indicator */}
+        <div style={{ position: "absolute", left: 0, top: 0, bottom: 0, width: 3, background: isExpanded ? "var(--accent)" : hovered ? "rgba(0,102,255,0.3)" : "transparent", borderRadius: "3px 0 0 3px", transition: "background 0.15s" }} />
         <span style={{ fontSize: 10, color: "var(--text-muted)", fontWeight: 700, minWidth: 24, textAlign: "right" }}>
           #{rank}
         </span>
@@ -247,7 +270,8 @@ function PairPanel({ ingredient, result, loading }: { ingredient: string; result
             <div style={{ fontSize: 10, color: "rgba(255,255,255,0.5)", textTransform: "uppercase", letterSpacing: "0.12em", fontWeight: 600, marginBottom: 5 }}>
               Selected Ingredient
             </div>
-            <div style={{ color: "#fff", fontWeight: 800, fontSize: 26, textTransform: "capitalize", letterSpacing: "-0.02em", lineHeight: 1 }}>
+            <div style={{ color: "#fff", fontWeight: 900, fontSize: 32, textTransform: "capitalize", letterSpacing: "-0.03em", lineHeight: 1, display: "flex", alignItems: "center", gap: 10 }}>
+              <span style={{ fontSize: 28 }}>{INGREDIENT_EMOJI[ingredient] ?? "🍽️"}</span>
               {ingredient}
             </div>
             {result && (
@@ -288,6 +312,8 @@ export default function Home() {
   const [selected, setSelected] = useState<string | null>(null);
   const [mapResult, setMapResult] = useState<MapResult | null>(null);
   const [loadingMap, setLoadingMap] = useState(false);
+  const [search, setSearch] = useState("");
+  const filteredIngredients = ingredients.filter(ing => ing.name.includes(search.toLowerCase()));
 
   useEffect(() => {
     fetch("/api/ingredients").then(r => r.json()).then(d => setIngredients(d.ingredients ?? []));
@@ -320,12 +346,34 @@ export default function Home() {
       {/* Main two-column layout */}
       <div style={{ flex: 1, display: "flex", gap: 14, overflow: "hidden" }}>
         {/* Left: ingredient card grid */}
-        <div style={{
-          width: 338, flexShrink: 0, overflowY: "auto", overflowX: "hidden",
-          display: "grid", gridTemplateColumns: "1fr 1fr",
-          gap: 9, alignContent: "start", padding: "2px 2px 6px",
-        }}>
-          {ingredients.map(ing => (
+        <div style={{ width: 338, flexShrink: 0, display: "flex", flexDirection: "column", gap: 8, overflow: "hidden" }}>
+          <div style={{ position: "relative", flexShrink: 0 }}>
+            <input
+              placeholder="Search ingredients…"
+              value={search}
+              onChange={e => setSearch(e.target.value)}
+              style={{
+                width: "100%", padding: "8px 12px", borderRadius: 10,
+                border: "1px solid rgba(100,80,200,0.18)",
+                background: "rgba(255,255,255,0.7)",
+                backdropFilter: "blur(12px)",
+                fontSize: 13, color: "var(--text-primary)",
+                outline: "none",
+                boxShadow: "0 1px 6px rgba(80,60,120,0.06)",
+              }}
+            />
+            {search && (
+              <span style={{ position: "absolute", right: 10, top: "50%", transform: "translateY(-50%)", fontSize: 11, color: "var(--text-muted)", fontWeight: 600, pointerEvents: "none" }}>
+                {filteredIngredients.length}/{ingredients.length}
+              </span>
+            )}
+          </div>
+          <div style={{
+            flex: 1, overflowY: "auto", overflowX: "hidden",
+            display: "flex", flexDirection: "column",
+            gap: 7, padding: "2px 2px 6px",
+          }}>
+          {filteredIngredients.map(ing => (
             <IngredientCard
               key={ing.name}
               ing={ing}
@@ -333,6 +381,7 @@ export default function Home() {
               onClick={() => selectIngredient(ing.name)}
             />
           ))}
+          </div>
         </div>
 
         {/* Right: pair rankings */}
