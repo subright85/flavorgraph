@@ -1,3 +1,4 @@
+import type Database from "better-sqlite3";
 import { getDb } from "./db";
 
 // Flavor compound data derived from published food pairing research.
