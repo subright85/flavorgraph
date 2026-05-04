@@ -319,8 +319,36 @@ export default function Home() {
     setLoadingMap(false);
   }, [selected]);
 
+  const selectedImg = selected ? KNOWN_IMAGES[selected] : null;
+
   return (
-    <div style={{ height: "100vh", display: "flex", flexDirection: "column", padding: 16, gap: 12 }}>
+    <div style={{ height: "100vh", display: "flex", flexDirection: "column", padding: 16, gap: 12, position: "relative" }}>
+      {/* Full-page background image — swaps when an ingredient is selected.
+           Two layered <img> would be ideal for crossfade, but simpler one-img
+           with key + opacity transition reads as a clean dissolve. */}
+      <div aria-hidden style={{
+        position: "fixed", inset: 0, zIndex: -2,
+        background: "var(--page-bg)",
+      }} />
+      {selectedImg && (
+        <img
+          key={selected}
+          src={selectedImg}
+          alt=""
+          aria-hidden
+          style={{
+            position: "fixed", inset: 0, zIndex: -1,
+            width: "100%", height: "100%", objectFit: "cover",
+            filter: "blur(36px) brightness(0.55) saturate(1.25)",
+            transform: "scale(1.12)",
+            opacity: 1,
+            animation: "bgFadeIn 0.6s ease",
+          }}
+        />
+      )}
+      <style>{`
+        @keyframes bgFadeIn { from { opacity: 0 } to { opacity: 1 } }
+      `}</style>
       {/* Nav */}
       <nav style={{ ...glass, display: "flex", alignItems: "center", padding: "10px 22px", gap: 8, flexShrink: 0 }}>
         <div>
