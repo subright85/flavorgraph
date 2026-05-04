@@ -59,9 +59,10 @@ function scoreLabel(score: number) {
 interface Props {
   result: MapResult;
   minScore: number;
+  light?: boolean;
 }
 
-export default function FlavorGraph({ result, minScore }: Props) {
+export default function FlavorGraph({ result, minScore, light = false }: Props) {
   const svgRef = useRef<SVGSVGElement>(null);
   const [selected, setSelected] = useState<GraphNode | null>(null);
   const [tooltip, setTooltip] = useState<{ x: number; y: number; node: GraphNode } | null>(null);
@@ -168,8 +169,12 @@ export default function FlavorGraph({ result, minScore }: Props) {
     // circles
     nodeEl.append("circle")
       .attr("r", d => d.isCenter ? 38 : 18 + (d.score / 100) * 10)
-      .attr("fill", d => d.isCenter ? "#fff" : (CATEGORY_COLOR[d.category] ?? "#888") + "33")
-      .attr("stroke", d => d.isCenter ? "#fff" : CATEGORY_COLOR[d.category] ?? "#888")
+      .attr("fill", d => d.isCenter
+        ? (light ? "rgba(255,255,255,0.95)" : "#fff")
+        : (CATEGORY_COLOR[d.category] ?? "#888") + (light ? "28" : "33"))
+      .attr("stroke", d => d.isCenter
+        ? (light ? "#0066ff" : "#fff")
+        : CATEGORY_COLOR[d.category] ?? "#888")
       .attr("stroke-width", d => d.isCenter ? 2.5 : 1.5)
       .style("filter", d => d.isCenter ? "url(#glow)" : "none");
 
@@ -222,16 +227,19 @@ export default function FlavorGraph({ result, minScore }: Props) {
     <div style={{ position: "relative", width: "100%", height: "100%" }}>
       <svg
         ref={svgRef}
-        style={{ width: "100%", height: "100%", background: "#0f0f11", borderRadius: 12 }}
+        style={{ width: "100%", height: "100%", background: "transparent", borderRadius: 12 }}
       />
 
       {/* tooltip */}
       {tooltip && (
         <div style={{
           position: "absolute", left: tooltip.x + 12, top: tooltip.y - 10,
-          background: "#1c1c1f", border: "1px solid #333",
+          background: light ? "rgba(255,255,255,0.95)" : "#1c1c1f",
+          border: light ? "1px solid rgba(100,80,200,0.15)" : "1px solid #333",
           borderRadius: 8, padding: "8px 12px", fontSize: 13, pointerEvents: "none",
           zIndex: 10, minWidth: 160,
+          boxShadow: "0 4px 20px rgba(80,60,120,0.12)",
+          color: light ? "#1a1a2e" : "#e8e8ea",
         }}>
           <div style={{ fontWeight: 600, marginBottom: 2, textTransform: "capitalize" }}>
             {INGREDIENT_EMOJI[tooltip.node.name]} {tooltip.node.name}
@@ -239,7 +247,7 @@ export default function FlavorGraph({ result, minScore }: Props) {
           <div style={{ color: scoreColor(tooltip.node.score), fontSize: 12 }}>
             {tooltip.node.score} · {scoreLabel(tooltip.node.score)}
           </div>
-          <div style={{ color: "#666", fontSize: 11, marginTop: 2 }}>
+          <div style={{ color: light ? "#9898b8" : "#666", fontSize: 11, marginTop: 2 }}>
             {tooltip.node.shared_count} shared compound{tooltip.node.shared_count !== 1 ? "s" : ""}
           </div>
         </div>
@@ -249,8 +257,11 @@ export default function FlavorGraph({ result, minScore }: Props) {
       {selected && !selected.isCenter && (
         <div style={{
           position: "absolute", bottom: 12, left: 12, right: 12,
-          background: "#1c1c1f", border: `1px solid ${scoreColor(selected.score)}44`,
+          background: light ? "rgba(255,255,255,0.9)" : "#1c1c1f",
+          border: `1px solid ${scoreColor(selected.score)}44`,
           borderRadius: 10, padding: "14px 16px",
+          backdropFilter: light ? "blur(12px)" : "none",
+          color: light ? "#1a1a2e" : "#e8e8ea",
         }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 10 }}>
             <div style={{ fontWeight: 600, fontSize: 15, textTransform: "capitalize" }}>
