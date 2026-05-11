@@ -1,0 +1,11 @@
+# GNN research environment — pinned for RecSys 2026 reproducibility
+# Python 3.9.6+
+# Install: pip install -r requirements.txt
+
+torch==2.8.0
+torch-geometric==2.6.1
+numpy==2.0.2
+scipy==1.13.1
+
+# torch-geometric optional deps (needed for HGTConv)
+# pip install torch-scatter torch-sparse -f https://data.pyg.org/whl/torch-2.8.0+cpu.html
