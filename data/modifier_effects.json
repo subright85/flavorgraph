@@ -1,0 +1,660 @@
+{
+  "garlic": {
+    "roasted": {
+      "n": 169,
+      "affinity": [
+        [
+          "cream cheese",
+          0.094
+        ],
+        [
+          "mayonnaise",
+          0.08
+        ],
+        [
+          "dry sherry",
+          0.065
+        ],
+        [
+          "balsamic vinegar",
+          0.05
+        ],
+        [
+          "thyme",
+          0.037
+        ],
+        [
+          "heavy cream",
+          0.037
+        ],
+        [
+          "smoked paprika",
+          0.037
+        ],
+        [
+          "milk",
+          0.037
+        ]
+      ],
+      "aversion": [
+        [
+          "ground cumin",
+          -0.056
+        ],
+        [
+          "carrots",
+          -0.047
+        ],
+        [
+          "soy sauce",
+          -0.044
+        ],
+        [
+          "chicken broth",
+          -0.044
+        ],
+        [
+          "fresh ginger",
+          -0.036
+        ],
+        [
+          "chili powder",
+          -0.036
+        ],
+        [
+          "cilantro",
+          -0.033
+        ],
+        [
+          "ginger",
+          -0.031
+        ]
+      ]
+    },
+    "powder": {
+      "n": 10887,
+      "affinity": [
+        [
+          "onion powder",
+          0.204
+        ],
+        [
+          "paprika",
+          0.105
+        ],
+        [
+          "chili powder",
+          0.058
+        ],
+        [
+          "cayenne pepper",
+          0.052
+        ],
+        [
+          "mayonnaise",
+          0.043
+        ],
+        [
+          "seasoning salt",
+          0.041
+        ],
+        [
+          "milk",
+          0.039
+        ],
+        [
+          "worcestershire sauce",
+          0.037
+        ]
+      ],
+      "aversion": [
+        [
+          "fresh ginger",
+          -0.044
+        ],
+        [
+          "fresh parsley",
+          -0.043
+        ],
+        [
+          "chicken stock",
+          -0.033
+        ]
+      ]
+    }
+  },
+  "onion": {
+    "caramelized": {
+      "n": 12,
+      "affinity": [
+        [
+          "fresh ground black pepper",
+          0.292
+        ],
+        [
+          "heavy cream",
+          0.23
+        ],
+        [
+          "kosher salt",
+          0.226
+        ],
+        [
+          "blue cheese",
+          0.163
+        ],
+        [
+          "walnuts",
+          0.161
+        ],
+        [
+          "pine nuts",
+          0.16
+        ],
+        [
+          "balsamic vinegar",
+          0.153
+        ],
+        [
+          "mozzarella cheese",
+          0.134
+        ]
+      ],
+      "aversion": [
+        [
+          "flour",
+          -0.095
+        ],
+        [
+          "eggs",
+          -0.085
+        ],
+        [
+          "chicken broth",
+          -0.082
+        ],
+        [
+          "chili powder",
+          -0.072
+        ],
+        [
+          "fresh parsley",
+          -0.059
+        ],
+        [
+          "ground cumin",
+          -0.057
+        ],
+        [
+          "green pepper",
+          -0.057
+        ],
+        [
+          "tomato paste",
+          -0.057
+        ]
+      ]
+    },
+    "red": {
+      "n": 6850,
+      "affinity": [
+        [
+          "red wine vinegar",
+          0.075
+        ],
+        [
+          "balsamic vinegar",
+          0.065
+        ],
+        [
+          "fresh cilantro",
+          0.06
+        ],
+        [
+          "dijon mustard",
+          0.058
+        ],
+        [
+          "mayonnaise",
+          0.058
+        ],
+        [
+          "cucumber",
+          0.056
+        ],
+        [
+          "feta cheese",
+          0.054
+        ],
+        [
+          "red bell pepper",
+          0.051
+        ]
+      ],
+      "aversion": [
+        [
+          "flour",
+          -0.074
+        ],
+        [
+          "milk",
+          -0.066
+        ],
+        [
+          "ground beef",
+          -0.061
+        ],
+        [
+          "celery",
+          -0.057
+        ],
+        [
+          "chicken broth",
+          -0.057
+        ],
+        [
+          "potatoes",
+          -0.055
+        ],
+        [
+          "worcestershire sauce",
+          -0.048
+        ],
+        [
+          "carrots",
+          -0.047
+        ]
+      ]
+    },
+    "green": {
+      "n": 13728,
+      "affinity": [
+        [
+          "soy sauce",
+          0.118
+        ],
+        [
+          "sesame oil",
+          0.075
+        ],
+        [
+          "mayonnaise",
+          0.068
+        ],
+        [
+          "fresh ginger",
+          0.053
+        ],
+        [
+          "cream cheese",
+          0.045
+        ],
+        [
+          "sour cream",
+          0.044
+        ],
+        [
+          "cornstarch",
+          0.043
+        ],
+        [
+          "sugar",
+          0.041
+        ]
+      ],
+      "aversion": [
+        [
+          "ground beef",
+          -0.052
+        ],
+        [
+          "tomato paste",
+          -0.046
+        ],
+        [
+          "potatoes",
+          -0.044
+        ],
+        [
+          "flour",
+          -0.043
+        ],
+        [
+          "carrots",
+          -0.042
+        ],
+        [
+          "tomato sauce",
+          -0.042
+        ],
+        [
+          "celery",
+          -0.039
+        ],
+        [
+          "worcestershire sauce",
+          -0.037
+        ]
+      ]
+    }
+  },
+  "tomato": {
+    "sun_dried": {
+      "n": 463,
+      "affinity": [
+        [
+          "parmesan cheese",
+          0.156
+        ],
+        [
+          "pine nuts",
+          0.079
+        ],
+        [
+          "balsamic vinegar",
+          0.065
+        ],
+        [
+          "goat cheese",
+          0.049
+        ],
+        [
+          "mozzarella cheese",
+          0.044
+        ],
+        [
+          "pesto sauce",
+          0.043
+        ],
+        [
+          "white wine",
+          0.043
+        ],
+        [
+          "feta cheese",
+          0.042
+        ]
+      ],
+      "aversion": [
+        [
+          "lettuce",
+          -0.065
+        ],
+        [
+          "chili powder",
+          -0.059
+        ],
+        [
+          "cilantro",
+          -0.048
+        ],
+        [
+          "green pepper",
+          -0.048
+        ],
+        [
+          "mayonnaise",
+          -0.045
+        ],
+        [
+          "cheddar cheese",
+          -0.044
+        ],
+        [
+          "cucumber",
+          -0.043
+        ],
+        [
+          "ground cumin",
+          -0.043
+        ]
+      ]
+    },
+    "canned": {
+      "n": 4835,
+      "affinity": [
+        [
+          "chili powder",
+          0.103
+        ],
+        [
+          "tomato paste",
+          0.091
+        ],
+        [
+          "tomato sauce",
+          0.088
+        ],
+        [
+          "ground beef",
+          0.072
+        ],
+        [
+          "dried oregano",
+          0.069
+        ],
+        [
+          "chicken broth",
+          0.063
+        ],
+        [
+          "celery",
+          0.062
+        ],
+        [
+          "carrots",
+          0.059
+        ]
+      ],
+      "aversion": [
+        [
+          "mayonnaise",
+          -0.071
+        ],
+        [
+          "lettuce",
+          -0.061
+        ],
+        [
+          "cucumber",
+          -0.051
+        ],
+        [
+          "avocado",
+          -0.037
+        ],
+        [
+          "eggs",
+          -0.032
+        ]
+      ]
+    }
+  },
+  "butter": {
+    "clarified": {
+      "n": 480,
+      "affinity": [
+        [
+          "turmeric",
+          0.169
+        ],
+        [
+          "garam masala",
+          0.15
+        ],
+        [
+          "fresh ginger",
+          0.115
+        ],
+        [
+          "cumin seed",
+          0.107
+        ],
+        [
+          "ginger",
+          0.095
+        ],
+        [
+          "cloves",
+          0.094
+        ],
+        [
+          "basmati rice",
+          0.092
+        ],
+        [
+          "ground cumin",
+          0.089
+        ]
+      ],
+      "aversion": [
+        [
+          "eggs",
+          -0.194
+        ],
+        [
+          "flour",
+          -0.155
+        ],
+        [
+          "baking powder",
+          -0.123
+        ],
+        [
+          "vanilla",
+          -0.113
+        ],
+        [
+          "brown sugar",
+          -0.109
+        ],
+        [
+          "sugar",
+          -0.103
+        ],
+        [
+          "all-purpose flour",
+          -0.102
+        ],
+        [
+          "baking soda",
+          -0.101
+        ]
+      ]
+    }
+  },
+  "basil": {
+    "dried": {
+      "n": 3253,
+      "affinity": [
+        [
+          "dried oregano",
+          0.364
+        ],
+        [
+          "dried thyme",
+          0.151
+        ],
+        [
+          "dried parsley",
+          0.068
+        ],
+        [
+          "dried rosemary",
+          0.046
+        ],
+        [
+          "tomato paste",
+          0.04
+        ],
+        [
+          "tomato sauce",
+          0.039
+        ],
+        [
+          "ground black pepper",
+          0.036
+        ],
+        [
+          "dried marjoram",
+          0.033
+        ]
+      ],
+      "aversion": [
+        [
+          "oregano",
+          -0.123
+        ],
+        [
+          "thyme",
+          -0.053
+        ],
+        [
+          "balsamic vinegar",
+          -0.04
+        ],
+        [
+          "pine nuts",
+          -0.036
+        ],
+        [
+          "fresh oregano",
+          -0.034
+        ],
+        [
+          "parsley",
+          -0.033
+        ]
+      ]
+    }
+  },
+  "lemon": {
+    "zest": {
+      "n": 2944,
+      "affinity": [
+        [
+          "eggs",
+          0.113
+        ],
+        [
+          "baking powder",
+          0.107
+        ],
+        [
+          "all-purpose flour",
+          0.089
+        ],
+        [
+          "sugar",
+          0.068
+        ],
+        [
+          "vanilla extract",
+          0.051
+        ],
+        [
+          "lemon, juice of",
+          0.051
+        ],
+        [
+          "flour",
+          0.046
+        ],
+        [
+          "egg",
+          0.045
+        ]
+      ],
+      "aversion": [
+        [
+          "mayonnaise",
+          -0.052
+        ],
+        [
+          "worcestershire sauce",
+          -0.047
+        ]
+      ]
+    }
+  }
+}

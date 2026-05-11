@@ -1,0 +1,1202 @@
+[
+  {
+    "name": "butter",
+    "frequency": 64290
+  },
+  {
+    "name": "sugar",
+    "frequency": 54017
+  },
+  {
+    "name": "garlic",
+    "frequency": 53614
+  },
+  {
+    "name": "onion",
+    "frequency": 52545
+  },
+  {
+    "name": "eggs",
+    "frequency": 51065
+  },
+  {
+    "name": "pepper",
+    "frequency": 46513
+  },
+  {
+    "name": "flour",
+    "frequency": 45264
+  },
+  {
+    "name": "olive oil",
+    "frequency": 40526
+  },
+  {
+    "name": "milk",
+    "frequency": 25786
+  },
+  {
+    "name": "vanilla",
+    "frequency": 24991
+  },
+  {
+    "name": "brown sugar",
+    "frequency": 21681
+  },
+  {
+    "name": "lemon juice",
+    "frequency": 19544
+  },
+  {
+    "name": "cinnamon",
+    "frequency": 19424
+  },
+  {
+    "name": "baking powder",
+    "frequency": 17504
+  },
+  {
+    "name": "parmesan cheese",
+    "frequency": 14807
+  },
+  {
+    "name": "parsley",
+    "frequency": 14657
+  },
+  {
+    "name": "baking soda",
+    "frequency": 14099
+  },
+  {
+    "name": "vegetable oil",
+    "frequency": 13912
+  },
+  {
+    "name": "carrots",
+    "frequency": 13730
+  },
+  {
+    "name": "tomatoes",
+    "frequency": 11950
+  },
+  {
+    "name": "sour cream",
+    "frequency": 11779
+  },
+  {
+    "name": "ginger",
+    "frequency": 11510
+  },
+  {
+    "name": "green onions",
+    "frequency": 11399
+  },
+  {
+    "name": "garlic powder",
+    "frequency": 10887
+  },
+  {
+    "name": "ground cumin",
+    "frequency": 10402
+  },
+  {
+    "name": "honey",
+    "frequency": 9898
+  },
+  {
+    "name": "cream cheese",
+    "frequency": 9827
+  },
+  {
+    "name": "basil",
+    "frequency": 9616
+  },
+  {
+    "name": "celery",
+    "frequency": 9541
+  },
+  {
+    "name": "oregano",
+    "frequency": 9067
+  },
+  {
+    "name": "cheddar cheese",
+    "frequency": 8969
+  },
+  {
+    "name": "soy sauce",
+    "frequency": 8856
+  },
+  {
+    "name": "mayonnaise",
+    "frequency": 8736
+  },
+  {
+    "name": "confectioners' sugar",
+    "frequency": 8517
+  },
+  {
+    "name": "heavy cream",
+    "frequency": 8359
+  },
+  {
+    "name": "paprika",
+    "frequency": 7982
+  },
+  {
+    "name": "chicken broth",
+    "frequency": 7963
+  },
+  {
+    "name": "worcestershire sauce",
+    "frequency": 7832
+  },
+  {
+    "name": "cornstarch",
+    "frequency": 7486
+  },
+  {
+    "name": "chili powder",
+    "frequency": 6984
+  },
+  {
+    "name": "bacon",
+    "frequency": 6948
+  },
+  {
+    "name": "thyme",
+    "frequency": 6513
+  },
+  {
+    "name": "potatoes",
+    "frequency": 6507
+  },
+  {
+    "name": "nutmeg",
+    "frequency": 6299
+  },
+  {
+    "name": "cayenne pepper",
+    "frequency": 6285
+  },
+  {
+    "name": "ground beef",
+    "frequency": 5824
+  },
+  {
+    "name": "red onion",
+    "frequency": 5777
+  },
+  {
+    "name": "walnuts",
+    "frequency": 5765
+  },
+  {
+    "name": "pecans",
+    "frequency": 5752
+  },
+  {
+    "name": "dijon mustard",
+    "frequency": 5599
+  },
+  {
+    "name": "white vinegar",
+    "frequency": 5579
+  },
+  {
+    "name": "margarine",
+    "frequency": 5077
+  },
+  {
+    "name": "mozzarella cheese",
+    "frequency": 4980
+  },
+  {
+    "name": "orange juice",
+    "frequency": 4702
+  },
+  {
+    "name": "zucchini",
+    "frequency": 4591
+  },
+  {
+    "name": "raisins",
+    "frequency": 4487
+  },
+  {
+    "name": "red bell pepper",
+    "frequency": 4450
+  },
+  {
+    "name": "tomato sauce",
+    "frequency": 4402
+  },
+  {
+    "name": "fresh cilantro",
+    "frequency": 4360
+  },
+  {
+    "name": "chicken stock",
+    "frequency": 4352
+  },
+  {
+    "name": "tomato paste",
+    "frequency": 4335
+  },
+  {
+    "name": "canola oil",
+    "frequency": 4315
+  },
+  {
+    "name": "green pepper",
+    "frequency": 4301
+  },
+  {
+    "name": "boneless skinless chicken breasts",
+    "frequency": 3994
+  },
+  {
+    "name": "ketchup",
+    "frequency": 3901
+  },
+  {
+    "name": "balsamic vinegar",
+    "frequency": 3848
+  },
+  {
+    "name": "buttermilk",
+    "frequency": 3825
+  },
+  {
+    "name": "lime juice",
+    "frequency": 3749
+  },
+  {
+    "name": "cilantro",
+    "frequency": 3742
+  },
+  {
+    "name": "onion powder",
+    "frequency": 3598
+  },
+  {
+    "name": "diced tomatoes",
+    "frequency": 3462
+  },
+  {
+    "name": "green bell pepper",
+    "frequency": 3287
+  },
+  {
+    "name": "egg whites",
+    "frequency": 3258
+  },
+  {
+    "name": "bay leaf",
+    "frequency": 3253
+  },
+  {
+    "name": "red wine vinegar",
+    "frequency": 3223
+  },
+  {
+    "name": "dry white wine",
+    "frequency": 3130
+  },
+  {
+    "name": "whole wheat flour",
+    "frequency": 3053
+  },
+  {
+    "name": "sesame oil",
+    "frequency": 2988
+  },
+  {
+    "name": "curry powder",
+    "frequency": 2959
+  },
+  {
+    "name": "crushed red pepper flakes",
+    "frequency": 2936
+  },
+  {
+    "name": "ground nutmeg",
+    "frequency": 2925
+  },
+  {
+    "name": "lemon",
+    "frequency": 2901
+  },
+  {
+    "name": "white wine",
+    "frequency": 2890
+  },
+  {
+    "name": "dry mustard",
+    "frequency": 2839
+  },
+  {
+    "name": "white pepper",
+    "frequency": 2837
+  },
+  {
+    "name": "chicken breasts",
+    "frequency": 2793
+  },
+  {
+    "name": "breadcrumbs",
+    "frequency": 2773
+  },
+  {
+    "name": "bananas",
+    "frequency": 2747
+  },
+  {
+    "name": "shortening",
+    "frequency": 2744
+  },
+  {
+    "name": "boiling water",
+    "frequency": 2733
+  },
+  {
+    "name": "mushrooms",
+    "frequency": 2718
+  },
+  {
+    "name": "cheese",
+    "frequency": 2712
+  },
+  {
+    "name": "salsa",
+    "frequency": 2703
+  },
+  {
+    "name": "garlic salt",
+    "frequency": 2636
+  },
+  {
+    "name": "egg yolks",
+    "frequency": 2623
+  },
+  {
+    "name": "semi-sweet chocolate chips",
+    "frequency": 2606
+  },
+  {
+    "name": "red pepper flakes",
+    "frequency": 2602
+  },
+  {
+    "name": "lean ground beef",
+    "frequency": 2560
+  },
+  {
+    "name": "cider vinegar",
+    "frequency": 2540
+  },
+  {
+    "name": "bay leaves",
+    "frequency": 2537
+  },
+  {
+    "name": "feta cheese",
+    "frequency": 2510
+  },
+  {
+    "name": "sharp cheddar cheese",
+    "frequency": 2483
+  },
+  {
+    "name": "black beans",
+    "frequency": 2468
+  },
+  {
+    "name": "scallions",
+    "frequency": 2425
+  },
+  {
+    "name": "nuts",
+    "frequency": 2421
+  },
+  {
+    "name": "monterey jack cheese",
+    "frequency": 2411
+  },
+  {
+    "name": "peanut butter",
+    "frequency": 2363
+  },
+  {
+    "name": "fresh lime juice",
+    "frequency": 2353
+  },
+  {
+    "name": "banana",
+    "frequency": 2327
+  },
+  {
+    "name": "ground cloves",
+    "frequency": 2321
+  },
+  {
+    "name": "half-and-half",
+    "frequency": 2265
+  },
+  {
+    "name": "seasoning salt",
+    "frequency": 2261
+  },
+  {
+    "name": "red pepper",
+    "frequency": 2252
+  },
+  {
+    "name": "chocolate chips",
+    "frequency": 2232
+  },
+  {
+    "name": "shallots",
+    "frequency": 2197
+  },
+  {
+    "name": "apples",
+    "frequency": 2193
+  },
+  {
+    "name": "tabasco sauce",
+    "frequency": 2188
+  },
+  {
+    "name": "fresh thyme",
+    "frequency": 2184
+  },
+  {
+    "name": "cucumber",
+    "frequency": 2176
+  },
+  {
+    "name": "salt & pepper",
+    "frequency": 2156
+  },
+  {
+    "name": "cream of mushroom soup",
+    "frequency": 2138
+  },
+  {
+    "name": "cold water",
+    "frequency": 2138
+  },
+  {
+    "name": "sesame seeds",
+    "frequency": 2134
+  },
+  {
+    "name": "evaporated milk",
+    "frequency": 2129
+  },
+  {
+    "name": "skim milk",
+    "frequency": 2125
+  },
+  {
+    "name": "hot sauce",
+    "frequency": 2124
+  },
+  {
+    "name": "chicken",
+    "frequency": 2115
+  },
+  {
+    "name": "cream",
+    "frequency": 2100
+  },
+  {
+    "name": "cooking spray",
+    "frequency": 2091
+  },
+  {
+    "name": "beef broth",
+    "frequency": 2090
+  },
+  {
+    "name": "fresh mushrooms",
+    "frequency": 2079
+  },
+  {
+    "name": "shallot",
+    "frequency": 2066
+  },
+  {
+    "name": "lemon, juice of",
+    "frequency": 2056
+  },
+  {
+    "name": "warm water",
+    "frequency": 2054
+  },
+  {
+    "name": "almond extract",
+    "frequency": 2046
+  },
+  {
+    "name": "swiss cheese",
+    "frequency": 2043
+  },
+  {
+    "name": "ground coriander",
+    "frequency": 2041
+  },
+  {
+    "name": "mushroom",
+    "frequency": 2020
+  },
+  {
+    "name": "lemon zest",
+    "frequency": 1993
+  },
+  {
+    "name": "italian seasoning",
+    "frequency": 1990
+  },
+  {
+    "name": "black olives",
+    "frequency": 1981
+  },
+  {
+    "name": "maple syrup",
+    "frequency": 1962
+  },
+  {
+    "name": "cooked chicken",
+    "frequency": 1931
+  },
+  {
+    "name": "whole milk",
+    "frequency": 1931
+  },
+  {
+    "name": "celery ribs",
+    "frequency": 1919
+  },
+  {
+    "name": "bread",
+    "frequency": 1903
+  },
+  {
+    "name": "shrimp",
+    "frequency": 1903
+  },
+  {
+    "name": "sliced mushrooms",
+    "frequency": 1899
+  },
+  {
+    "name": "avocado",
+    "frequency": 1894
+  },
+  {
+    "name": "turmeric",
+    "frequency": 1858
+  },
+  {
+    "name": "cayenne",
+    "frequency": 1855
+  },
+  {
+    "name": "cabbage",
+    "frequency": 1844
+  },
+  {
+    "name": "plain yogurt",
+    "frequency": 1818
+  },
+  {
+    "name": "sweetened condensed milk",
+    "frequency": 1811
+  },
+  {
+    "name": "green chilies",
+    "frequency": 1810
+  },
+  {
+    "name": "fresh rosemary",
+    "frequency": 1807
+  },
+  {
+    "name": "hot water",
+    "frequency": 1795
+  },
+  {
+    "name": "cocoa",
+    "frequency": 1791
+  },
+  {
+    "name": "chives",
+    "frequency": 1757
+  },
+  {
+    "name": "boneless skinless chicken breast halves",
+    "frequency": 1753
+  },
+  {
+    "name": "molasses",
+    "frequency": 1740
+  },
+  {
+    "name": "dark brown sugar",
+    "frequency": 1735
+  },
+  {
+    "name": "lettuce",
+    "frequency": 1733
+  },
+  {
+    "name": "flour tortillas",
+    "frequency": 1725
+  },
+  {
+    "name": "almonds",
+    "frequency": 1709
+  },
+  {
+    "name": "egg white",
+    "frequency": 1674
+  },
+  {
+    "name": "pine nuts",
+    "frequency": 1663
+  },
+  {
+    "name": "cherry tomatoes",
+    "frequency": 1651
+  },
+  {
+    "name": "ham",
+    "frequency": 1642
+  },
+  {
+    "name": "peanut oil",
+    "frequency": 1626
+  },
+  {
+    "name": "capers",
+    "frequency": 1623
+  },
+  {
+    "name": "orange zest",
+    "frequency": 1611
+  },
+  {
+    "name": "apple",
+    "frequency": 1604
+  },
+  {
+    "name": "cooked rice",
+    "frequency": 1589
+  },
+  {
+    "name": "allspice",
+    "frequency": 1588
+  },
+  {
+    "name": "coconut milk",
+    "frequency": 1585
+  },
+  {
+    "name": "active dry yeast",
+    "frequency": 1582
+  },
+  {
+    "name": "frozen peas",
+    "frequency": 1577
+  },
+  {
+    "name": "ice",
+    "frequency": 1568
+  },
+  {
+    "name": "cocoa powder",
+    "frequency": 1551
+  },
+  {
+    "name": "red wine",
+    "frequency": 1548
+  },
+  {
+    "name": "barbecue sauce",
+    "frequency": 1547
+  },
+  {
+    "name": "corn",
+    "frequency": 1533
+  },
+  {
+    "name": "cream of chicken soup",
+    "frequency": 1531
+  },
+  {
+    "name": "green beans",
+    "frequency": 1528
+  },
+  {
+    "name": "pineapple juice",
+    "frequency": 1527
+  },
+  {
+    "name": "rolled oats",
+    "frequency": 1526
+  },
+  {
+    "name": "scallion",
+    "frequency": 1525
+  },
+  {
+    "name": "cornmeal",
+    "frequency": 1522
+  },
+  {
+    "name": "rice vinegar",
+    "frequency": 1519
+  },
+  {
+    "name": "potato",
+    "frequency": 1515
+  },
+  {
+    "name": "crushed pineapple",
+    "frequency": 1512
+  },
+  {
+    "name": "broccoli",
+    "frequency": 1508
+  },
+  {
+    "name": "coconut",
+    "frequency": 1506
+  },
+  {
+    "name": "bell pepper",
+    "frequency": 1506
+  },
+  {
+    "name": "fresh dill",
+    "frequency": 1502
+  },
+  {
+    "name": "sweet potatoes",
+    "frequency": 1476
+  },
+  {
+    "name": "rice",
+    "frequency": 1463
+  },
+  {
+    "name": "ricotta cheese",
+    "frequency": 1455
+  },
+  {
+    "name": "rosemary",
+    "frequency": 1433
+  },
+  {
+    "name": "white wine vinegar",
+    "frequency": 1426
+  },
+  {
+    "name": "gingerroot",
+    "frequency": 1416
+  },
+  {
+    "name": "fresh chives",
+    "frequency": 1410
+  },
+  {
+    "name": "red potatoes",
+    "frequency": 1400
+  },
+  {
+    "name": "vegetable broth",
+    "frequency": 1390
+  },
+  {
+    "name": "cooking oil",
+    "frequency": 1382
+  },
+  {
+    "name": "apple cider vinegar",
+    "frequency": 1377
+  },
+  {
+    "name": "beer",
+    "frequency": 1373
+  },
+  {
+    "name": "whipped cream",
+    "frequency": 1365
+  },
+  {
+    "name": "egg yolk",
+    "frequency": 1349
+  },
+  {
+    "name": "cool whip",
+    "frequency": 1345
+  },
+  {
+    "name": "jalapeno pepper",
+    "frequency": 1333
+  },
+  {
+    "name": "dried cranberries",
+    "frequency": 1324
+  },
+  {
+    "name": "spinach",
+    "frequency": 1316
+  },
+  {
+    "name": "mustard",
+    "frequency": 1306
+  },
+  {
+    "name": "strawberries",
+    "frequency": 1299
+  },
+  {
+    "name": "chickpeas",
+    "frequency": 1295
+  },
+  {
+    "name": "vodka",
+    "frequency": 1291
+  },
+  {
+    "name": "sweet onion",
+    "frequency": 1286
+  },
+  {
+    "name": "ground allspice",
+    "frequency": 1277
+  },
+  {
+    "name": "dried parsley",
+    "frequency": 1272
+  },
+  {
+    "name": "fish sauce",
+    "frequency": 1267
+  },
+  {
+    "name": "of fresh mint",
+    "frequency": 1267
+  },
+  {
+    "name": "blueberries",
+    "frequency": 1264
+  },
+  {
+    "name": "slivered almonds",
+    "frequency": 1259
+  },
+  {
+    "name": "vegetable stock",
+    "frequency": 1256
+  },
+  {
+    "name": "bread flour",
+    "frequency": 1253
+  },
+  {
+    "name": "yeast",
+    "frequency": 1249
+  },
+  {
+    "name": "icing sugar",
+    "frequency": 1247
+  },
+  {
+    "name": "flat leaf parsley",
+    "frequency": 1243
+  },
+  {
+    "name": "boneless skinless chicken breast",
+    "frequency": 1236
+  },
+  {
+    "name": "hot pepper sauce",
+    "frequency": 1228
+  },
+  {
+    "name": "lime",
+    "frequency": 1221
+  },
+  {
+    "name": "fresh spinach",
+    "frequency": 1219
+  },
+  {
+    "name": "caster sugar",
+    "frequency": 1210
+  },
+  {
+    "name": "blue cheese",
+    "frequency": 1196
+  },
+  {
+    "name": "sliced almonds",
+    "frequency": 1192
+  },
+  {
+    "name": "applesauce",
+    "frequency": 1185
+  },
+  {
+    "name": "prepared mustard",
+    "frequency": 1178
+  },
+  {
+    "name": "plum tomatoes",
+    "frequency": 1178
+  },
+  {
+    "name": "dry sherry",
+    "frequency": 1177
+  },
+  {
+    "name": "low sodium chicken broth",
+    "frequency": 1166
+  },
+  {
+    "name": "frozen chopped spinach",
+    "frequency": 1166
+  },
+  {
+    "name": "vanilla ice cream",
+    "frequency": 1164
+  },
+  {
+    "name": "light corn syrup",
+    "frequency": 1164
+  },
+  {
+    "name": "dried rosemary",
+    "frequency": 1155
+  },
+  {
+    "name": "clove",
+    "frequency": 1150
+  },
+  {
+    "name": "hard-boiled eggs",
+    "frequency": 1150
+  },
+  {
+    "name": "crushed tomatoes",
+    "frequency": 1146
+  },
+  {
+    "name": "jalapeno",
+    "frequency": 1126
+  },
+  {
+    "name": "unsweetened cocoa powder",
+    "frequency": 1120
+  },
+  {
+    "name": "lemons",
+    "frequency": 1101
+  },
+  {
+    "name": "red onions",
+    "frequency": 1096
+  },
+  {
+    "name": "coarse salt",
+    "frequency": 1095
+  },
+  {
+    "name": "white bread",
+    "frequency": 1094
+  },
+  {
+    "name": "spaghetti",
+    "frequency": 1086
+  },
+  {
+    "name": "fresh strawberries",
+    "frequency": 1083
+  },
+  {
+    "name": "ground pepper",
+    "frequency": 1078
+  },
+  {
+    "name": "cream of tartar",
+    "frequency": 1076
+  },
+  {
+    "name": "coriander",
+    "frequency": 1064
+  },
+  {
+    "name": "pasta",
+    "frequency": 1061
+  },
+  {
+    "name": "cauliflower",
+    "frequency": 1058
+  },
+  {
+    "name": "heavy whipping cream",
+    "frequency": 1057
+  },
+  {
+    "name": "pork tenderloin",
+    "frequency": 1044
+  },
+  {
+    "name": "strawberry",
+    "frequency": 1041
+  },
+  {
+    "name": "asparagus",
+    "frequency": 1040
+  },
+  {
+    "name": "french bread",
+    "frequency": 1037
+  },
+  {
+    "name": "cinnamon stick",
+    "frequency": 1037
+  },
+  {
+    "name": "kidney beans",
+    "frequency": 1025
+  },
+  {
+    "name": "apple juice",
+    "frequency": 1025
+  },
+  {
+    "name": "pork chops",
+    "frequency": 1024
+  },
+  {
+    "name": "salmon fillets",
+    "frequency": 1024
+  },
+  {
+    "name": "red bell peppers",
+    "frequency": 1015
+  },
+  {
+    "name": "elbow macaroni",
+    "frequency": 1007
+  },
+  {
+    "name": "spaghetti sauce",
+    "frequency": 1001
+  },
+  {
+    "name": "orange",
+    "frequency": 999
+  },
+  {
+    "name": "celery seed",
+    "frequency": 994
+  },
+  {
+    "name": "splenda sugar substitute",
+    "frequency": 994
+  },
+  {
+    "name": "romaine lettuce",
+    "frequency": 993
+  },
+  {
+    "name": "dry breadcrumbs",
+    "frequency": 990
+  },
+  {
+    "name": "beef stock",
+    "frequency": 989
+  },
+  {
+    "name": "dry red wine",
+    "frequency": 985
+  },
+  {
+    "name": "avocados",
+    "frequency": 985
+  },
+  {
+    "name": "basil leaves",
+    "frequency": 981
+  },
+  {
+    "name": "ground turkey",
+    "frequency": 971
+  },
+  {
+    "name": "corn tortillas",
+    "frequency": 971
+  },
+  {
+    "name": "fresh oregano",
+    "frequency": 960
+  },
+  {
+    "name": "lemon, zest of",
+    "frequency": 957
+  },
+  {
+    "name": "brandy",
+    "frequency": 955
+  },
+  {
+    "name": "fresh garlic",
+    "frequency": 951
+  },
+  {
+    "name": "baby spinach",
+    "frequency": 949
+  },
+  {
+    "name": "ground red pepper",
+    "frequency": 946
+  },
+  {
+    "name": "leeks",
+    "frequency": 945
+  },
+  {
+    "name": "pumpkin",
+    "frequency": 944
+  },
+  {
+    "name": "chili sauce",
+    "frequency": 943
+  },
+  {
+    "name": "peanuts",
+    "frequency": 941
+  },
+  {
+    "name": "baby carrots",
+    "frequency": 932
+  },
+  {
+    "name": "peaches",
+    "frequency": 928
+  },
+  {
+    "name": "oatmeal",
+    "frequency": 921
+  },
+  {
+    "name": "lime, juice of",
+    "frequency": 919
+  }
+]

@@ -1,0 +1,607 @@
+{
+  "butter": {
+    "ahn_id": "298",
+    "compound_count": 140
+  },
+  "garlic": {
+    "ahn_id": "136",
+    "compound_count": 21
+  },
+  "onion": {
+    "ahn_id": "1447",
+    "compound_count": 58
+  },
+  "eggs": {
+    "ahn_id": "848",
+    "compound_count": 49
+  },
+  "pepper": {
+    "ahn_id": "1471",
+    "compound_count": 36
+  },
+  "olive oil": {
+    "ahn_id": "998",
+    "compound_count": 3
+  },
+  "milk": {
+    "ahn_id": "396",
+    "compound_count": 118
+  },
+  "vanilla": {
+    "ahn_id": "1399",
+    "compound_count": 78
+  },
+  "lemon juice": {
+    "ahn_id": "390",
+    "compound_count": 3
+  },
+  "cinnamon": {
+    "ahn_id": "439",
+    "compound_count": 51
+  },
+  "parmesan cheese": {
+    "ahn_id": "1401",
+    "compound_count": 178
+  },
+  "parsley": {
+    "ahn_id": "251",
+    "compound_count": 22
+  },
+  "vegetable oil": {
+    "ahn_id": "1113",
+    "compound_count": 2
+  },
+  "carrots": {
+    "ahn_id": "1216",
+    "compound_count": 40
+  },
+  "tomatoes": {
+    "ahn_id": "1240",
+    "compound_count": 150
+  },
+  "ginger": {
+    "ahn_id": "164",
+    "compound_count": 86
+  },
+  "garlic powder": {
+    "ahn_id": "136",
+    "compound_count": 21
+  },
+  "ground cumin": {
+    "ahn_id": "579",
+    "compound_count": 16
+  },
+  "honey": {
+    "ahn_id": "64",
+    "compound_count": 55
+  },
+  "cream cheese": {
+    "ahn_id": "1117",
+    "compound_count": 130
+  },
+  "basil": {
+    "ahn_id": "256",
+    "compound_count": 23
+  },
+  "celery": {
+    "ahn_id": "202",
+    "compound_count": 54
+  },
+  "oregano": {
+    "ahn_id": "1382",
+    "compound_count": 2
+  },
+  "cheddar cheese": {
+    "ahn_id": "137",
+    "compound_count": 151
+  },
+  "soy sauce": {
+    "ahn_id": "1183",
+    "compound_count": 10
+  },
+  "heavy cream": {
+    "ahn_id": "724",
+    "compound_count": 29
+  },
+  "chicken broth": {
+    "ahn_id": "875",
+    "compound_count": 1
+  },
+  "bacon": {
+    "ahn_id": "19",
+    "compound_count": 120
+  },
+  "thyme": {
+    "ahn_id": "675",
+    "compound_count": 25
+  },
+  "potatoes": {
+    "ahn_id": "385",
+    "compound_count": 97
+  },
+  "nutmeg": {
+    "ahn_id": "1356",
+    "compound_count": 37
+  },
+  "cayenne pepper": {
+    "ahn_id": "663",
+    "compound_count": 39
+  },
+  "walnuts": {
+    "ahn_id": "1255",
+    "compound_count": 15
+  },
+  "pecans": {
+    "ahn_id": "51",
+    "compound_count": 48
+  },
+  "mozzarella cheese": {
+    "ahn_id": "1235",
+    "compound_count": 132
+  },
+  "orange juice": {
+    "ahn_id": "88",
+    "compound_count": 54
+  },
+  "zucchini": {
+    "ahn_id": "1080",
+    "compound_count": 1
+  },
+  "raisins": {
+    "ahn_id": "133",
+    "compound_count": 22
+  },
+  "tomato sauce": {
+    "ahn_id": "1240",
+    "compound_count": 150
+  },
+  "chicken stock": {
+    "ahn_id": "1338",
+    "compound_count": 123
+  },
+  "tomato paste": {
+    "ahn_id": "1240",
+    "compound_count": 150
+  },
+  "buttermilk": {
+    "ahn_id": "1008",
+    "compound_count": 12
+  },
+  "lime juice": {
+    "ahn_id": "243",
+    "compound_count": 2
+  },
+  "cilantro": {
+    "ahn_id": "658",
+    "compound_count": 19
+  },
+  "onion powder": {
+    "ahn_id": "1447",
+    "compound_count": 58
+  },
+  "green bell pepper": {
+    "ahn_id": "1114",
+    "compound_count": 37
+  },
+  "egg whites": {
+    "ahn_id": "848",
+    "compound_count": 49
+  },
+  "bay leaf": {
+    "ahn_id": "215",
+    "compound_count": 1
+  },
+  "sesame oil": {
+    "ahn_id": "127",
+    "compound_count": 3
+  },
+  "lemon": {
+    "ahn_id": "1132",
+    "compound_count": 78
+  },
+  "white wine": {
+    "ahn_id": "1428",
+    "compound_count": 222
+  },
+  "chicken breasts": {
+    "ahn_id": "1338",
+    "compound_count": 123
+  },
+  "bananas": {
+    "ahn_id": "918",
+    "compound_count": 115
+  },
+  "mushrooms": {
+    "ahn_id": "260",
+    "compound_count": 117
+  },
+  "cheese": {
+    "ahn_id": "525",
+    "compound_count": 127
+  },
+  "garlic salt": {
+    "ahn_id": "136",
+    "compound_count": 21
+  },
+  "egg yolks": {
+    "ahn_id": "848",
+    "compound_count": 49
+  },
+  "cider vinegar": {
+    "ahn_id": "1012",
+    "compound_count": 25
+  },
+  "bay leaves": {
+    "ahn_id": "215",
+    "compound_count": 1
+  },
+  "feta cheese": {
+    "ahn_id": "1422",
+    "compound_count": 130
+  },
+  "black beans": {
+    "ahn_id": "1478",
+    "compound_count": 87
+  },
+  "scallions": {
+    "ahn_id": "915",
+    "compound_count": 3
+  },
+  "nuts": {
+    "ahn_id": "221",
+    "compound_count": 8
+  },
+  "peanut butter": {
+    "ahn_id": "9",
+    "compound_count": 145
+  },
+  "banana": {
+    "ahn_id": "918",
+    "compound_count": 115
+  },
+  "shallots": {
+    "ahn_id": "1305",
+    "compound_count": 14
+  },
+  "apples": {
+    "ahn_id": "1197",
+    "compound_count": 195
+  },
+  "cucumber": {
+    "ahn_id": "1044",
+    "compound_count": 23
+  },
+  "cream of mushroom soup": {
+    "ahn_id": "724",
+    "compound_count": 29
+  },
+  "sesame seeds": {
+    "ahn_id": "1412",
+    "compound_count": 19
+  },
+  "skim milk": {
+    "ahn_id": "866",
+    "compound_count": 19
+  },
+  "chicken": {
+    "ahn_id": "1338",
+    "compound_count": 123
+  },
+  "cream": {
+    "ahn_id": "724",
+    "compound_count": 29
+  },
+  "beef broth": {
+    "ahn_id": "512",
+    "compound_count": 4
+  },
+  "shallot": {
+    "ahn_id": "1305",
+    "compound_count": 14
+  },
+  "almond extract": {
+    "ahn_id": "18",
+    "compound_count": 9
+  },
+  "swiss cheese": {
+    "ahn_id": "696",
+    "compound_count": 145
+  },
+  "mushroom": {
+    "ahn_id": "260",
+    "compound_count": 117
+  },
+  "lemon zest": {
+    "ahn_id": "1132",
+    "compound_count": 78
+  },
+  "maple syrup": {
+    "ahn_id": "35",
+    "compound_count": 3
+  },
+  "celery ribs": {
+    "ahn_id": "202",
+    "compound_count": 54
+  },
+  "bread": {
+    "ahn_id": "105",
+    "compound_count": 51
+  },
+  "shrimp": {
+    "ahn_id": "694",
+    "compound_count": 72
+  },
+  "avocado": {
+    "ahn_id": "94",
+    "compound_count": 38
+  },
+  "turmeric": {
+    "ahn_id": "849",
+    "compound_count": 10
+  },
+  "cayenne": {
+    "ahn_id": "663",
+    "compound_count": 39
+  },
+  "cabbage": {
+    "ahn_id": "1237",
+    "compound_count": 38
+  },
+  "cocoa": {
+    "ahn_id": "1488",
+    "compound_count": 193
+  },
+  "chives": {
+    "ahn_id": "698",
+    "compound_count": 22
+  },
+  "lettuce": {
+    "ahn_id": "141",
+    "compound_count": 7
+  },
+  "almonds": {
+    "ahn_id": "18",
+    "compound_count": 9
+  },
+  "egg white": {
+    "ahn_id": "848",
+    "compound_count": 49
+  },
+  "cherry tomatoes": {
+    "ahn_id": "309",
+    "compound_count": 41
+  },
+  "ham": {
+    "ahn_id": "236",
+    "compound_count": 47
+  },
+  "peanut oil": {
+    "ahn_id": "1250",
+    "compound_count": 18
+  },
+  "orange zest": {
+    "ahn_id": "1257",
+    "compound_count": 128
+  },
+  "apple": {
+    "ahn_id": "1197",
+    "compound_count": 195
+  },
+  "coconut milk": {
+    "ahn_id": "545",
+    "compound_count": 51
+  },
+  "cocoa powder": {
+    "ahn_id": "1488",
+    "compound_count": 193
+  },
+  "red wine": {
+    "ahn_id": "619",
+    "compound_count": 165
+  },
+  "corn": {
+    "ahn_id": "427",
+    "compound_count": 82
+  },
+  "cream of chicken soup": {
+    "ahn_id": "724",
+    "compound_count": 29
+  },
+  "pineapple juice": {
+    "ahn_id": "187",
+    "compound_count": 110
+  },
+  "scallion": {
+    "ahn_id": "915",
+    "compound_count": 3
+  },
+  "rice vinegar": {
+    "ahn_id": "1012",
+    "compound_count": 25
+  },
+  "potato": {
+    "ahn_id": "385",
+    "compound_count": 97
+  },
+  "broccoli": {
+    "ahn_id": "1421",
+    "compound_count": 12
+  },
+  "coconut": {
+    "ahn_id": "545",
+    "compound_count": 51
+  },
+  "bell pepper": {
+    "ahn_id": "1292",
+    "compound_count": 66
+  },
+  "rice": {
+    "ahn_id": "205",
+    "compound_count": 74
+  },
+  "rosemary": {
+    "ahn_id": "112",
+    "compound_count": 28
+  },
+  "vegetable broth": {
+    "ahn_id": "285",
+    "compound_count": 5
+  },
+  "apple cider vinegar": {
+    "ahn_id": "1012",
+    "compound_count": 25
+  },
+  "beer": {
+    "ahn_id": "1495",
+    "compound_count": 227
+  },
+  "egg yolk": {
+    "ahn_id": "848",
+    "compound_count": 49
+  },
+  "mustard": {
+    "ahn_id": "1140",
+    "compound_count": 22
+  },
+  "chickpeas": {
+    "ahn_id": "496",
+    "compound_count": 1
+  },
+  "dried parsley": {
+    "ahn_id": "920",
+    "compound_count": 23
+  },
+  "fish sauce": {
+    "ahn_id": "878",
+    "compound_count": 64
+  },
+  "vegetable stock": {
+    "ahn_id": "285",
+    "compound_count": 5
+  },
+  "bread flour": {
+    "ahn_id": "105",
+    "compound_count": 51
+  },
+  "yeast": {
+    "ahn_id": "407",
+    "compound_count": 3
+  },
+  "lime": {
+    "ahn_id": "1199",
+    "compound_count": 64
+  },
+  "blue cheese": {
+    "ahn_id": "994",
+    "compound_count": 164
+  },
+  "plum tomatoes": {
+    "ahn_id": "338",
+    "compound_count": 84
+  },
+  "vanilla ice cream": {
+    "ahn_id": "1399",
+    "compound_count": 78
+  },
+  "clove": {
+    "ahn_id": "1320",
+    "compound_count": 43
+  },
+  "lemons": {
+    "ahn_id": "1132",
+    "compound_count": 78
+  },
+  "white bread": {
+    "ahn_id": "703",
+    "compound_count": 59
+  },
+  "cream of tartar": {
+    "ahn_id": null,
+    "compound_count": 0,
+    "note": "no Ahn match — tartaric acid leavening agent"
+  },
+  "coriander": {
+    "ahn_id": "1267",
+    "compound_count": 52
+  },
+  "cauliflower": {
+    "ahn_id": "1370",
+    "compound_count": 23
+  },
+  "pork tenderloin": {
+    "ahn_id": "417",
+    "compound_count": 115
+  },
+  "strawberry": {
+    "ahn_id": "717",
+    "compound_count": 196
+  },
+  "asparagus": {
+    "ahn_id": "1174",
+    "compound_count": 63
+  },
+  "cinnamon stick": {
+    "ahn_id": "439",
+    "compound_count": 51
+  },
+  "kidney beans": {
+    "ahn_id": "759",
+    "compound_count": 87
+  },
+  "apple juice": {
+    "ahn_id": "1361",
+    "compound_count": 39
+  },
+  "pork chops": {
+    "ahn_id": "417",
+    "compound_count": 115
+  },
+  "salmon fillets": {
+    "ahn_id": "940",
+    "compound_count": 84
+  },
+  "orange": {
+    "ahn_id": "1257",
+    "compound_count": 128
+  },
+  "celery seed": {
+    "ahn_id": "59",
+    "compound_count": 8
+  },
+  "beef stock": {
+    "ahn_id": "248",
+    "compound_count": 199
+  },
+  "avocados": {
+    "ahn_id": "94",
+    "compound_count": 38
+  },
+  "basil leaves": {
+    "ahn_id": "256",
+    "compound_count": 23
+  },
+  "corn tortillas": {
+    "ahn_id": "872",
+    "compound_count": 14
+  },
+  "brandy": {
+    "ahn_id": "737",
+    "compound_count": 24
+  },
+  "leeks": {
+    "ahn_id": "376",
+    "compound_count": 39
+  },
+  "pumpkin": {
+    "ahn_id": "575",
+    "compound_count": 13
+  },
+  "peanuts": {
+    "ahn_id": "1160",
+    "compound_count": 97
+  },
+  "oatmeal": {
+    "ahn_id": "1098",
+    "compound_count": 19
+  }
+}

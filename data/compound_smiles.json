@@ -1,0 +1,6567 @@
+{
+  "d-undecalactone": {
+    "smiles": "",
+    "formula": "C11H20O2",
+    "weight": "184.27",
+    "iupac": "6-hexyloxan-2-one",
+    "cas": "710-04-3",
+    "flavor_class": "unknown"
+  },
+  "3-hexanone": {
+    "smiles": "",
+    "formula": "C6H12O",
+    "weight": "100.16",
+    "iupac": "hexan-3-one",
+    "cas": "589-38-8",
+    "flavor_class": "unknown"
+  },
+  "lauric_acid": {
+    "smiles": "",
+    "formula": "C12H24O2",
+    "weight": "200.32",
+    "iupac": "dodecanoic acid",
+    "cas": "143-07-7",
+    "flavor_class": "unknown"
+  },
+  "3-oxohexanoic_acid_glyceride": {
+    "smiles": "",
+    "formula": "C9H18O6",
+    "weight": "222.24",
+    "iupac": "3-oxohexanoic acid;propane-1,2,3-triol",
+    "cas": "91052-72-1",
+    "flavor_class": "unknown"
+  },
+  "ethyl_lactate": {
+    "smiles": "",
+    "formula": "C5H10O3",
+    "weight": "118.13",
+    "iupac": "ethyl 2-hydroxypropanoate",
+    "cas": "97-64-3",
+    "flavor_class": "unknown"
+  },
+  "3-oxooctanoic_acid_glyceride": {
+    "smiles": "",
+    "formula": "C11H22O6",
+    "weight": "250.29",
+    "iupac": "3-oxooctanoic acid;propane-1,2,3-triol",
+    "cas": "91052-68-5",
+    "flavor_class": "unknown"
+  },
+  "vanillin,_natural": {
+    "smiles": "",
+    "formula": "C8H8O3",
+    "weight": "152.15",
+    "iupac": "4-hydroxy-3-methoxybenzaldehyde",
+    "cas": "121-33-5",
+    "flavor_class": "unknown"
+  },
+  "g-decalactone": {
+    "smiles": "",
+    "formula": "C10H18O2",
+    "weight": "170.25",
+    "iupac": "5-hexyloxolan-2-one",
+    "cas": "706-14-9",
+    "flavor_class": "unknown"
+  },
+  "butyl_alcohol": {
+    "smiles": "",
+    "formula": "C4H10O",
+    "weight": "74.12",
+    "iupac": "butan-1-ol",
+    "cas": "71-36-3",
+    "flavor_class": "unknown"
+  },
+  "1-octanol": {
+    "smiles": "",
+    "formula": "C8H18O",
+    "weight": "130.23",
+    "iupac": "octan-1-ol",
+    "cas": "111-87-5",
+    "flavor_class": "unknown"
+  },
+  "adipic_acid": {
+    "smiles": "",
+    "formula": "C6H10O4",
+    "weight": "146.14",
+    "iupac": "hexanedioic acid",
+    "cas": "124-04-9",
+    "flavor_class": "unknown"
+  },
+  "2-pentenal": {
+    "smiles": "",
+    "formula": "C5H8O",
+    "weight": "84.12",
+    "iupac": "pent-2-enal",
+    "cas": "764-39-6",
+    "flavor_class": "unknown"
+  },
+  "2,5_diethyl-3-methylpyrazine": {
+    "smiles": "",
+    "formula": "C9H14N2",
+    "weight": "150.22",
+    "iupac": "2,5-diethyl-3-methylpyrazine",
+    "cas": "32736-91-7",
+    "flavor_class": "unknown"
+  },
+  "pyridine": {
+    "smiles": "",
+    "formula": "C5H5N",
+    "weight": "79.10",
+    "iupac": "pyridine",
+    "cas": "110-86-1",
+    "flavor_class": "unknown"
+  },
+  "nonanoic_acid": {
+    "smiles": "",
+    "formula": "C9H18O2",
+    "weight": "158.24",
+    "iupac": "nonanoic acid",
+    "cas": "112-05-0",
+    "flavor_class": "unknown"
+  },
+  "ethyl_octanoate": {
+    "smiles": "",
+    "formula": "C10H20O2",
+    "weight": "172.26",
+    "iupac": "ethyl octanoate",
+    "cas": "106-32-1",
+    "flavor_class": "unknown"
+  },
+  "undecyl_alcohol": {
+    "smiles": "",
+    "formula": "C11H24O",
+    "weight": "172.31",
+    "iupac": "undecan-1-ol",
+    "cas": "112-42-5",
+    "flavor_class": "unknown"
+  },
+  "vanillin": {
+    "smiles": "",
+    "formula": "C8H8O3",
+    "weight": "152.15",
+    "iupac": "4-hydroxy-3-methoxybenzaldehyde",
+    "cas": "121-33-5",
+    "flavor_class": "unknown"
+  },
+  "butter_acids": {
+    "smiles": "",
+    "formula": "",
+    "weight": null,
+    "flavor_class": "unknown",
+    "cas": "85536-25-0"
+  },
+  "maltol": {
+    "smiles": "",
+    "formula": "C6H6O3",
+    "weight": "126.11",
+    "iupac": "3-hydroxy-2-methylpyran-4-one",
+    "cas": "118-71-8",
+    "flavor_class": "unknown"
+  },
+  "2-octanone": {
+    "smiles": "",
+    "formula": "C8H16O",
+    "weight": "128.21",
+    "iupac": "octan-2-one",
+    "cas": "111-13-7",
+    "flavor_class": "unknown"
+  },
+  "d-hexalactone": {
+    "smiles": "",
+    "formula": "C6H10O2",
+    "weight": "114.14",
+    "iupac": "6-methyloxan-2-one",
+    "cas": "823-22-3",
+    "flavor_class": "unknown"
+  },
+  "methyl_sulfide": {
+    "smiles": "",
+    "formula": "C2H6S",
+    "weight": "62.14",
+    "iupac": "methylsulfanylmethane",
+    "cas": "75-18-3",
+    "flavor_class": "unknown"
+  },
+  "propyl_alcohol": {
+    "smiles": "",
+    "formula": "C3H8O",
+    "weight": "60.10",
+    "iupac": "propan-1-ol",
+    "cas": "71-23-8",
+    "flavor_class": "unknown"
+  },
+  "2-methylpyrazine": {
+    "smiles": "",
+    "formula": "C5H6N2",
+    "weight": "94.11",
+    "iupac": "2-methylpyrazine",
+    "cas": "109-08-0",
+    "flavor_class": "unknown"
+  },
+  "g-undecalactone": {
+    "smiles": "",
+    "formula": "C11H20O2",
+    "weight": "184.27",
+    "iupac": "5-heptyloxolan-2-one",
+    "cas": "104-67-6",
+    "flavor_class": "unknown"
+  },
+  "3-nonanone": {
+    "smiles": "",
+    "formula": "C9H18O",
+    "weight": "142.24",
+    "iupac": "nonan-3-one",
+    "cas": "925-78-0",
+    "flavor_class": "unknown"
+  },
+  "phenethyl_acetate": {
+    "smiles": "",
+    "formula": "C10H12O2",
+    "weight": "164.20",
+    "iupac": "2-phenylethyl acetate",
+    "cas": "103-45-7",
+    "flavor_class": "unknown"
+  },
+  "anisole": {
+    "smiles": "",
+    "formula": "C7H8O",
+    "weight": "108.14",
+    "iupac": "anisole",
+    "cas": "100-66-3",
+    "flavor_class": "unknown"
+  },
+  "ethyl_acetate": {
+    "smiles": "",
+    "formula": "C4H8O2",
+    "weight": "88.11",
+    "iupac": "ethyl acetate",
+    "cas": "141-78-6",
+    "flavor_class": "unknown"
+  },
+  "heptanoic_acid": {
+    "smiles": "",
+    "formula": "C7H14O2",
+    "weight": "130.18",
+    "iupac": "heptanoic acid",
+    "cas": "111-14-8",
+    "flavor_class": "unknown"
+  },
+  "3-oxododecanoic_acid_glyceride": {
+    "smiles": "",
+    "formula": "C15H30O6",
+    "weight": "306.39",
+    "iupac": "3-oxododecanoic acid;propane-1,2,3-triol",
+    "cas": "91052-70-9",
+    "flavor_class": "unknown"
+  },
+  "2,3,5-trimethylpyrazine": {
+    "smiles": "",
+    "formula": "C7H10N2",
+    "weight": "122.17",
+    "iupac": "2,3,5-trimethylpyrazine",
+    "cas": "14667-55-1",
+    "flavor_class": "unknown"
+  },
+  "lauryl_alcohol": {
+    "smiles": "",
+    "formula": "C12H26O",
+    "weight": "186.33",
+    "iupac": "dodecan-1-ol",
+    "cas": "112-53-8",
+    "flavor_class": "unknown"
+  },
+  "isoamyl_acetate": {
+    "smiles": "",
+    "formula": "C7H14O2",
+    "weight": "130.18",
+    "iupac": "3-methylbutyl acetate",
+    "cas": "123-92-2",
+    "flavor_class": "unknown"
+  },
+  "2,3-pentanedione": {
+    "smiles": "",
+    "formula": "C5H8O2",
+    "weight": "100.12",
+    "iupac": "pentane-2,3-dione",
+    "cas": "600-14-6",
+    "flavor_class": "unknown"
+  },
+  "hydroxynonanoic_acid,_d-lactone": {
+    "smiles": "",
+    "formula": "C9H16O2",
+    "weight": "156.22",
+    "iupac": "6-butyloxan-2-one",
+    "cas": "3301-94-8",
+    "flavor_class": "unknown"
+  },
+  "g-nonalactone": {
+    "smiles": "",
+    "formula": "C9H16O2",
+    "weight": "156.22",
+    "iupac": "5-pentyloxolan-2-one",
+    "cas": "104-61-0",
+    "flavor_class": "unknown"
+  },
+  "g-dodecalactone": {
+    "smiles": "",
+    "formula": "C12H22O2",
+    "weight": "198.30",
+    "iupac": "5-octyloxolan-2-one",
+    "cas": "2305-05-7",
+    "flavor_class": "unknown"
+  },
+  "2-nonenal": {
+    "smiles": "",
+    "formula": "C9H16O",
+    "weight": "140.22",
+    "iupac": "(E)-non-2-enal",
+    "cas": "2463-53-8",
+    "flavor_class": "unknown"
+  },
+  "isobutyric_acid": {
+    "smiles": "",
+    "formula": "C4H8O2",
+    "weight": "88.11",
+    "iupac": "2-methylpropanoic acid",
+    "cas": "79-31-2",
+    "flavor_class": "unknown"
+  },
+  "decanoic_acid": {
+    "smiles": "",
+    "formula": "C10H20O2",
+    "weight": "172.26",
+    "iupac": "decanoic acid",
+    "cas": "334-48-5",
+    "flavor_class": "unknown"
+  },
+  "2,3-dimethylpyrazine": {
+    "smiles": "",
+    "formula": "C6H8N2",
+    "weight": "108.14",
+    "iupac": "2,3-dimethylpyrazine",
+    "cas": "5910-89-4",
+    "flavor_class": "unknown"
+  },
+  "2-heptanone": {
+    "smiles": "",
+    "formula": "C7H14O",
+    "weight": "114.19",
+    "iupac": "heptan-2-one",
+    "cas": "110-43-0",
+    "flavor_class": "unknown"
+  },
+  "2-methyl-5-vinylpyrazine": {
+    "smiles": "",
+    "formula": "C7H8N2",
+    "weight": "120.15",
+    "iupac": "2-ethenyl-5-methylpyrazine",
+    "cas": "13925-08-1",
+    "flavor_class": "unknown"
+  },
+  "indole": {
+    "smiles": "",
+    "formula": "C8H7N",
+    "weight": "117.15",
+    "iupac": "1H-indole",
+    "cas": "120-72-9",
+    "flavor_class": "unknown"
+  },
+  "n-butyric_acid": {
+    "smiles": "",
+    "formula": "C4H8O2",
+    "weight": "88.11",
+    "iupac": "butanoic acid",
+    "cas": "107-92-6",
+    "flavor_class": "unknown"
+  },
+  "2-hexenal": {
+    "smiles": "",
+    "formula": "C6H10O",
+    "weight": "98.14",
+    "iupac": "(E)-hex-2-enal",
+    "cas": "505-57-7",
+    "flavor_class": "unknown"
+  },
+  "2-pentanone": {
+    "smiles": "",
+    "formula": "C5H10O",
+    "weight": "86.13",
+    "iupac": "pentan-2-one",
+    "cas": "108-87-9",
+    "flavor_class": "unknown"
+  },
+  "g-hexalactone": {
+    "smiles": "",
+    "formula": "C6H10O2",
+    "weight": "114.14",
+    "iupac": "5-ethyloxolan-2-one",
+    "cas": "695-06-7",
+    "flavor_class": "unknown"
+  },
+  "p-vinylphenol": {
+    "smiles": "",
+    "formula": "C8H8O",
+    "weight": "120.15",
+    "iupac": "4-ethenylphenol",
+    "cas": "2628-17-3",
+    "flavor_class": "unknown"
+  },
+  "2-ethyl-1-hexanol": {
+    "smiles": "",
+    "formula": "C8H18O",
+    "weight": "130.23",
+    "iupac": "2-ethylhexan-1-ol",
+    "cas": "104-76-7",
+    "flavor_class": "unknown"
+  },
+  "3-hydroxy-2-pentanone": {
+    "smiles": "",
+    "formula": "C5H10O2",
+    "weight": "102.13",
+    "iupac": "3-hydroxypentan-2-one",
+    "cas": "3142-66-3",
+    "flavor_class": "unknown"
+  },
+  "3-heptanone": {
+    "smiles": "",
+    "formula": "C7H14O",
+    "weight": "114.19",
+    "iupac": "heptan-3-one",
+    "cas": "106-35-4",
+    "flavor_class": "unknown"
+  },
+  "n-octanal": {
+    "smiles": "",
+    "formula": "C8H16O",
+    "weight": "128.21",
+    "iupac": "octanal",
+    "cas": "124-13-0",
+    "flavor_class": "unknown"
+  },
+  "hexyl_alcohol": {
+    "smiles": "",
+    "formula": "C6H14O",
+    "weight": "102.17",
+    "iupac": "hexan-1-ol",
+    "cas": "111-27-3",
+    "flavor_class": "unknown"
+  },
+  "methyl-2-pyrrolyl_ketone": {
+    "smiles": "",
+    "formula": "C6H7NO",
+    "weight": "109.13",
+    "iupac": "1-(1H-pyrrol-2-yl)ethanone",
+    "cas": "1072-83-9",
+    "flavor_class": "unknown"
+  },
+  "isobutyraldehyde": {
+    "smiles": "",
+    "formula": "C4H8O",
+    "weight": "72.11",
+    "iupac": "2-methylpropanal",
+    "cas": "78-84-2",
+    "flavor_class": "unknown"
+  },
+  "1-penten-3-one": {
+    "smiles": "",
+    "formula": "C5H8O",
+    "weight": "84.12",
+    "iupac": "pent-1-en-3-one",
+    "cas": "1629-58-9",
+    "flavor_class": "unknown"
+  },
+  "ethyl_laurate": {
+    "smiles": "",
+    "formula": "C14H28O2",
+    "weight": "228.37",
+    "iupac": "ethyl dodecanoate",
+    "cas": "106-33-2",
+    "flavor_class": "unknown"
+  },
+  "6-methyl-5-hepten-2-one": {
+    "smiles": "",
+    "formula": "C8H14O",
+    "weight": "126.20",
+    "iupac": "6-methylhept-5-en-2-one",
+    "cas": "110-93-0",
+    "flavor_class": "unknown"
+  },
+  "decanal": {
+    "smiles": "",
+    "formula": "C10H20O",
+    "weight": "156.26",
+    "iupac": "decanal",
+    "cas": "112-31-2",
+    "flavor_class": "unknown"
+  },
+  "g-valerolactone": {
+    "smiles": "",
+    "formula": "C5H8O2",
+    "weight": "100.12",
+    "iupac": "5-methyloxolan-2-one",
+    "cas": "108-29-2",
+    "flavor_class": "unknown"
+  },
+  "2-nonanone": {
+    "smiles": "",
+    "formula": "C9H18O",
+    "weight": "142.24",
+    "iupac": "nonan-2-one",
+    "cas": "821-55-6",
+    "flavor_class": "unknown"
+  },
+  "heptyl_alcohol": {
+    "smiles": "",
+    "formula": "C7H16O",
+    "weight": "116.20",
+    "iupac": "heptan-1-ol",
+    "cas": "111-70-6",
+    "flavor_class": "unknown"
+  },
+  "3-decanone": {
+    "smiles": "",
+    "formula": "C10H20O",
+    "weight": "156.26",
+    "iupac": "decan-3-one",
+    "cas": "928-80-3",
+    "flavor_class": "unknown"
+  },
+  "2-tridecanone": {
+    "smiles": "",
+    "formula": "C13H26O",
+    "weight": "198.34",
+    "iupac": "tridecan-2-one",
+    "cas": "593-08-8",
+    "flavor_class": "unknown"
+  },
+  "2-trans,_4-trans-decadienal": {
+    "smiles": "",
+    "formula": "C10H16O",
+    "weight": "152.23",
+    "iupac": "(2E,4E)-deca-2,4-dienal",
+    "cas": "25152-84-5",
+    "flavor_class": "unknown"
+  },
+  "d,l-valine": {
+    "smiles": "",
+    "formula": "C5H11NO2",
+    "weight": "117.15",
+    "iupac": "2-amino-3-methylbutanoic acid",
+    "cas": "516-06-3",
+    "flavor_class": "unknown"
+  },
+  "3-oxotetradecanoic_acid_glyceride": {
+    "smiles": "",
+    "formula": "C17H34O6",
+    "weight": "334.4",
+    "iupac": "3-oxotetradecanoic acid;propane-1,2,3-triol",
+    "cas": "91052-73-2",
+    "flavor_class": "unknown"
+  },
+  "benzoic_acid": {
+    "smiles": "",
+    "formula": "C7H6O2",
+    "weight": "122.12",
+    "iupac": "benzoic acid",
+    "cas": "65-85-0",
+    "flavor_class": "unknown"
+  },
+  "isoamyl_alcohol": {
+    "smiles": "",
+    "formula": "C5H12O",
+    "weight": "88.15",
+    "iupac": "3-methylbutan-1-ol",
+    "cas": "123-51-3",
+    "flavor_class": "unknown"
+  },
+  "ethyl_formate": {
+    "smiles": "",
+    "formula": "C3H6O2",
+    "weight": "74.08",
+    "iupac": "ethyl formate",
+    "cas": "109-94-4",
+    "flavor_class": "unknown"
+  },
+  "butyraldehyde": {
+    "smiles": "",
+    "formula": "C4H8O",
+    "weight": "72.11",
+    "iupac": "butanal",
+    "cas": "123-72-8",
+    "flavor_class": "unknown"
+  },
+  "3-oxodecanoic_acid_glyceride": {
+    "smiles": "",
+    "formula": "C13H26O6",
+    "weight": "278.34",
+    "iupac": "3-oxodecanoic acid;propane-1,2,3-triol",
+    "cas": "91052-69-6",
+    "flavor_class": "unknown"
+  },
+  "2-methyltetrahydrothiophen-3-one": {
+    "smiles": "",
+    "formula": "C5H8OS",
+    "weight": "116.18",
+    "iupac": "2-methylthiolan-3-one",
+    "cas": "13679-85-1",
+    "flavor_class": "unknown"
+  },
+  "methyl_salicylate": {
+    "smiles": "",
+    "formula": "C8H8O3",
+    "weight": "152.15",
+    "iupac": "methyl 2-hydroxybenzoate",
+    "cas": "119-36-8",
+    "flavor_class": "unknown"
+  },
+  "4-[(2,6,6)-trimethyl-cyclohex-1-enyl]-but-2-en-4-one": {
+    "smiles": "",
+    "formula": "C13H20O",
+    "weight": "192.30",
+    "iupac": "1-(2,6,6-trimethylcyclohexen-1-yl)but-2-en-1-one",
+    "cas": "35044-68-9",
+    "flavor_class": "unknown"
+  },
+  "2-pentylfuran": {
+    "smiles": "",
+    "formula": "C9H14O",
+    "weight": "138.21",
+    "iupac": "2-pentylfuran",
+    "cas": "3777-69-3",
+    "flavor_class": "unknown"
+  },
+  "alpha-terpineol": {
+    "smiles": "",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "iupac": "2-[(1S)-4-methylcyclohex-3-en-1-yl]propan-2-ol",
+    "cas": "10482-56-1",
+    "flavor_class": "unknown"
+  },
+  "3-heptanol": {
+    "smiles": "",
+    "formula": "C7H16O",
+    "weight": "116.20",
+    "iupac": "heptan-3-ol",
+    "cas": "589-82-2",
+    "flavor_class": "unknown"
+  },
+  "methyl_hexanoate": {
+    "smiles": "",
+    "formula": "C7H14O2",
+    "weight": "130.18",
+    "iupac": "methyl hexanoate",
+    "cas": "106-70-7",
+    "flavor_class": "unknown"
+  },
+  "9,12-octadecadienoic_acid_(48%)_plus_9,12,15-octadeca-_trienoinc_acid_(52%)_(methyl_esters)": {
+    "smiles": "",
+    "formula": "",
+    "weight": null,
+    "flavor_class": "unknown",
+    "cas": "99999-08-0"
+  },
+  "3-octanone": {
+    "smiles": "",
+    "formula": "C8H16O",
+    "weight": "128.21",
+    "iupac": "octan-3-one",
+    "cas": "106-68-3",
+    "flavor_class": "unknown"
+  },
+  "2-pentanol": {
+    "smiles": "",
+    "formula": "C5H12O",
+    "weight": "88.15",
+    "iupac": "pentan-2-ol",
+    "cas": "6032-29-7",
+    "flavor_class": "unknown"
+  },
+  "1-hexadecanol": {
+    "smiles": "",
+    "formula": "C16H34O",
+    "weight": "242.44",
+    "iupac": "hexadecan-1-ol",
+    "cas": "36653-82-4",
+    "flavor_class": "unknown"
+  },
+  "propionic_acid": {
+    "smiles": "",
+    "formula": "C3H6O2",
+    "weight": "74.08",
+    "iupac": "propanoic acid",
+    "cas": "79-09-4",
+    "flavor_class": "unknown"
+  },
+  "cis-3-hexenal": {
+    "smiles": "",
+    "formula": "C6H10O",
+    "weight": "98.14",
+    "iupac": "(Z)-hex-3-enal",
+    "cas": "6789-80-6",
+    "flavor_class": "unknown"
+  },
+  "styrene": {
+    "smiles": "",
+    "formula": "C8H8",
+    "weight": "104.15",
+    "iupac": "styrene",
+    "cas": "100-42-5",
+    "flavor_class": "unknown"
+  },
+  "methyl_disulfide": {
+    "smiles": "",
+    "formula": "C2H6S2",
+    "weight": "94.20",
+    "iupac": "(methyldisulfanyl)methane",
+    "cas": "624-92-0",
+    "flavor_class": "unknown"
+  },
+  "5-methylfurfural": {
+    "smiles": "",
+    "formula": "C6H6O2",
+    "weight": "110.11",
+    "iupac": "5-methylfuran-2-carbaldehyde",
+    "cas": "620-02-0",
+    "flavor_class": "unknown"
+  },
+  "1-decanol": {
+    "smiles": "",
+    "formula": "C10H22O",
+    "weight": "158.28",
+    "iupac": "decan-1-ol",
+    "cas": "112-30-1",
+    "flavor_class": "unknown"
+  },
+  "2-pentadecanone": {
+    "smiles": "",
+    "formula": "C15H30O",
+    "weight": "226.40",
+    "iupac": "pentadecan-2-one",
+    "cas": "2345-28-0",
+    "flavor_class": "unknown"
+  },
+  "lauric_aldehyde": {
+    "smiles": "",
+    "formula": "C12H24O",
+    "weight": "184.32",
+    "iupac": "dodecanal",
+    "cas": "112-54-9",
+    "flavor_class": "unknown"
+  },
+  "methyl_butyrate": {
+    "smiles": "",
+    "formula": "C5H10O2",
+    "weight": "102.13",
+    "iupac": "methyl butanoate",
+    "cas": "623-42-7",
+    "flavor_class": "unknown"
+  },
+  "propionaldehyde": {
+    "smiles": "",
+    "formula": "C3H6O",
+    "weight": "58.08",
+    "iupac": "propanal",
+    "cas": "123-38-6",
+    "flavor_class": "unknown"
+  },
+  "2-decenal": {
+    "smiles": "",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "iupac": "(E)-dec-2-enal",
+    "cas": "3913-71-1",
+    "flavor_class": "unknown"
+  },
+  "propyl_benzoate": {
+    "smiles": "",
+    "formula": "C10H12O2",
+    "weight": "164.20",
+    "iupac": "propyl benzoate",
+    "cas": "2315-68-6",
+    "flavor_class": "unknown"
+  },
+  "ethyl_heptanoate": {
+    "smiles": "",
+    "formula": "C9H18O2",
+    "weight": "158.24",
+    "iupac": "ethyl heptanoate",
+    "cas": "106-30-9",
+    "flavor_class": "unknown"
+  },
+  "n-valeraldehyde": {
+    "smiles": "",
+    "formula": "C5H10O",
+    "weight": "86.13",
+    "iupac": "pentanal",
+    "cas": "110-62-3",
+    "flavor_class": "unknown"
+  },
+  "m-cresol": {
+    "smiles": "",
+    "formula": "C7H8O",
+    "weight": "108.14",
+    "iupac": "3-methylphenol",
+    "cas": "108-39-4",
+    "flavor_class": "unknown"
+  },
+  "undecanoic_acid": {
+    "smiles": "",
+    "formula": "C11H22O2",
+    "weight": "186.29",
+    "iupac": "undecanoic acid",
+    "cas": "112-37-8",
+    "flavor_class": "unknown"
+  },
+  "2,6-dimethylpyrazine": {
+    "smiles": "",
+    "formula": "C6H8N2",
+    "weight": "108.14",
+    "iupac": "2,6-dimethylpyrazine",
+    "cas": "108-50-9",
+    "flavor_class": "unknown"
+  },
+  "undecanal": {
+    "smiles": "",
+    "formula": "C11H22O",
+    "weight": "170.29",
+    "iupac": "undecanal",
+    "cas": "112-44-7",
+    "flavor_class": "unknown"
+  },
+  "valeric_acid": {
+    "smiles": "",
+    "formula": "C5H10O2",
+    "weight": "102.13",
+    "iupac": "pentanoic acid",
+    "cas": "109-52-4",
+    "flavor_class": "unknown"
+  },
+  "2,3,5,6-tetramethylpyrazine": {
+    "smiles": "",
+    "formula": "C8H12N2",
+    "weight": "136.19",
+    "iupac": "2,3,5,6-tetramethylpyrazine",
+    "cas": "1124-11-4",
+    "flavor_class": "unknown"
+  },
+  "cyclopentanone": {
+    "smiles": "",
+    "formula": "C5H8O",
+    "weight": "84.12",
+    "iupac": "cyclopentanone",
+    "cas": "120-92-3",
+    "flavor_class": "unknown"
+  },
+  "methyl_acetate": {
+    "smiles": "",
+    "formula": "C3H6O2",
+    "weight": "74.08",
+    "iupac": "methyl acetate",
+    "cas": "79-20-9",
+    "flavor_class": "unknown"
+  },
+  "p-cresol": {
+    "smiles": "",
+    "formula": "C7H8O",
+    "weight": "108.14",
+    "iupac": "4-methylphenol",
+    "cas": "106-44-5",
+    "flavor_class": "unknown"
+  },
+  "delta-tetradecalactone": {
+    "smiles": "",
+    "formula": "C14H26O2",
+    "weight": "226.35",
+    "iupac": "6-nonyloxan-2-one",
+    "cas": "2721-22-4",
+    "flavor_class": "unknown"
+  },
+  "ethyl_undecanoate": {
+    "smiles": "",
+    "formula": "C13H26O2",
+    "weight": "214.34",
+    "iupac": "ethyl undecanoate",
+    "cas": "627-90-7",
+    "flavor_class": "unknown"
+  },
+  "3-hexen-1-ol": {
+    "smiles": "",
+    "formula": "C6H12O",
+    "weight": "100.16",
+    "iupac": "(Z)-hex-3-en-1-ol",
+    "cas": "928-96-1",
+    "flavor_class": "unknown"
+  },
+  "phenethyl_alcohol": {
+    "smiles": "",
+    "formula": "C8H10O",
+    "weight": "122.16",
+    "iupac": "2-phenylethanol",
+    "cas": "60-12-8",
+    "flavor_class": "unknown"
+  },
+  "2-ethyl-5-methylpyrazine": {
+    "smiles": "",
+    "formula": "C7H10N2",
+    "weight": "122.17",
+    "iupac": "2-ethyl-5-methylpyrazine",
+    "cas": "13360-64-0",
+    "flavor_class": "unknown"
+  },
+  "acetoin": {
+    "smiles": "",
+    "formula": "C4H8O2",
+    "weight": "88.11",
+    "iupac": "3-hydroxybutan-2-one",
+    "cas": "513-86-0",
+    "flavor_class": "unknown"
+  },
+  "d-decalactone": {
+    "smiles": "",
+    "formula": "C10H18O2",
+    "weight": "170.25",
+    "iupac": "6-pentyloxan-2-one",
+    "cas": "705-86-2",
+    "flavor_class": "unknown"
+  },
+  "3-methylbutyraldehyde": {
+    "smiles": "",
+    "formula": "C5H10O",
+    "weight": "86.13",
+    "iupac": "3-methylbutanal",
+    "cas": "590-86-3",
+    "flavor_class": "unknown"
+  },
+  "2-heptenal": {
+    "smiles": "",
+    "formula": "C7H12O",
+    "weight": "112.17",
+    "iupac": "(E)-hept-2-enal",
+    "cas": "2463-63-0",
+    "flavor_class": "unknown"
+  },
+  "2-trans,_6-trans-nonadienal": {
+    "smiles": "",
+    "formula": "C9H14O",
+    "weight": "138.21",
+    "iupac": "(2E,6E)-nona-2,6-dienal",
+    "cas": "17587-33-6",
+    "flavor_class": "unknown"
+  },
+  "4-hexen-1-ol": {
+    "smiles": "",
+    "formula": "C6H12O",
+    "weight": "100.16",
+    "iupac": "(E)-hex-4-en-1-ol",
+    "cas": "6126-50-7",
+    "flavor_class": "unknown"
+  },
+  "phenol": {
+    "smiles": "",
+    "formula": "C6H6O",
+    "weight": "94.11",
+    "iupac": "phenol",
+    "cas": "108-95-2",
+    "flavor_class": "unknown"
+  },
+  "methyl_benzoate": {
+    "smiles": "",
+    "formula": "C8H8O2",
+    "weight": "136.15",
+    "iupac": "methyl benzoate",
+    "cas": "93-58-3",
+    "flavor_class": "unknown"
+  },
+  "octanoic_acid": {
+    "smiles": "",
+    "formula": "C8H16O2",
+    "weight": "144.21",
+    "iupac": "octanoic acid",
+    "cas": "124-07-2",
+    "flavor_class": "unknown"
+  },
+  "methyl_octanoate": {
+    "smiles": "",
+    "formula": "C9H18O2",
+    "weight": "158.24",
+    "iupac": "methyl octanoate",
+    "cas": "111-11-5",
+    "flavor_class": "unknown"
+  },
+  "hexanoic_acid": {
+    "smiles": "",
+    "formula": "C6H12O2",
+    "weight": "116.16",
+    "iupac": "hexanoic acid",
+    "cas": "142-62-1",
+    "flavor_class": "unknown"
+  },
+  "skatole": {
+    "smiles": "",
+    "formula": "C9H9N",
+    "weight": "131.17",
+    "iupac": "3-methyl-1H-indole",
+    "cas": "83-34-1",
+    "flavor_class": "unknown"
+  },
+  "nonyl_alcohol": {
+    "smiles": "",
+    "formula": "C9H20O",
+    "weight": "144.25",
+    "iupac": "nonan-1-ol",
+    "cas": "143-08-8",
+    "flavor_class": "unknown"
+  },
+  "isopropenylpyrazine": {
+    "smiles": "",
+    "formula": "C7H8N2",
+    "weight": "120.15",
+    "iupac": "2-prop-1-en-2-ylpyrazine",
+    "cas": "38713-41-6",
+    "flavor_class": "unknown"
+  },
+  "ethyl_benzoate": {
+    "smiles": "",
+    "formula": "C9H10O2",
+    "weight": "150.17",
+    "iupac": "ethyl benzoate",
+    "cas": "93-89-0",
+    "flavor_class": "unknown"
+  },
+  "guaiacol": {
+    "smiles": "",
+    "formula": "C7H8O2",
+    "weight": "124.14",
+    "iupac": "2-methoxyphenol",
+    "cas": "90-05-1",
+    "flavor_class": "unknown"
+  },
+  "myristaldehyde": {
+    "smiles": "",
+    "formula": "C14H28O",
+    "weight": "212.37",
+    "iupac": "tetradecanal",
+    "cas": "124-25-4",
+    "flavor_class": "unknown"
+  },
+  "3-oxohexadecanoic_acid_glyceride": {
+    "smiles": "",
+    "formula": "C19H38O6",
+    "weight": "362.5",
+    "iupac": "3-oxohexadecanoic acid;propane-1,2,3-triol",
+    "cas": "91052-71-0",
+    "flavor_class": "unknown"
+  },
+  "myristic_acid": {
+    "smiles": "",
+    "formula": "C14H28O2",
+    "weight": "228.37",
+    "iupac": "tetradecanoic acid",
+    "cas": "544-63-8",
+    "flavor_class": "unknown"
+  },
+  "d-dodecalactone": {
+    "smiles": "",
+    "formula": "C12H22O2",
+    "weight": "198.30",
+    "iupac": "6-heptyloxan-2-one",
+    "cas": "713-95-1",
+    "flavor_class": "unknown"
+  },
+  "5-_and_6-decenoic_acid": {
+    "smiles": "",
+    "formula": "C10H18O2",
+    "weight": "170.25",
+    "iupac": "(E)-dec-2-enoic acid",
+    "cas": "85392-03-6,85392-04-7",
+    "flavor_class": "unknown"
+  },
+  "hexyl_benzoate": {
+    "smiles": "",
+    "formula": "C13H18O2",
+    "weight": "206.28",
+    "iupac": "hexyl benzoate",
+    "cas": "6789-88-4",
+    "flavor_class": "unknown"
+  },
+  "salicylaldehyde": {
+    "smiles": "",
+    "formula": "C7H6O2",
+    "weight": "122.12",
+    "iupac": "2-hydroxybenzaldehyde",
+    "cas": "90-02-8",
+    "flavor_class": "unknown"
+  },
+  "n-nonanal": {
+    "smiles": "",
+    "formula": "C9H18O",
+    "weight": "142.24",
+    "iupac": "nonanal",
+    "cas": "124-19-6",
+    "flavor_class": "unknown"
+  },
+  "2-octenal": {
+    "smiles": "",
+    "formula": "C8H14O",
+    "weight": "126.20",
+    "iupac": "(E)-oct-2-enal",
+    "cas": "2363-89-5",
+    "flavor_class": "unknown"
+  },
+  "2,5-dimethylpyrazine": {
+    "smiles": "",
+    "formula": "C6H8N2",
+    "weight": "108.14",
+    "iupac": "2,5-dimethylpyrazine",
+    "cas": "123-32-0",
+    "flavor_class": "unknown"
+  },
+  "terpinyl_acetate": {
+    "smiles": "",
+    "formula": "C12H20O2",
+    "weight": "196.29",
+    "iupac": "2-(4-methylcyclohex-3-en-1-yl)propan-2-yl acetate",
+    "cas": "80-26-2",
+    "flavor_class": "unknown"
+  },
+  "2-methyl-3-butenal": {
+    "smiles": "",
+    "formula": "C5H8O",
+    "weight": "84.12",
+    "iupac": "(E)-2-methylbut-2-enal",
+    "cas": "497-03-0",
+    "flavor_class": "unknown"
+  },
+  "allyl_mercaptan": {
+    "smiles": "",
+    "formula": "C3H6S",
+    "weight": "74.15",
+    "iupac": "prop-2-ene-1-thiol",
+    "cas": "870-23-5",
+    "flavor_class": "unknown"
+  },
+  "allyl_sulfide": {
+    "smiles": "",
+    "formula": "C6H10S",
+    "weight": "114.21",
+    "iupac": "3-prop-2-enylsulfanylprop-1-ene",
+    "cas": "592-88-1",
+    "flavor_class": "unknown"
+  },
+  "diallyl_polysulfides": {
+    "smiles": "",
+    "formula": "",
+    "weight": null,
+    "flavor_class": "unknown",
+    "cas": "72869-75-1"
+  },
+  "allyl_methyl_disulfide": {
+    "smiles": "",
+    "formula": "C4H8S2",
+    "weight": "120.2",
+    "iupac": "3-(methyldisulfanyl)prop-1-ene",
+    "cas": "2179-58-0",
+    "flavor_class": "unknown"
+  },
+  "propyl_mercaptan": {
+    "smiles": "",
+    "formula": "C3H8S",
+    "weight": "76.16",
+    "iupac": "propane-1-thiol",
+    "cas": "107-03-9",
+    "flavor_class": "unknown"
+  },
+  "diallyl_trisulfide": {
+    "smiles": "",
+    "formula": "C6H10S3",
+    "weight": "178.3",
+    "iupac": "3-(prop-2-enyltrisulfanyl)prop-1-ene",
+    "cas": "2050-87-5",
+    "flavor_class": "unknown"
+  },
+  "allyl_disulfide": {
+    "smiles": "",
+    "formula": "C6H10S2",
+    "weight": "146.3",
+    "iupac": "3-(prop-2-enyldisulfanyl)prop-1-ene",
+    "cas": "2179-57-9",
+    "flavor_class": "unknown"
+  },
+  "4-methyl-5-vinylthiazole": {
+    "smiles": "",
+    "formula": "C6H7NS",
+    "weight": "125.19",
+    "iupac": "5-ethenyl-4-methyl-1,3-thiazole",
+    "cas": "1759-28-0",
+    "flavor_class": "unknown"
+  },
+  "propyl_disulfide": {
+    "smiles": "",
+    "formula": "C6H14S2",
+    "weight": "150.3",
+    "iupac": "1-(propyldisulfanyl)propane",
+    "cas": "629-19-6",
+    "flavor_class": "unknown"
+  },
+  "(+/?)-cis-_and_trans-3,5-diethyl-1,2,4-trithiolane": {
+    "smiles": "",
+    "formula": "C6H12S3",
+    "weight": "180.4",
+    "iupac": "3,5-diethyl-1,2,4-trithiolane",
+    "cas": "54644-28-9",
+    "flavor_class": "unknown"
+  },
+  "dimethyl_trisulfide": {
+    "smiles": "",
+    "formula": "C2H6S3",
+    "weight": "126.3",
+    "iupac": "(methyltrisulfanyl)methane",
+    "cas": "3658-80-8",
+    "flavor_class": "unknown"
+  },
+  "methyl_propyl_disulfide": {
+    "smiles": "",
+    "formula": "C4H10S2",
+    "weight": "122.3",
+    "iupac": "1-(methyldisulfanyl)propane",
+    "cas": "2179-60-4",
+    "flavor_class": "unknown"
+  },
+  "2-methylpentanal": {
+    "smiles": "",
+    "formula": "C6H12O",
+    "weight": "100.16",
+    "iupac": "2-methylpentanal",
+    "cas": "123-15-9",
+    "flavor_class": "unknown"
+  },
+  "allyl_methyl_trisulfide": {
+    "smiles": "",
+    "formula": "C4H8S3",
+    "weight": "152.3",
+    "iupac": "3-(methyltrisulfanyl)prop-1-ene",
+    "cas": "34135-85-8",
+    "flavor_class": "unknown"
+  },
+  "2,6-dimethoxyphenol": {
+    "smiles": "",
+    "formula": "C8H10O3",
+    "weight": "154.16",
+    "iupac": "2,6-dimethoxyphenol",
+    "cas": "91-10-1",
+    "flavor_class": "unknown"
+  },
+  "dipropyl_trisulfide": {
+    "smiles": "",
+    "formula": "C6H14S3",
+    "weight": "182.4",
+    "iupac": "1-(propyltrisulfanyl)propane",
+    "cas": "6028-61-1",
+    "flavor_class": "unknown"
+  },
+  "3-mercapto-2-methylpentan-1-ol_(racemic)": {
+    "smiles": "",
+    "formula": "C6H14OS",
+    "weight": "134.24",
+    "iupac": "2-methyl-3-sulfanylpentan-1-ol",
+    "cas": "227456-27-1",
+    "flavor_class": "unknown"
+  },
+  "hydrogen_sulfide": {
+    "smiles": "",
+    "formula": "H2S",
+    "weight": "34.08",
+    "iupac": "sulfane",
+    "cas": "7783-06-4",
+    "flavor_class": "unknown"
+  },
+  "2-methylbutyraldehyde": {
+    "smiles": "",
+    "formula": "C5H10O",
+    "weight": "86.13",
+    "iupac": "2-methylbutanal",
+    "cas": "96-17-3",
+    "flavor_class": "unknown"
+  },
+  "paraldehyde": {
+    "smiles": "",
+    "formula": "C6H12O3",
+    "weight": "132.16",
+    "iupac": "2,4,6-trimethyl-1,3,5-trioxane",
+    "cas": "123-63-7",
+    "flavor_class": "unknown"
+  },
+  "propenyl_propyl_disulfide": {
+    "smiles": "",
+    "formula": "C6H12S2",
+    "weight": "148.3",
+    "iupac": "1-[[(E)-prop-1-enyl]disulfanyl]propane",
+    "cas": "5905-46-4",
+    "flavor_class": "unknown"
+  },
+  "2-methoxy-3_(5_and_6)-isopropylpyrazine": {
+    "smiles": "",
+    "formula": "C8H12N2O",
+    "weight": "152.19",
+    "iupac": "2-methoxy-3-propan-2-ylpyrazine",
+    "cas": "25773-40-4",
+    "flavor_class": "unknown"
+  },
+  "furfural": {
+    "smiles": "",
+    "formula": "C5H4O2",
+    "weight": "96.08",
+    "iupac": "furan-2-carbaldehyde",
+    "cas": "98-01-1",
+    "flavor_class": "unknown"
+  },
+  "methyl_propyl_trisulfide": {
+    "smiles": "",
+    "formula": "C4H10S3",
+    "weight": "154.3",
+    "iupac": "1-(methyltrisulfanyl)propane",
+    "cas": "17619-36-2",
+    "flavor_class": "unknown"
+  },
+  "isopropyl_alcohol": {
+    "smiles": "",
+    "formula": "C3H8O",
+    "weight": "60.10",
+    "iupac": "propan-2-ol",
+    "cas": "67-63-0",
+    "flavor_class": "unknown"
+  },
+  "methylcyclopentenolone": {
+    "smiles": "",
+    "formula": "C6H8O2",
+    "weight": "112.13",
+    "iupac": "3-methylcyclopentane-1,2-dione",
+    "cas": "765-70-8",
+    "flavor_class": "unknown"
+  },
+  "methylsulfinylmethane": {
+    "smiles": "",
+    "formula": "C2H6OS",
+    "weight": "78.14",
+    "iupac": "methylsulfinylmethane",
+    "cas": "67-68-5",
+    "flavor_class": "unknown"
+  },
+  "ethyl_butyrate": {
+    "smiles": "",
+    "formula": "C6H12O2",
+    "weight": "116.16",
+    "iupac": "ethyl butanoate",
+    "cas": "105-54-4",
+    "flavor_class": "unknown"
+  },
+  "propyl_thioacetate": {
+    "smiles": "",
+    "formula": "C5H10OS",
+    "weight": "118.20",
+    "iupac": "S-propyl ethanethioate",
+    "cas": "2307-10-0",
+    "flavor_class": "unknown"
+  },
+  "pyruvic_acid": {
+    "smiles": "",
+    "formula": "C3H4O3",
+    "weight": "88.06",
+    "iupac": "2-oxopropanoic acid",
+    "cas": "127-17-3",
+    "flavor_class": "unknown"
+  },
+  "s-methyl_thioacetate": {
+    "smiles": "",
+    "formula": "C3H6OS",
+    "weight": "90.15",
+    "iupac": "S-methyl ethanethioate",
+    "cas": "1534-08-3",
+    "flavor_class": "unknown"
+  },
+  "phenylacetaldehyde": {
+    "smiles": "",
+    "formula": "C8H8O",
+    "weight": "120.15",
+    "iupac": "2-phenylacetaldehyde",
+    "cas": "122-78-1",
+    "flavor_class": "unknown"
+  },
+  "methyl_1-propenyl_disulfide": {
+    "smiles": "",
+    "formula": "C4H8S2",
+    "weight": "120.2",
+    "iupac": "(E)-1-(methyldisulfanyl)prop-1-ene",
+    "cas": "5905-47-5",
+    "flavor_class": "unknown"
+  },
+  "methyl_mercaptan": {
+    "smiles": "",
+    "formula": "CH4S",
+    "weight": "48.11",
+    "iupac": "methanethiol",
+    "cas": "74-93-1",
+    "flavor_class": "unknown"
+  },
+  "3-mercapto-2-methylpentanal": {
+    "smiles": "",
+    "formula": "C6H12OS",
+    "weight": "132.23",
+    "iupac": "2-methyl-3-sulfanylpentanal",
+    "cas": "227456-28-2",
+    "flavor_class": "unknown"
+  },
+  "sulfur_dioxide": {
+    "smiles": "",
+    "formula": "O2S",
+    "weight": "64.07",
+    "iupac": "sulfur dioxide",
+    "cas": "7446-09-5",
+    "flavor_class": "unknown"
+  },
+  "acetone": {
+    "smiles": "",
+    "formula": "C3H6O",
+    "weight": "58.08",
+    "iupac": "propan-2-one",
+    "cas": "67-64-1",
+    "flavor_class": "unknown"
+  },
+  "(+/?)2-mercapto-2-methylpentan-1-ol": {
+    "smiles": "",
+    "formula": "C6H14OS",
+    "weight": "134.24",
+    "iupac": "2-methyl-2-sulfanylpentan-1-ol",
+    "cas": "258823-39-1",
+    "flavor_class": "unknown"
+  },
+  "hexanal": {
+    "smiles": "",
+    "formula": "C6H12O",
+    "weight": "100.16",
+    "iupac": "hexanal",
+    "cas": "66-25-1",
+    "flavor_class": "unknown"
+  },
+  "ethyl_propyl_disulfide": {
+    "smiles": "",
+    "formula": "C5H12S2",
+    "weight": "136.3",
+    "iupac": "1-(ethyldisulfanyl)propane",
+    "cas": "30453-31-7",
+    "flavor_class": "unknown"
+  },
+  "2-methyl-2-pentenal": {
+    "smiles": "",
+    "formula": "C6H10O",
+    "weight": "98.14",
+    "iupac": "2-methylpent-2-enal",
+    "cas": "623-36-9",
+    "flavor_class": "unknown"
+  },
+  "cis-4-hexenal": {
+    "smiles": "",
+    "formula": "C6H10O",
+    "weight": "98.14",
+    "iupac": "(Z)-hex-4-enal",
+    "cas": "4634-89-3",
+    "flavor_class": "unknown"
+  },
+  "allyl_isothiocyanate": {
+    "smiles": "",
+    "formula": "C4H5NS",
+    "weight": "99.16",
+    "iupac": "3-isothiocyanatoprop-1-ene",
+    "cas": "57-06-7",
+    "flavor_class": "unknown"
+  },
+  "2-methyltetrahydrofuran-3-one": {
+    "smiles": "",
+    "formula": "C5H8O2",
+    "weight": "100.12",
+    "iupac": "2-methyloxolan-3-one",
+    "cas": "3188-00-9",
+    "flavor_class": "unknown"
+  },
+  "1-methylnaphthalene": {
+    "smiles": "",
+    "formula": "C11H10",
+    "weight": "142.20",
+    "iupac": "1-methylnaphthalene",
+    "cas": "90-12-0",
+    "flavor_class": "unknown"
+  },
+  "4-methyl-2-pentanone": {
+    "smiles": "",
+    "formula": "C6H12O",
+    "weight": "100.16",
+    "iupac": "4-methylpentan-2-one",
+    "cas": "108-10-1",
+    "flavor_class": "unknown"
+  },
+  "pyrrole": {
+    "smiles": "",
+    "formula": "C4H5N",
+    "weight": "67.09",
+    "iupac": "1H-pyrrole",
+    "cas": "109-97-7",
+    "flavor_class": "unknown"
+  },
+  "3-(methylthio)_propionaldehyde": {
+    "smiles": "",
+    "formula": "C4H8OS",
+    "weight": "104.17",
+    "iupac": "3-methylsulfanylpropanal",
+    "cas": "3268-49-3",
+    "flavor_class": "unknown"
+  },
+  "2-ethylfuran": {
+    "smiles": "",
+    "formula": "C6H8O",
+    "weight": "96.13",
+    "iupac": "2-ethylfuran",
+    "cas": "3208-16-0",
+    "flavor_class": "unknown"
+  },
+  "4-methylthiazole": {
+    "smiles": "",
+    "formula": "C4H5NS",
+    "weight": "99.16",
+    "iupac": "4-methyl-1,3-thiazole",
+    "cas": "693-95-8",
+    "flavor_class": "unknown"
+  },
+  "1-butanethiol": {
+    "smiles": "",
+    "formula": "C4H10S",
+    "weight": "90.19",
+    "iupac": "butane-1-thiol",
+    "cas": "109-79-5",
+    "flavor_class": "unknown"
+  },
+  "menthol": {
+    "smiles": "",
+    "formula": "C10H20O",
+    "weight": "156.26",
+    "iupac": "5-methyl-2-propan-2-ylcyclohexan-1-ol",
+    "cas": "89-78-1",
+    "flavor_class": "unknown"
+  },
+  "lactic_acid": {
+    "smiles": "",
+    "formula": "C3H6O3",
+    "weight": "90.08",
+    "iupac": "2-hydroxypropanoic acid",
+    "cas": "598-82-3",
+    "flavor_class": "unknown"
+  },
+  "1-penten-3-ol": {
+    "smiles": "",
+    "formula": "C5H10O",
+    "weight": "86.13",
+    "iupac": "pent-1-en-3-ol",
+    "cas": "616-25-1",
+    "flavor_class": "unknown"
+  },
+  "l-arginine": {
+    "smiles": "",
+    "formula": "C6H14N4O2",
+    "weight": "174.20",
+    "iupac": "(2S)-2-amino-5-(diaminomethylideneamino)pentanoic acid",
+    "cas": "74-79-3",
+    "flavor_class": "unknown"
+  },
+  "diethyl_sulfide": {
+    "smiles": "",
+    "formula": "C4H10S",
+    "weight": "90.19",
+    "iupac": "ethylsulfanylethane",
+    "cas": "352-93-2",
+    "flavor_class": "unknown"
+  },
+  "o-cresol": {
+    "smiles": "",
+    "formula": "C7H8O",
+    "weight": "108.14",
+    "iupac": "2-methylphenol",
+    "cas": "95-48-7",
+    "flavor_class": "unknown"
+  },
+  "d-ribose": {
+    "smiles": "",
+    "formula": "C5H10O5",
+    "weight": "150.13",
+    "iupac": "(3R,4R,5R)-oxane-2,3,4,5-tetrol",
+    "cas": "50-69-1",
+    "flavor_class": "unknown"
+  },
+  "pyrazine": {
+    "smiles": "",
+    "formula": "C4H4N2",
+    "weight": "80.09",
+    "iupac": "pyrazine",
+    "cas": "290-37-9",
+    "flavor_class": "unknown"
+  },
+  "1-octen-3-ol": {
+    "smiles": "",
+    "formula": "C8H16O",
+    "weight": "128.21",
+    "iupac": "oct-1-en-3-ol",
+    "cas": "3391-86-4",
+    "flavor_class": "unknown"
+  },
+  "limonene_(d-,l-,_and_dl-)": {
+    "smiles": "",
+    "formula": "",
+    "weight": null,
+    "flavor_class": "unknown",
+    "cas": "5989-27-5,7705-14-8,5989-54-8,5989-27-5"
+  },
+  "p-mentha-1,3-diene": {
+    "smiles": "",
+    "formula": "C10H16",
+    "weight": "136.23",
+    "iupac": "1-methyl-4-propan-2-ylcyclohexa-1,3-diene",
+    "cas": "99-86-5",
+    "flavor_class": "unknown"
+  },
+  "fenchyl_alcohol": {
+    "smiles": "",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "iupac": "1,3,3-trimethylbicyclo[2.2.1]heptan-2-ol",
+    "cas": "1632-73-1",
+    "flavor_class": "unknown"
+  },
+  "methyl_citronellate": {
+    "smiles": "",
+    "formula": "C11H20O2",
+    "weight": "184.27",
+    "iupac": "methyl 3,7-dimethyloct-6-enoate",
+    "cas": "2270-60-2",
+    "flavor_class": "unknown"
+  },
+  "piperonal": {
+    "smiles": "",
+    "formula": "C8H6O3",
+    "weight": "150.13",
+    "iupac": "1,3-benzodioxole-5-carbaldehyde",
+    "cas": "120-57-0",
+    "flavor_class": "unknown"
+  },
+  "terpinolene": {
+    "smiles": "",
+    "formula": "C10H16",
+    "weight": "136.23",
+    "iupac": "1-methyl-4-propan-2-ylidenecyclohexene",
+    "cas": "586-62-9",
+    "flavor_class": "unknown"
+  },
+  "linalyl_acetate": {
+    "smiles": "",
+    "formula": "C12H20O2",
+    "weight": "196.29",
+    "iupac": "3,7-dimethylocta-1,6-dien-3-yl acetate",
+    "cas": "115-95-7",
+    "flavor_class": "unknown"
+  },
+  "methyl_heptanoate": {
+    "smiles": "",
+    "formula": "C8H16O2",
+    "weight": "144.21",
+    "iupac": "methyl heptanoate",
+    "cas": "106-73-0",
+    "flavor_class": "unknown"
+  },
+  "nerolidol": {
+    "smiles": "",
+    "formula": "C15H26O",
+    "weight": "222.37",
+    "iupac": "(6E)-3,7,11-trimethyldodeca-1,6,10-trien-3-ol",
+    "cas": "7212-44-4",
+    "flavor_class": "unknown"
+  },
+  "eugenol": {
+    "smiles": "",
+    "formula": "C10H12O2",
+    "weight": "164.20",
+    "iupac": "2-methoxy-4-prop-2-enylphenol",
+    "cas": "97-53-0",
+    "flavor_class": "unknown"
+  },
+  "thujan-4-ol": {
+    "smiles": "",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "iupac": "2-methyl-5-propan-2-ylbicyclo[3.1.0]hexan-2-ol",
+    "cas": "546-79-2",
+    "flavor_class": "unknown"
+  },
+  "myrtenol": {
+    "smiles": "",
+    "formula": "C10H16O",
+    "weight": "152.23",
+    "iupac": "(6,6-dimethyl-2-bicyclo[3.1.1]hept-2-enyl)methanol",
+    "cas": "515-00-4",
+    "flavor_class": "unknown"
+  },
+  "a-phellandrene": {
+    "smiles": "",
+    "formula": "C10H16",
+    "weight": "136.23",
+    "iupac": "2-methyl-5-propan-2-ylcyclohexa-1,3-diene",
+    "cas": "99-83-2",
+    "flavor_class": "unknown"
+  },
+  "d-camphor": {
+    "smiles": "",
+    "formula": "C10H16O",
+    "weight": "152.23",
+    "iupac": "(1R,4R)-1,7,7-trimethylbicyclo[2.2.1]heptan-2-one",
+    "cas": "464-49-3",
+    "flavor_class": "unknown"
+  },
+  "4'-methylacetophenone": {
+    "smiles": "",
+    "formula": "C9H10O",
+    "weight": "134.17",
+    "iupac": "1-(4-methylphenyl)ethanone",
+    "cas": "122-00-9",
+    "flavor_class": "unknown"
+  },
+  "b-pinene": {
+    "smiles": "",
+    "formula": "C10H16",
+    "weight": "136.23",
+    "iupac": "6,6-dimethyl-2-methylidenebicyclo[3.1.1]heptane",
+    "cas": "127-91-3",
+    "flavor_class": "unknown"
+  },
+  "methyl_phenylacetate": {
+    "smiles": "",
+    "formula": "C9H10O2",
+    "weight": "150.17",
+    "iupac": "methyl 2-phenylacetate",
+    "cas": "101-41-7",
+    "flavor_class": "unknown"
+  },
+  "eucalyptol": {
+    "smiles": "",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "iupac": "1,3,3-trimethyl-2-oxabicyclo[2.2.2]octane",
+    "cas": "470-82-6",
+    "flavor_class": "unknown"
+  },
+  "2-methylvaleric_acid": {
+    "smiles": "",
+    "formula": "C6H12O2",
+    "weight": "116.16",
+    "iupac": "2-methylpentanoic acid",
+    "cas": "97-61-0",
+    "flavor_class": "unknown"
+  },
+  "eugenyl_methyl_ether": {
+    "smiles": "",
+    "formula": "C11H14O2",
+    "weight": "178.23",
+    "iupac": "1,2-dimethoxy-4-prop-2-enylbenzene",
+    "cas": "93-15-2",
+    "flavor_class": "unknown"
+  },
+  "phenylacetic_acid": {
+    "smiles": "",
+    "formula": "C8H8O2",
+    "weight": "136.15",
+    "iupac": "2-phenylacetic acid",
+    "cas": "103-82-2",
+    "flavor_class": "unknown"
+  },
+  "hydroxycitronellal": {
+    "smiles": "",
+    "formula": "C10H20O2",
+    "weight": "172.26",
+    "iupac": "7-hydroxy-3,7-dimethyloctanal",
+    "cas": "107-75-5",
+    "flavor_class": "unknown"
+  },
+  "p-cymene": {
+    "smiles": "",
+    "formula": "C10H14",
+    "weight": "134.22",
+    "iupac": "1-methyl-4-propan-2-ylbenzene",
+    "cas": "99-87-6",
+    "flavor_class": "unknown"
+  },
+  "p-mentha-1,4-diene": {
+    "smiles": "",
+    "formula": "C10H16",
+    "weight": "136.23",
+    "iupac": "1-methyl-4-propan-2-ylcyclohexa-1,4-diene",
+    "cas": "99-85-4",
+    "flavor_class": "unknown"
+  },
+  "methyl_isovalerate": {
+    "smiles": "",
+    "formula": "C6H12O2",
+    "weight": "116.16",
+    "iupac": "methyl 3-methylbutanoate",
+    "cas": "226-24-1",
+    "flavor_class": "unknown"
+  },
+  "d-piperitone": {
+    "smiles": "",
+    "formula": "C10H16O",
+    "weight": "152.23",
+    "iupac": "(6S)-3-methyl-6-propan-2-ylcyclohex-2-en-1-one",
+    "cas": "6091-50-5",
+    "flavor_class": "unknown"
+  },
+  "p,a,a-trimethylbenzyl_alcohol": {
+    "smiles": "",
+    "formula": "C10H14O",
+    "weight": "150.22",
+    "iupac": "2-(4-methylphenyl)propan-2-ol",
+    "cas": "1197-01-9",
+    "flavor_class": "unknown"
+  },
+  "citronellal": {
+    "smiles": "",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "iupac": "3,7-dimethyloct-6-enal",
+    "cas": "106-23-0",
+    "flavor_class": "unknown"
+  },
+  "2(10)-pinen-3-ol": {
+    "smiles": "",
+    "formula": "C10H16O",
+    "weight": "152.23",
+    "iupac": "6,6-dimethyl-2-methylidenebicyclo[3.1.1]heptan-3-ol",
+    "cas": "5947-36-4",
+    "flavor_class": "unknown"
+  },
+  "safrole": {
+    "smiles": "",
+    "formula": "C10H10O2",
+    "weight": "162.18",
+    "iupac": "5-prop-2-enyl-1,3-benzodioxole",
+    "cas": "94-59-7",
+    "flavor_class": "unknown"
+  },
+  "4-methoxy-2-methyl-2-butanethiol": {
+    "smiles": "",
+    "formula": "C6H14OS",
+    "weight": "134.24",
+    "iupac": "4-methoxy-2-methylbutane-2-thiol",
+    "cas": "94087-83-9",
+    "flavor_class": "unknown"
+  },
+  "formic_acid": {
+    "smiles": "",
+    "formula": "CH2O2",
+    "weight": "46.025",
+    "iupac": "formic acid",
+    "cas": "64-18-6",
+    "flavor_class": "unknown"
+  },
+  "taurine": {
+    "smiles": "",
+    "formula": "C2H7NO3S",
+    "weight": "125.15",
+    "iupac": "2-aminoethanesulfonic acid",
+    "cas": "107-35-7",
+    "flavor_class": "unknown"
+  },
+  "nonyl_acetate": {
+    "smiles": "",
+    "formula": "C11H22O2",
+    "weight": "186.29",
+    "iupac": "nonyl acetate",
+    "cas": "143-13-5",
+    "flavor_class": "unknown"
+  },
+  "2-dodecenal": {
+    "smiles": "",
+    "formula": "C12H22O",
+    "weight": "182.30",
+    "iupac": "(E)-dodec-2-enal",
+    "cas": "4826-62-4",
+    "flavor_class": "unknown"
+  },
+  "furfuryl_alcohol": {
+    "smiles": "",
+    "formula": "C5H6O2",
+    "weight": "98.10",
+    "iupac": "furan-2-ylmethanol",
+    "cas": "98-00-0",
+    "flavor_class": "unknown"
+  },
+  "pyrrolidine": {
+    "smiles": "",
+    "formula": "C4H9N",
+    "weight": "71.12",
+    "iupac": "pyrrolidine",
+    "cas": "123-75-1",
+    "flavor_class": "unknown"
+  },
+  "dl-(3-amino-3-carboxypropyl)dimethylsulfonium_chloride": {
+    "smiles": "",
+    "formula": "C6H14ClNO2S",
+    "weight": "199.70",
+    "iupac": "[(3S)-3-amino-3-carboxypropyl]-dimethylsulfanium chloride",
+    "cas": "1115-84-0",
+    "flavor_class": "unknown"
+  },
+  "1-octen-3-one": {
+    "smiles": "",
+    "formula": "C8H14O",
+    "weight": "126.20",
+    "iupac": "oct-1-en-3-one",
+    "cas": "4312-99-6",
+    "flavor_class": "unknown"
+  },
+  "2-methyl-1-propanethiol": {
+    "smiles": "",
+    "formula": "C4H10S",
+    "weight": "90.19",
+    "iupac": "2-methylpropane-1-thiol",
+    "cas": "513-44-0",
+    "flavor_class": "unknown"
+  },
+  "l-lysine": {
+    "smiles": "",
+    "formula": "C6H14N2O2",
+    "weight": "146.19",
+    "iupac": "(2S)-2,6-diaminohexanoic acid",
+    "cas": "56-87-1",
+    "flavor_class": "unknown"
+  },
+  "isoquinoline": {
+    "smiles": "",
+    "formula": "C9H7N",
+    "weight": "129.16",
+    "iupac": "isoquinoline",
+    "cas": "119-65-3",
+    "flavor_class": "unknown"
+  },
+  "geraniol": {
+    "smiles": "",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "iupac": "(2E)-3,7-dimethylocta-2,6-dien-1-ol",
+    "cas": "106-24-1",
+    "flavor_class": "unknown"
+  },
+  "vitamin_b1": {
+    "smiles": "",
+    "formula": "C12H18Cl2N4OS",
+    "weight": "337.3",
+    "iupac": "2-[3-[(4-amino-2-methylpyrimidin-5-yl)methyl]-4-methyl-1,3-thiazol-3-ium-5-yl]ethanol;chloride;hydrochloride",
+    "cas": "67-03-8",
+    "flavor_class": "unknown"
+  },
+  "4-(2,6,6-trimethyl-cyclohexa-1,3-dienyl)but-2-en-4-one": {
+    "smiles": "",
+    "formula": "C13H18O",
+    "weight": "190.28",
+    "iupac": "(E)-1-(2,6,6-trimethylcyclohexa-1,3-dien-1-yl)but-2-en-1-one",
+    "cas": "23696-85-7",
+    "flavor_class": "unknown"
+  },
+  "bis-(methylthio)methane": {
+    "smiles": "",
+    "formula": "C3H8S2",
+    "weight": "108.23",
+    "iupac": "bis(methylsulfanyl)methane",
+    "cas": "1618-26-4",
+    "flavor_class": "unknown"
+  },
+  "diacetyl": {
+    "smiles": "",
+    "formula": "C4H6O2",
+    "weight": "86.09",
+    "iupac": "butane-2,3-dione",
+    "cas": "431-03-8",
+    "flavor_class": "unknown"
+  },
+  "nona-2-trans,-6-cis-dienal": {
+    "smiles": "",
+    "formula": "C9H14O",
+    "weight": "138.21",
+    "iupac": "(2E,6Z)-nona-2,6-dienal",
+    "cas": "557-48-2",
+    "flavor_class": "unknown"
+  },
+  "4-methyl-3-penten-2-one": {
+    "smiles": "",
+    "formula": "C6H10O",
+    "weight": "98.14",
+    "iupac": "4-methylpent-3-en-2-one",
+    "cas": "141-79-7",
+    "flavor_class": "unknown"
+  },
+  "methyl_myristate": {
+    "smiles": "",
+    "formula": "C15H30O2",
+    "weight": "242.40",
+    "iupac": "methyl tetradecanoate",
+    "cas": "124-10-7",
+    "flavor_class": "unknown"
+  },
+  "2-undecenal": {
+    "smiles": "",
+    "formula": "C11H20O",
+    "weight": "168.28",
+    "iupac": "undec-2-enal",
+    "cas": "2463-77-6",
+    "flavor_class": "unknown"
+  },
+  "ethyl_2-methylbutyrate": {
+    "smiles": "",
+    "formula": "C7H14O2",
+    "weight": "130.18",
+    "iupac": "ethyl 2-methylbutanoate",
+    "cas": "7452-79-1",
+    "flavor_class": "unknown"
+  },
+  "palmitic_acid": {
+    "smiles": "",
+    "formula": "C16H32O2",
+    "weight": "256.42",
+    "iupac": "hexadecanoic acid",
+    "cas": "57-10-3",
+    "flavor_class": "unknown"
+  },
+  "ethyl_nonanoate": {
+    "smiles": "",
+    "formula": "C11H22O2",
+    "weight": "186.29",
+    "iupac": "ethyl nonanoate",
+    "cas": "123-29-5",
+    "flavor_class": "unknown"
+  },
+  "6,10-dimethyl-5,9-undecadien-2-one": {
+    "smiles": "",
+    "formula": "C13H22O",
+    "weight": "194.31",
+    "iupac": "(5E)-6,10-dimethylundeca-5,9-dien-2-one",
+    "cas": "689-67-8",
+    "flavor_class": "unknown"
+  },
+  "isobutyl_alcohol": {
+    "smiles": "",
+    "formula": "C4H10O",
+    "weight": "74.12",
+    "iupac": "2-methylpropan-1-ol",
+    "cas": "78-83-1",
+    "flavor_class": "unknown"
+  },
+  "b-ionone": {
+    "smiles": "",
+    "formula": "C13H20O",
+    "weight": "192.30",
+    "iupac": "4-(2,6,6-trimethylcyclohexen-1-yl)but-3-en-2-one",
+    "cas": "14901-07-6",
+    "flavor_class": "unknown"
+  },
+  "2-heptanol": {
+    "smiles": "",
+    "formula": "C7H16O",
+    "weight": "116.20",
+    "iupac": "heptan-2-ol",
+    "cas": "543-49-7",
+    "flavor_class": "unknown"
+  },
+  "anisyl_acetate": {
+    "smiles": "",
+    "formula": "C10H12O3",
+    "weight": "180.20",
+    "iupac": "(4-methoxyphenyl)methyl acetate",
+    "cas": "104-21-2",
+    "flavor_class": "unknown"
+  },
+  "diphenyl_ether": {
+    "smiles": "",
+    "formula": "C12H10O",
+    "weight": "170.21",
+    "iupac": "phenoxybenzene",
+    "cas": "101-84-8",
+    "flavor_class": "unknown"
+  },
+  "benzyl_formate": {
+    "smiles": "",
+    "formula": "C8H8O2",
+    "weight": "136.15",
+    "iupac": "benzyl formate",
+    "cas": "104-57-4",
+    "flavor_class": "unknown"
+  },
+  "methyl_valerate": {
+    "smiles": "",
+    "formula": "C6H12O2",
+    "weight": "116.16",
+    "iupac": "methyl pentanoate",
+    "cas": "624-24-8",
+    "flavor_class": "unknown"
+  },
+  "ethyl_levulinate": {
+    "smiles": "",
+    "formula": "C7H12O3",
+    "weight": "144.17",
+    "iupac": "ethyl 4-oxopentanoate",
+    "cas": "539-88-8",
+    "flavor_class": "unknown"
+  },
+  "3-methyl-1-pentanol": {
+    "smiles": "",
+    "formula": "C6H14O",
+    "weight": "102.17",
+    "iupac": "3-methylpentan-1-ol",
+    "cas": "589-35-5",
+    "flavor_class": "unknown"
+  },
+  "isobutyl_propionate": {
+    "smiles": "",
+    "formula": "C7H14O2",
+    "weight": "130.18",
+    "iupac": "2-methylpropyl propanoate",
+    "cas": "540-42-1",
+    "flavor_class": "unknown"
+  },
+  "methyl_cinnamate": {
+    "smiles": "",
+    "formula": "C10H10O2",
+    "weight": "162.18",
+    "iupac": "methyl (E)-3-phenylprop-2-enoate",
+    "cas": "103-26-4",
+    "flavor_class": "unknown"
+  },
+  "anisyl_alcohol": {
+    "smiles": "",
+    "formula": "C8H10O2",
+    "weight": "138.16",
+    "iupac": "(4-methoxyphenyl)methanol",
+    "cas": "105-13-5",
+    "flavor_class": "unknown"
+  },
+  "isovaleric_acid": {
+    "smiles": "",
+    "formula": "C5H10O2",
+    "weight": "102.13",
+    "iupac": "3-methylbutanoic acid",
+    "cas": "503-74-2",
+    "flavor_class": "unknown"
+  },
+  "9-octadecenal": {
+    "smiles": "",
+    "formula": "C18H34O",
+    "weight": "266.5",
+    "iupac": "(E)-octadec-9-enal",
+    "cas": "5090-41-5",
+    "flavor_class": "unknown"
+  },
+  "2,6,6-trimethylcyclohexa-1,3-dienyl_methanal": {
+    "smiles": "",
+    "formula": "C10H14O",
+    "weight": "150.22",
+    "iupac": "2,6,6-trimethylcyclohexa-1,3-diene-1-carbaldehyde",
+    "cas": "116-26-7",
+    "flavor_class": "unknown"
+  },
+  "p-methoxybenzaldehyde": {
+    "smiles": "",
+    "formula": "C8H8O2",
+    "weight": "136.15",
+    "iupac": "4-methoxybenzaldehyde",
+    "cas": "123-11-5",
+    "flavor_class": "unknown"
+  },
+  "veratraldehyde": {
+    "smiles": "",
+    "formula": "C9H10O3",
+    "weight": "166.17",
+    "iupac": "3,4-dimethoxybenzaldehyde",
+    "cas": "120-14-9",
+    "flavor_class": "unknown"
+  },
+  "methyl_cyclohexanecarboxylate": {
+    "smiles": "",
+    "formula": "C8H14O2",
+    "weight": "142.20",
+    "iupac": "methyl cyclohexanecarboxylate",
+    "cas": "4630-82-4",
+    "flavor_class": "unknown"
+  },
+  "2-nonanol": {
+    "smiles": "",
+    "formula": "C9H20O",
+    "weight": "144.25",
+    "iupac": "nonan-2-ol",
+    "cas": "628-99-9",
+    "flavor_class": "unknown"
+  },
+  "benzyl_butyrate": {
+    "smiles": "",
+    "formula": "C11H14O2",
+    "weight": "178.23",
+    "iupac": "benzyl butanoate",
+    "cas": "103-37-7",
+    "flavor_class": "unknown"
+  },
+  "vanillyl_ethyl_ether": {
+    "smiles": "",
+    "formula": "C10H14O3",
+    "weight": "182.22",
+    "iupac": "4-(ethoxymethyl)-2-methoxyphenol",
+    "cas": "13184-86-6",
+    "flavor_class": "unknown"
+  },
+  "2,6,6-trimethyl-1,2-cyclohexen-1-carboxaldehyde": {
+    "smiles": "",
+    "formula": "",
+    "weight": null,
+    "flavor_class": "unknown",
+    "cas": "977045-71-8"
+  },
+  "methyl_nonanoate": {
+    "smiles": "",
+    "formula": "C10H20O2",
+    "weight": "172.26",
+    "iupac": "methyl nonanoate",
+    "cas": "1731-84-6",
+    "flavor_class": "unknown"
+  },
+  "4-hydroxy-3-methoxybenzoic_acid": {
+    "smiles": "",
+    "formula": "C8H8O4",
+    "weight": "168.15",
+    "iupac": "4-hydroxy-3-methoxybenzoic acid",
+    "cas": "121-34-6",
+    "flavor_class": "unknown"
+  },
+  "furfuryl_acetate": {
+    "smiles": "",
+    "formula": "C7H8O3",
+    "weight": "140.14",
+    "iupac": "furan-2-ylmethyl acetate",
+    "cas": "623-17-6",
+    "flavor_class": "unknown"
+  },
+  "1,2-dimethoxybenzene": {
+    "smiles": "",
+    "formula": "C8H10O2",
+    "weight": "138.16",
+    "iupac": "1,2-dimethoxybenzene",
+    "cas": "91-16-7",
+    "flavor_class": "unknown"
+  },
+  "methyl_laurate": {
+    "smiles": "",
+    "formula": "C13H26O2",
+    "weight": "214.34",
+    "iupac": "methyl dodecanoate",
+    "cas": "111-82-0",
+    "flavor_class": "unknown"
+  },
+  "3-penten-2-one": {
+    "smiles": "",
+    "formula": "C5H8O",
+    "weight": "84.12",
+    "iupac": "(E)-pent-3-en-2-one",
+    "cas": "625-33-2",
+    "flavor_class": "unknown"
+  },
+  "nerol": {
+    "smiles": "",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "iupac": "(2Z)-3,7-dimethylocta-2,6-dien-1-ol",
+    "cas": "106-25-2",
+    "flavor_class": "unknown"
+  },
+  "methyl_anisate": {
+    "smiles": "",
+    "formula": "C9H10O3",
+    "weight": "166.17",
+    "iupac": "methyl 4-methoxybenzoate",
+    "cas": "121-98-2",
+    "flavor_class": "unknown"
+  },
+  "3-methyl-2-buten-1-ol": {
+    "smiles": "",
+    "formula": "C5H10O",
+    "weight": "86.13",
+    "iupac": "3-methylbut-2-en-1-ol",
+    "cas": "556-82-1",
+    "flavor_class": "unknown"
+  },
+  "hexyl_acetate": {
+    "smiles": "",
+    "formula": "C8H16O2",
+    "weight": "144.21",
+    "iupac": "hexyl acetate",
+    "cas": "142-92-7",
+    "flavor_class": "unknown"
+  },
+  "2-methoxy-4-methylphenol": {
+    "smiles": "",
+    "formula": "C8H10O2",
+    "weight": "138.16",
+    "iupac": "2-methoxy-4-methylphenol",
+    "cas": "93-51-6",
+    "flavor_class": "unknown"
+  },
+  "methyl_p-hydroxybenzoate": {
+    "smiles": "",
+    "formula": "C8H8O3",
+    "weight": "152.15",
+    "iupac": "methyl 4-hydroxybenzoate",
+    "cas": "99-76-3",
+    "flavor_class": "unknown"
+  },
+  "cinnamyl_alcohol": {
+    "smiles": "",
+    "formula": "C9H10O",
+    "weight": "134.17",
+    "iupac": "(E)-3-phenylprop-2-en-1-ol",
+    "cas": "104-54-1",
+    "flavor_class": "unknown"
+  },
+  "methyl_nicotinate": {
+    "smiles": "",
+    "formula": "C7H7NO2",
+    "weight": "137.14",
+    "iupac": "methyl pyridine-3-carboxylate",
+    "cas": "93-60-7",
+    "flavor_class": "unknown"
+  },
+  "ethyl_cinnamate": {
+    "smiles": "",
+    "formula": "C11H12O2",
+    "weight": "176.21",
+    "iupac": "ethyl (E)-3-phenylprop-2-enoate",
+    "cas": "103-36-6",
+    "flavor_class": "unknown"
+  },
+  "anisyl_formate": {
+    "smiles": "",
+    "formula": "C9H10O3",
+    "weight": "166.17",
+    "iupac": "(4-methoxyphenyl)methyl formate",
+    "cas": "122-91-8",
+    "flavor_class": "unknown"
+  },
+  "n-butyl_valerate": {
+    "smiles": "",
+    "formula": "C9H18O2",
+    "weight": "158.24",
+    "iupac": "butyl pentanoate",
+    "cas": "591-68-4",
+    "flavor_class": "unknown"
+  },
+  "citronellyl_acetate": {
+    "smiles": "",
+    "formula": "C12H22O2",
+    "weight": "198.30",
+    "iupac": "3,7-dimethyloct-6-enyl acetate",
+    "cas": "150-84-5",
+    "flavor_class": "unknown"
+  },
+  "jasmone": {
+    "smiles": "",
+    "formula": "C11H16O",
+    "weight": "164.24",
+    "iupac": "3-methyl-2-[(Z)-pent-2-enyl]cyclopent-2-en-1-one",
+    "cas": "488-10-8",
+    "flavor_class": "unknown"
+  },
+  "3,7-dimethyl-1,3,6-octatriene": {
+    "smiles": "",
+    "formula": "C10H16",
+    "weight": "136.23",
+    "iupac": "3,7-dimethylocta-1,3,6-triene",
+    "cas": "13877-91-3",
+    "flavor_class": "unknown"
+  },
+  "benzyl_benzoate": {
+    "smiles": "",
+    "formula": "C14H12O2",
+    "weight": "212.24",
+    "iupac": "benzyl benzoate",
+    "cas": "120-51-4",
+    "flavor_class": "unknown"
+  },
+  "3-phenylpropyl_acetate": {
+    "smiles": "",
+    "formula": "C11H14O2",
+    "weight": "178.23",
+    "iupac": "3-phenylpropyl acetate",
+    "cas": "122-72-5",
+    "flavor_class": "unknown"
+  },
+  "menthone": {
+    "smiles": "",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "iupac": "trans-(2S,5R)-5-methyl-2-propan-2-ylcyclohexan-1-one",
+    "cas": "89-80-5",
+    "flavor_class": "unknown"
+  },
+  "trans-anethole": {
+    "smiles": "",
+    "formula": "C10H12O",
+    "weight": "148.20",
+    "iupac": "1-methoxy-4-[(E)-prop-1-enyl]benzene",
+    "cas": "4180-23-8",
+    "flavor_class": "unknown"
+  },
+  "coumarin_(prohibited)": {
+    "smiles": "",
+    "formula": "C9H6O2",
+    "weight": "146.14",
+    "iupac": "chromen-2-one",
+    "cas": "91-64-5",
+    "flavor_class": "unknown"
+  },
+  "estragole": {
+    "smiles": "",
+    "formula": "C10H12O",
+    "weight": "148.20",
+    "iupac": "1-methoxy-4-prop-2-enylbenzene",
+    "cas": "140-67-0",
+    "flavor_class": "unknown"
+  },
+  "linalool": {
+    "smiles": "",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "iupac": "3,7-dimethylocta-1,6-dien-3-ol",
+    "cas": "78-70-6",
+    "flavor_class": "unknown"
+  },
+  "b-caryophyllene": {
+    "smiles": "",
+    "formula": "C15H24",
+    "weight": "204.35",
+    "iupac": "(1R,4E,9S)-4,11,11-trimethyl-8-methylidenebicyclo[7.2.0]undec-4-ene",
+    "cas": "87-44-5",
+    "flavor_class": "unknown"
+  },
+  "camphene": {
+    "smiles": "",
+    "formula": "C10H16",
+    "weight": "136.23",
+    "iupac": "2,2-dimethyl-3-methylidenebicyclo[2.2.1]heptane",
+    "cas": "79-92-5",
+    "flavor_class": "unknown"
+  },
+  "cinnamaldehyde": {
+    "smiles": "",
+    "formula": "C9H8O",
+    "weight": "132.16",
+    "iupac": "(E)-3-phenylprop-2-enal",
+    "cas": "104-55-2",
+    "flavor_class": "unknown"
+  },
+  "o-methoxycinnamaldehyde": {
+    "smiles": "",
+    "formula": "C10H10O2",
+    "weight": "162.18",
+    "iupac": "(E)-3-(2-methoxyphenyl)prop-2-enal",
+    "cas": "1504-74-1",
+    "flavor_class": "unknown"
+  },
+  "geranyl_acetate": {
+    "smiles": "",
+    "formula": "C12H20O2",
+    "weight": "196.29",
+    "iupac": "[(2E)-3,7-dimethylocta-2,6-dienyl] acetate",
+    "cas": "105-87-3",
+    "flavor_class": "unknown"
+  },
+  "phenethyl_benzoate": {
+    "smiles": "",
+    "formula": "C15H14O2",
+    "weight": "226.27",
+    "iupac": "2-phenylethyl benzoate",
+    "cas": "94-47-3",
+    "flavor_class": "unknown"
+  },
+  "myrcene": {
+    "smiles": "",
+    "formula": "C10H16",
+    "weight": "136.23",
+    "iupac": "7-methyl-3-methylideneocta-1,6-diene",
+    "cas": "123-35-3",
+    "flavor_class": "unknown"
+  },
+  "2,4-dimethylacetophenone": {
+    "smiles": "",
+    "formula": "C10H12O",
+    "weight": "148.20",
+    "iupac": "1-(2,4-dimethylphenyl)ethanone",
+    "cas": "89-74-7",
+    "flavor_class": "unknown"
+  },
+  "eugenyl_acetate": {
+    "smiles": "",
+    "formula": "C12H14O3",
+    "weight": "206.24",
+    "iupac": "(2-methoxy-4-prop-2-enylphenyl) acetate",
+    "cas": "93-28-7",
+    "flavor_class": "unknown"
+  },
+  "3-phenylpropionic_acid": {
+    "smiles": "",
+    "formula": "C9H10O2",
+    "weight": "150.17",
+    "iupac": "3-phenylpropanoic acid",
+    "cas": "501-52-0",
+    "flavor_class": "unknown"
+  },
+  "3-phenylpropionaldehyde": {
+    "smiles": "",
+    "formula": "C9H10O",
+    "weight": "134.17",
+    "iupac": "3-phenylpropanal",
+    "cas": "104-53-0",
+    "flavor_class": "unknown"
+  },
+  "cinnamyl_acetate": {
+    "smiles": "",
+    "formula": "C11H12O2",
+    "weight": "176.21",
+    "iupac": "[(E)-3-phenylprop-2-enyl] acetate",
+    "cas": "103-54-8",
+    "flavor_class": "unknown"
+  },
+  "4-carvomenthenol": {
+    "smiles": "",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "iupac": "4-methyl-1-propan-2-ylcyclohex-3-en-1-ol",
+    "cas": "562-74-3",
+    "flavor_class": "unknown"
+  },
+  "cuminaldehyde": {
+    "smiles": "",
+    "formula": "C10H12O",
+    "weight": "148.20",
+    "iupac": "4-propan-2-ylbenzaldehyde",
+    "cas": "122-03-2",
+    "flavor_class": "unknown"
+  },
+  "isoborneol": {
+    "smiles": "",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "iupac": "(1R,2R,4R)-1,7,7-trimethylbicyclo[2.2.1]heptan-2-ol",
+    "cas": "124-76-5",
+    "flavor_class": "unknown"
+  },
+  "2,6-dimethylpyridine": {
+    "smiles": "",
+    "formula": "C7H9N",
+    "weight": "107.15",
+    "iupac": "2,6-dimethylpyridine",
+    "cas": "108-48-5",
+    "flavor_class": "unknown"
+  },
+  "2-hydroxybenzoic_acid": {
+    "smiles": "",
+    "formula": "C7H6O3",
+    "weight": "138.12",
+    "iupac": "2-hydroxybenzoic acid",
+    "cas": "69-72-7",
+    "flavor_class": "unknown"
+  },
+  "2-octanol": {
+    "smiles": "",
+    "formula": "C8H18O",
+    "weight": "130.23",
+    "iupac": "octan-2-ol",
+    "cas": "123-96-6",
+    "flavor_class": "unknown"
+  },
+  "isopropyl_hexanoate": {
+    "smiles": "",
+    "formula": "C9H18O2",
+    "weight": "158.24",
+    "iupac": "propan-2-yl hexanoate",
+    "cas": "2311-46-8",
+    "flavor_class": "unknown"
+  },
+  "ethyl_palmitate": {
+    "smiles": "",
+    "formula": "C18H36O2",
+    "weight": "284.5",
+    "iupac": "ethyl hexadecanoate",
+    "cas": "628-97-7",
+    "flavor_class": "unknown"
+  },
+  "butyl_formate": {
+    "smiles": "",
+    "formula": "C5H10O2",
+    "weight": "102.13",
+    "iupac": "butyl formate",
+    "cas": "592-84-7",
+    "flavor_class": "unknown"
+  },
+  "isobutyl_acetate": {
+    "smiles": "",
+    "formula": "C6H12O2",
+    "weight": "116.16",
+    "iupac": "2-methylpropyl acetate",
+    "cas": "110-19-0",
+    "flavor_class": "unknown"
+  },
+  "s-methyl_3-methylbutanethioate": {
+    "smiles": "",
+    "formula": "C6H12OS",
+    "weight": "132.23",
+    "iupac": "S-methyl 3-methylbutanethioate",
+    "cas": "23747-45-7",
+    "flavor_class": "unknown"
+  },
+  "l-tyrosine": {
+    "smiles": "",
+    "formula": "C9H11NO3",
+    "weight": "181.19",
+    "iupac": "(2S)-2-amino-3-(4-hydroxyphenyl)propanoic acid",
+    "cas": "60-18-4",
+    "flavor_class": "unknown"
+  },
+  "2,3,5-trithiahexane": {
+    "smiles": "",
+    "formula": "C3H8S3",
+    "weight": "140.3",
+    "iupac": "(methyldisulfanyl)-methylsulfanylmethane",
+    "cas": "42474-44-2",
+    "flavor_class": "unknown"
+  },
+  "ethyl_3-methylpentanoate": {
+    "smiles": "",
+    "formula": "C8H16O2",
+    "weight": "144.21",
+    "iupac": "ethyl 3-methylpentanoate",
+    "cas": "5870-68-8",
+    "flavor_class": "unknown"
+  },
+  "isoamyl_octanoate": {
+    "smiles": "",
+    "formula": "C13H26O2",
+    "weight": "214.34",
+    "iupac": "3-methylbutyl octanoate",
+    "cas": "2035-99-6",
+    "flavor_class": "unknown"
+  },
+  "4-hydroxybenzoic_acid": {
+    "smiles": "",
+    "formula": "C7H6O3",
+    "weight": "138.12",
+    "iupac": "4-hydroxybenzoic acid",
+    "cas": "99-96-7",
+    "flavor_class": "unknown"
+  },
+  "4-methylpentanoic_acid": {
+    "smiles": "",
+    "formula": "C6H12O2",
+    "weight": "116.16",
+    "iupac": "4-methylpentanoic acid",
+    "cas": "646-07-1",
+    "flavor_class": "unknown"
+  },
+  "propylene_glycol": {
+    "smiles": "",
+    "formula": "C3H8O2",
+    "weight": "76.09",
+    "iupac": "propane-1,2-diol",
+    "cas": "57-55-6",
+    "flavor_class": "unknown"
+  },
+  "butyl_isobutyrate": {
+    "smiles": "",
+    "formula": "C8H16O2",
+    "weight": "144.21",
+    "iupac": "butyl 2-methylpropanoate",
+    "cas": "97-87-0",
+    "flavor_class": "unknown"
+  },
+  "3-hexanol": {
+    "smiles": "",
+    "formula": "C6H14O",
+    "weight": "102.17",
+    "iupac": "hexan-3-ol",
+    "cas": "623-37-0",
+    "flavor_class": "unknown"
+  },
+  "2-methylbutyric_acid": {
+    "smiles": "",
+    "formula": "C5H10O2",
+    "weight": "102.13",
+    "iupac": "2-methylbutanoic acid",
+    "cas": "116-53-0",
+    "flavor_class": "unknown"
+  },
+  "ethyl-3-methylthiopropionate": {
+    "smiles": "",
+    "formula": "C6H12O2S",
+    "weight": "148.23",
+    "iupac": "ethyl 3-methylsulfanylpropanoate",
+    "cas": "13327-56-5",
+    "flavor_class": "unknown"
+  },
+  "butyl_isovalerate": {
+    "smiles": "",
+    "formula": "C9H18O2",
+    "weight": "158.24",
+    "iupac": "butyl 3-methylbutanoate",
+    "cas": "109-19-3",
+    "flavor_class": "unknown"
+  },
+  "isophorone": {
+    "smiles": "",
+    "formula": "C9H14O",
+    "weight": "138.21",
+    "iupac": "3,5,5-trimethylcyclohex-2-en-1-one",
+    "cas": "78-59-1",
+    "flavor_class": "unknown"
+  },
+  "isobornyl_acetate": {
+    "smiles": "",
+    "formula": "C12H20O2",
+    "weight": "196.29",
+    "iupac": "[(1R,2R,4R)-1,7,7-trimethyl-2-bicyclo[2.2.1]heptanyl] acetate",
+    "cas": "125-12-2",
+    "flavor_class": "unknown"
+  },
+  "trans,_trans-2,4-octadienal": {
+    "smiles": "",
+    "formula": "C8H12O",
+    "weight": "124.18",
+    "iupac": "(2E,4E)-octa-2,4-dienal",
+    "cas": "30361-28-5",
+    "flavor_class": "unknown"
+  },
+  "piperidine": {
+    "smiles": "",
+    "formula": "C5H11N",
+    "weight": "85.15",
+    "iupac": "piperidine",
+    "cas": "110-89-4",
+    "flavor_class": "unknown"
+  },
+  "4-hydroxybenzaldehyde": {
+    "smiles": "",
+    "formula": "C7H6O2",
+    "weight": "122.12",
+    "iupac": "4-hydroxybenzaldehyde",
+    "cas": "123-08-0",
+    "flavor_class": "unknown"
+  },
+  "a-methylbenzyl_alcohol": {
+    "smiles": "",
+    "formula": "C8H10O",
+    "weight": "122.16",
+    "iupac": "1-phenylethanol",
+    "cas": "98-85-1",
+    "flavor_class": "unknown"
+  },
+  "2-butanone": {
+    "smiles": "",
+    "formula": "C4H8O",
+    "weight": "72.11",
+    "iupac": "butan-2-one",
+    "cas": "78-93-3",
+    "flavor_class": "unknown"
+  },
+  "2-methylhexanoic_acid": {
+    "smiles": "",
+    "formula": "C7H14O2",
+    "weight": "130.18",
+    "iupac": "2-methylhexanoic acid",
+    "cas": "4536-23-6",
+    "flavor_class": "unknown"
+  },
+  "isopentylamine": {
+    "smiles": "",
+    "formula": "C5H13N",
+    "weight": "87.16",
+    "iupac": "3-methylbutan-1-amine",
+    "cas": "107-85-7",
+    "flavor_class": "unknown"
+  },
+  "thymol": {
+    "smiles": "",
+    "formula": "C10H14O",
+    "weight": "150.22",
+    "iupac": "5-methyl-2-propan-2-ylphenol",
+    "cas": "89-83-8",
+    "flavor_class": "unknown"
+  },
+  "ethyl_valerate": {
+    "smiles": "",
+    "formula": "C7H14O2",
+    "weight": "130.18",
+    "iupac": "ethyl pentanoate",
+    "cas": "539-82-2",
+    "flavor_class": "unknown"
+  },
+  "phenethyl_propionate": {
+    "smiles": "",
+    "formula": "C11H14O2",
+    "weight": "178.23",
+    "iupac": "2-phenylethyl propanoate",
+    "cas": "122-70-3",
+    "flavor_class": "unknown"
+  },
+  "oleic_acid": {
+    "smiles": "",
+    "formula": "C18H34O2",
+    "weight": "282.5",
+    "iupac": "(Z)-octadec-9-enoic acid",
+    "cas": "112-80-1",
+    "flavor_class": "unknown"
+  },
+  "ethyl_isovalerate": {
+    "smiles": "",
+    "formula": "C7H14O2",
+    "weight": "130.18",
+    "iupac": "ethyl 3-methylbutanoate",
+    "cas": "108-64-5",
+    "flavor_class": "unknown"
+  },
+  "hexyl_hexanoate": {
+    "smiles": "",
+    "formula": "C12H24O2",
+    "weight": "200.32",
+    "iupac": "hexyl hexanoate",
+    "cas": "6378-65-0",
+    "flavor_class": "unknown"
+  },
+  "3,4-xylenol": {
+    "smiles": "",
+    "formula": "C8H10O",
+    "weight": "122.16",
+    "iupac": "3,4-dimethylphenol",
+    "cas": "95-65-8",
+    "flavor_class": "unknown"
+  },
+  "3-(methylthio)propanol": {
+    "smiles": "",
+    "formula": "C4H10OS",
+    "weight": "106.19",
+    "iupac": "3-methylsulfanylpropan-1-ol",
+    "cas": "505-10-2",
+    "flavor_class": "unknown"
+  },
+  "butylamine": {
+    "smiles": "",
+    "formula": "C4H11N",
+    "weight": "73.14",
+    "iupac": "butan-1-amine",
+    "cas": "109-73-9",
+    "flavor_class": "unknown"
+  },
+  "ethyl_isobutyrate": {
+    "smiles": "",
+    "formula": "C6H12O2",
+    "weight": "116.16",
+    "iupac": "ethyl 2-methylpropanoate",
+    "cas": "97-62-1",
+    "flavor_class": "unknown"
+  },
+  "carvacrol": {
+    "smiles": "",
+    "formula": "C10H14O",
+    "weight": "150.22",
+    "iupac": "2-methyl-5-propan-2-ylphenol",
+    "cas": "499-75-2",
+    "flavor_class": "unknown"
+  },
+  "methyl_2-methylthiobutyrate": {
+    "smiles": "",
+    "formula": "C6H12OS",
+    "weight": "132.23",
+    "iupac": "S-methyl 2-methylbutanethioate",
+    "cas": "42075-45-6",
+    "flavor_class": "unknown"
+  },
+  "ethyl_hexanoate": {
+    "smiles": "",
+    "formula": "C8H16O2",
+    "weight": "144.21",
+    "iupac": "ethyl hexanoate",
+    "cas": "123-66-0",
+    "flavor_class": "unknown"
+  },
+  "2-ethylbutyric_acid": {
+    "smiles": "",
+    "formula": "C6H12O2",
+    "weight": "116.16",
+    "iupac": "2-ethylbutanoic acid",
+    "cas": "88-09-5",
+    "flavor_class": "unknown"
+  },
+  "l-histidine": {
+    "smiles": "",
+    "formula": "C6H9N3O2",
+    "weight": "155.15",
+    "iupac": "(2S)-2-amino-3-(1H-imidazol-5-yl)propanoic acid",
+    "cas": "71-00-1",
+    "flavor_class": "unknown"
+  },
+  "l-phenylalanine": {
+    "smiles": "",
+    "formula": "C9H11NO2",
+    "weight": "165.19",
+    "iupac": "(2S)-2-amino-3-phenylpropanoic acid",
+    "cas": "63-91-2",
+    "flavor_class": "unknown"
+  },
+  "2,3-diethyl-5-methylpyrazine": {
+    "smiles": "",
+    "formula": "C9H14N2",
+    "weight": "150.22",
+    "iupac": "2,3-diethyl-5-methylpyrazine",
+    "cas": "18138-04-0",
+    "flavor_class": "unknown"
+  },
+  "4-methyloctanoic_acid": {
+    "smiles": "",
+    "formula": "C9H18O2",
+    "weight": "158.24",
+    "iupac": "4-methyloctanoic acid",
+    "cas": "54947-74-9",
+    "flavor_class": "unknown"
+  },
+  "ethyl_propionate": {
+    "smiles": "",
+    "formula": "C5H10O2",
+    "weight": "102.13",
+    "iupac": "ethyl propanoate",
+    "cas": "105-37-3",
+    "flavor_class": "unknown"
+  },
+  "trimethylamine": {
+    "smiles": "",
+    "formula": "C3H9N",
+    "weight": "59.11",
+    "iupac": "N,N-dimethylmethanamine",
+    "cas": "75-50-3",
+    "flavor_class": "unknown"
+  },
+  "dl-phenylalanine": {
+    "smiles": "",
+    "formula": "C9H11NO2",
+    "weight": "165.19",
+    "iupac": "2-amino-3-phenylpropanoic acid",
+    "cas": "150-30-1",
+    "flavor_class": "unknown"
+  },
+  "n-propyl_hexanoate": {
+    "smiles": "",
+    "formula": "C9H18O2",
+    "weight": "158.24",
+    "iupac": "propyl hexanoate",
+    "cas": "626-77-7",
+    "flavor_class": "unknown"
+  },
+  "4-methyl-2-oxopentanoic_acid": {
+    "smiles": "",
+    "formula": "C6H10O3",
+    "weight": "130.14",
+    "iupac": "4-methyl-2-oxopentanoic acid",
+    "cas": "816-66-0",
+    "flavor_class": "unknown"
+  },
+  "ethyl_pyruvate": {
+    "smiles": "",
+    "formula": "C5H8O3",
+    "weight": "116.11",
+    "iupac": "ethyl 2-oxopropanoate",
+    "cas": "617-35-6",
+    "flavor_class": "unknown"
+  },
+  "ethyl_methyl_disulfide": {
+    "smiles": "",
+    "formula": "C3H8S2",
+    "weight": "108.23",
+    "iupac": "(methyldisulfanyl)ethane",
+    "cas": "20333-39-5",
+    "flavor_class": "unknown"
+  },
+  "d-octalactone": {
+    "smiles": "",
+    "formula": "C8H14O2",
+    "weight": "142.20",
+    "iupac": "6-propyloxan-2-one",
+    "cas": "698-76-0",
+    "flavor_class": "unknown"
+  },
+  "isoamyl_hexanoate": {
+    "smiles": "",
+    "formula": "C11H22O2",
+    "weight": "186.29",
+    "iupac": "3-methylbutyl hexanoate",
+    "cas": "2198-61-0",
+    "flavor_class": "unknown"
+  },
+  "isoamyl_butyrate": {
+    "smiles": "",
+    "formula": "C9H18O2",
+    "weight": "158.24",
+    "iupac": "3-methylbutyl butanoate",
+    "cas": "106-27-4",
+    "flavor_class": "unknown"
+  },
+  "p-menth-1-ene-9-al": {
+    "smiles": "",
+    "formula": "C10H16O",
+    "weight": "152.23",
+    "iupac": "2-(4-methylcyclohex-3-en-1-yl)propanal",
+    "cas": "29548-14-9",
+    "flavor_class": "unknown"
+  },
+  "2-formyl-6,6-dimethyl_bicyclo_[3.1.1]_hept-2-ene": {
+    "smiles": "",
+    "formula": "C10H14O",
+    "weight": "150.22",
+    "iupac": "6,6-dimethylbicyclo[3.1.1]hept-2-ene-2-carbaldehyde",
+    "cas": "564-94-3",
+    "flavor_class": "unknown"
+  },
+  "1,3,5-undecatriene_(a_mixture_of_1,3(e),5(z)-_and_______________1,3(e),5(e)-isomers)": {
+    "smiles": "",
+    "formula": "C11H18",
+    "weight": "150.26",
+    "iupac": "undeca-1,3,5-triene",
+    "cas": "16356-11-9",
+    "flavor_class": "unknown"
+  },
+  "methyl_2-methyl-3-furyl_disulfide": {
+    "smiles": "",
+    "formula": "C6H8OS2",
+    "weight": "160.3",
+    "iupac": "2-methyl-3-(methyldisulfanyl)furan",
+    "cas": "65505-17-1",
+    "flavor_class": "unknown"
+  },
+  "biphenyl": {
+    "smiles": "",
+    "formula": "C12H10",
+    "weight": "154.21",
+    "iupac": "1,1'-biphenyl",
+    "cas": "92-52-4",
+    "flavor_class": "unknown"
+  },
+  "10-hydroxymethylene-2-pinene": {
+    "smiles": "",
+    "formula": "C11H18O",
+    "weight": "166.26",
+    "iupac": "2-(6,6-dimethyl-2-bicyclo[3.1.1]hept-2-enyl)ethanol",
+    "cas": "128-50-7",
+    "flavor_class": "unknown"
+  },
+  "geranyl_isobutyrate": {
+    "smiles": "",
+    "formula": "C14H24O2",
+    "weight": "224.34",
+    "iupac": "[(2E)-3,7-dimethylocta-2,6-dienyl] 2-methylpropanoate",
+    "cas": "2345-26-8",
+    "flavor_class": "unknown"
+  },
+  "2-methoxy-4-vinylphenol": {
+    "smiles": "",
+    "formula": "C9H10O2",
+    "weight": "150.17",
+    "iupac": "4-ethenyl-2-methoxyphenol",
+    "cas": "7786-61-0",
+    "flavor_class": "unknown"
+  },
+  "2-methoxy-3-(1-methylpropyl)pyrazine": {
+    "smiles": "",
+    "formula": "C9H14N2O",
+    "weight": "166.22",
+    "iupac": "2-butan-2-yl-3-methoxypyrazine",
+    "cas": "24168-70-5",
+    "flavor_class": "unknown"
+  },
+  "phenethylamine": {
+    "smiles": "",
+    "formula": "C8H11N",
+    "weight": "121.18",
+    "iupac": "2-phenylethanamine",
+    "cas": "64-04-0",
+    "flavor_class": "unknown"
+  },
+  "bisabolene": {
+    "smiles": "",
+    "formula": "C15H24",
+    "weight": "204.35",
+    "iupac": "1-methyl-4-(6-methylhept-5-en-2-ylidene)cyclohexene",
+    "cas": "495-62-5",
+    "flavor_class": "unknown"
+  },
+  "a-ionone": {
+    "smiles": "",
+    "formula": "C13H20O",
+    "weight": "192.30",
+    "iupac": "(E)-4-(2,6,6-trimethylcyclohex-2-en-1-yl)but-3-en-2-one",
+    "cas": "127-41-3",
+    "flavor_class": "unknown"
+  },
+  "2,4-nonadienal": {
+    "smiles": "",
+    "formula": "C9H14O",
+    "weight": "138.21",
+    "iupac": "nona-2,4-dienal",
+    "cas": "6750-03-4",
+    "flavor_class": "unknown"
+  },
+  "2,6,10-trimethyl-2,6,10-pentadecatrien-14-one": {
+    "smiles": "",
+    "formula": "C18H30O",
+    "weight": "262.4",
+    "iupac": "6,10,14-trimethylpentadeca-5,9,13-trien-2-one",
+    "cas": "762-29-8",
+    "flavor_class": "unknown"
+  },
+  "2-methylthioacetaldehyde": {
+    "smiles": "",
+    "formula": "C3H6OS",
+    "weight": "90.15",
+    "iupac": "2-methylsulfanylacetaldehyde",
+    "cas": "23328-62-3",
+    "flavor_class": "unknown"
+  },
+  "3,7,11-trimethyl-2,6,10-dodecatrienal": {
+    "smiles": "",
+    "formula": "C15H24O",
+    "weight": "220.35",
+    "iupac": "3,7,11-trimethyldodeca-2,6,10-trienal",
+    "cas": "19317-11-4",
+    "flavor_class": "unknown"
+  },
+  "2-(1-methylpropyl)thiazole": {
+    "smiles": "",
+    "formula": "C7H11NS",
+    "weight": "141.24",
+    "iupac": "2-butan-2-yl-1,3-thiazole",
+    "cas": "18277-27-5",
+    "flavor_class": "unknown"
+  },
+  "2-isobutyl_thiazole": {
+    "smiles": "",
+    "formula": "C7H11NS",
+    "weight": "141.24",
+    "iupac": "2-(2-methylpropyl)-1,3-thiazole",
+    "cas": "18640-74-9",
+    "flavor_class": "unknown"
+  },
+  "2-acetylfuran": {
+    "smiles": "",
+    "formula": "C6H6O2",
+    "weight": "110.11",
+    "iupac": "1-(furan-2-yl)ethanone",
+    "cas": "1192-62-7",
+    "flavor_class": "unknown"
+  },
+  "(+/?)_2-methyl-1-butanol": {
+    "smiles": "",
+    "formula": "C5H12O",
+    "weight": "88.15",
+    "iupac": "2-methylbutan-1-ol",
+    "cas": "137-32-6",
+    "flavor_class": "unknown"
+  },
+  "geranyl_butyrate": {
+    "smiles": "",
+    "formula": "C14H24O2",
+    "weight": "224.34",
+    "iupac": "[(2E)-3,7-dimethylocta-2,6-dienyl] butanoate",
+    "cas": "106-29-6",
+    "flavor_class": "unknown"
+  },
+  "trans,_trans-2,4-hexadienal": {
+    "smiles": "",
+    "formula": "C6H8O",
+    "weight": "96.13",
+    "iupac": "(2E,4E)-hexa-2,4-dienal",
+    "cas": "142-83-6",
+    "flavor_class": "unknown"
+  },
+  "ethyl_salicylate": {
+    "smiles": "",
+    "formula": "C9H10O3",
+    "weight": "166.17",
+    "iupac": "ethyl 2-hydroxybenzoate",
+    "cas": "118-61-6",
+    "flavor_class": "unknown"
+  },
+  "5-methyl-2-thiophenecarboxaldehyde": {
+    "smiles": "",
+    "formula": "C6H6OS",
+    "weight": "126.18",
+    "iupac": "5-methylthiophene-2-carbaldehyde",
+    "cas": "13679-70-4",
+    "flavor_class": "unknown"
+  },
+  "2-isopropyl-4-methylthiazole": {
+    "smiles": "",
+    "formula": "C7H11NS",
+    "weight": "141.24",
+    "iupac": "4-methyl-2-propan-2-yl-1,3-thiazole",
+    "cas": "15679-13-7",
+    "flavor_class": "unknown"
+  },
+  "p-isopropylbenzyl_alcohol": {
+    "smiles": "",
+    "formula": "C10H14O",
+    "weight": "150.22",
+    "iupac": "(4-propan-2-ylphenyl)methanol",
+    "cas": "536-60-7",
+    "flavor_class": "unknown"
+  },
+  "2,8-dithianon-4-en-4-carboxaldehyde": {
+    "smiles": "",
+    "formula": "C8H14OS2",
+    "weight": "190.3",
+    "iupac": "(E)-5-methylsulfanyl-2-(methylsulfanylmethyl)pent-2-enal",
+    "cas": "59902-01-1",
+    "flavor_class": "unknown"
+  },
+  "pyruvaldehyde": {
+    "smiles": "",
+    "formula": "C3H4O2",
+    "weight": "72.06",
+    "iupac": "2-oxopropanal",
+    "cas": "78-98-8",
+    "flavor_class": "unknown"
+  },
+  "tolualdehydes,_mixed_o-,_m-,_p-": {
+    "smiles": "",
+    "formula": "",
+    "weight": null,
+    "flavor_class": "unknown",
+    "cas": "1334-78-7"
+  },
+  "6-methyl-3,5-heptadien-2-one": {
+    "smiles": "",
+    "formula": "C8H12O",
+    "weight": "124.18",
+    "iupac": "(3E)-6-methylhepta-3,5-dien-2-one",
+    "cas": "1604-28-0",
+    "flavor_class": "unknown"
+  },
+  "amyl_formate": {
+    "smiles": "",
+    "formula": "C6H12O2",
+    "weight": "116.16",
+    "iupac": "pentyl formate",
+    "cas": "638-49-3",
+    "flavor_class": "unknown"
+  },
+  "(e,e)-3,5-octadien-2-one": {
+    "smiles": "",
+    "formula": "C8H12O",
+    "weight": "124.18",
+    "iupac": "(3E,6E)-octa-3,6-dien-2-one",
+    "cas": "30086-02-3",
+    "flavor_class": "unknown"
+  },
+  "methyl_furoate": {
+    "smiles": "",
+    "formula": "C6H6O3",
+    "weight": "126.11",
+    "iupac": "methyl furan-2-carboxylate",
+    "cas": "611-13-2",
+    "flavor_class": "unknown"
+  },
+  "p-methylanisole": {
+    "smiles": "",
+    "formula": "C8H10O",
+    "weight": "122.16",
+    "iupac": "1-methoxy-4-methylbenzene",
+    "cas": "104-93-8",
+    "flavor_class": "unknown"
+  },
+  "isoamyl_propionate": {
+    "smiles": "",
+    "formula": "C8H16O2",
+    "weight": "144.21",
+    "iupac": "3-methylbutyl propanoate",
+    "cas": "105-68-0",
+    "flavor_class": "unknown"
+  },
+  "g-ionone": {
+    "smiles": "",
+    "formula": "C13H20O",
+    "weight": "192.30",
+    "iupac": "(E)-4-(2,2-dimethyl-6-methylidenecyclohexyl)but-3-en-2-one",
+    "cas": "79-76-5",
+    "flavor_class": "unknown"
+  },
+  "phenethyl_formate": {
+    "smiles": "",
+    "formula": "C9H10O2",
+    "weight": "150.17",
+    "iupac": "2-phenylethyl formate",
+    "cas": "104-62-1",
+    "flavor_class": "unknown"
+  },
+  "4-methyl-2-pentenal": {
+    "smiles": "",
+    "formula": "C6H10O",
+    "weight": "98.14",
+    "iupac": "4-methylpent-2-enal",
+    "cas": "5362-56-1",
+    "flavor_class": "unknown"
+  },
+  "2-hydroxyacetophenone": {
+    "smiles": "",
+    "formula": "C8H8O2",
+    "weight": "136.15",
+    "iupac": "2-hydroxy-1-phenylethanone",
+    "cas": "582-24-1",
+    "flavor_class": "unknown"
+  },
+  "propyl_acetate": {
+    "smiles": "",
+    "formula": "C5H10O2",
+    "weight": "102.13",
+    "iupac": "propyl acetate",
+    "cas": "109-60-4",
+    "flavor_class": "unknown"
+  },
+  "2-pentyl_acetate": {
+    "smiles": "",
+    "formula": "C7H14O2",
+    "weight": "130.18",
+    "iupac": "pentan-2-yl acetate",
+    "cas": "626-38-0",
+    "flavor_class": "unknown"
+  },
+  "g-butyrolactone": {
+    "smiles": "",
+    "formula": "C4H6O2",
+    "weight": "86.09",
+    "iupac": "oxolan-2-one",
+    "cas": "96-48-0",
+    "flavor_class": "unknown"
+  },
+  "2-methylbutyl-3-methylbutanoate": {
+    "smiles": "",
+    "formula": "C10H20O2",
+    "weight": "172.26",
+    "iupac": "2-methylbutyl 3-methylbutanoate",
+    "cas": "2445-77-4",
+    "flavor_class": "unknown"
+  },
+  "2-acetyl-5-methylfuran": {
+    "smiles": "",
+    "formula": "C7H8O2",
+    "weight": "124.14",
+    "iupac": "1-(5-methylfuran-2-yl)ethanone",
+    "cas": "1193-79-9",
+    "flavor_class": "unknown"
+  },
+  "acetanisole": {
+    "smiles": "",
+    "formula": "C9H10O2",
+    "weight": "150.17",
+    "iupac": "1-(4-methoxyphenyl)ethanone",
+    "cas": "100-06-1",
+    "flavor_class": "unknown"
+  },
+  "citronellyl_propionate": {
+    "smiles": "",
+    "formula": "C13H24O2",
+    "weight": "212.33",
+    "iupac": "3,7-dimethyloct-6-enyl propanoate",
+    "cas": "141-14-0",
+    "flavor_class": "unknown"
+  },
+  "2,3-heptanedione": {
+    "smiles": "",
+    "formula": "C10H20O3",
+    "weight": "188.26",
+    "iupac": "(2-hexyl-1,3-dioxolan-4-yl)methanol",
+    "cas": "977043-66-5",
+    "flavor_class": "unknown"
+  },
+  "2,2,4-trimethyl-1,3-oxacyclopentane": {
+    "smiles": "",
+    "formula": "C6H12O2",
+    "weight": "116.16",
+    "iupac": "2,2,4-trimethyl-1,3-dioxolane",
+    "cas": "1193-11-9",
+    "flavor_class": "unknown"
+  },
+  "citronellyl_butyrate": {
+    "smiles": "",
+    "formula": "C14H26O2",
+    "weight": "226.35",
+    "iupac": "3,7-dimethyloct-6-enyl butanoate",
+    "cas": "141-16-2",
+    "flavor_class": "unknown"
+  },
+  "methyl_ethyl_sulfide": {
+    "smiles": "",
+    "formula": "C6H14S",
+    "weight": "118.24",
+    "iupac": "2-propan-2-ylsulfanylpropane",
+    "cas": "625-80-9",
+    "flavor_class": "unknown"
+  },
+  "cis-3-hexen-1-yl_acetate": {
+    "smiles": "",
+    "formula": "C8H14O2",
+    "weight": "142.20",
+    "iupac": "[(Z)-hex-3-enyl] acetate",
+    "cas": "3681-71-8",
+    "flavor_class": "unknown"
+  },
+  "2-(methylthio)ethanol": {
+    "smiles": "",
+    "formula": "C3H8OS",
+    "weight": "92.16",
+    "iupac": "2-methylsulfanylethanol",
+    "cas": "5271-38-5",
+    "flavor_class": "unknown"
+  },
+  "1-methyl-3-methoxy-4-isopropylbenzene": {
+    "smiles": "",
+    "formula": "C11H16O",
+    "weight": "164.24",
+    "iupac": "2-methoxy-4-methyl-1-propan-2-ylbenzene",
+    "cas": "1076-56-8",
+    "flavor_class": "unknown"
+  },
+  "p-mentha-1,8-dien-7-al": {
+    "smiles": "",
+    "formula": "C10H14O",
+    "weight": "150.22",
+    "iupac": "4-prop-1-en-2-ylcyclohexene-1-carbaldehyde",
+    "cas": "2111-75-3",
+    "flavor_class": "unknown"
+  },
+  "fenchyl_acetate": {
+    "smiles": "",
+    "formula": "C12H20O2",
+    "weight": "196.29",
+    "iupac": "(1,3,3-trimethyl-2-bicyclo[2.2.1]heptanyl) acetate",
+    "cas": "13851-11-1",
+    "flavor_class": "unknown"
+  },
+  "isoeugenyl_methyl_ether": {
+    "smiles": "",
+    "formula": "C11H14O2",
+    "weight": "178.23",
+    "iupac": "1,2-dimethoxy-4-[(E)-prop-1-enyl]benzene",
+    "cas": "93-16-3",
+    "flavor_class": "unknown"
+  },
+  "borneol": {
+    "smiles": "",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "iupac": "1,7,7-trimethylbicyclo[2.2.1]heptan-2-ol",
+    "cas": "507-70-0",
+    "flavor_class": "unknown"
+  },
+  "(z)-8-tetradecenal": {
+    "smiles": "",
+    "formula": "C14H26O",
+    "weight": "210.36",
+    "iupac": "(Z)-tetradec-8-enal",
+    "cas": "169054-69-7",
+    "flavor_class": "unknown"
+  },
+  "neryl_acetate": {
+    "smiles": "",
+    "formula": "C12H20O2",
+    "weight": "196.29",
+    "iupac": "[(2Z)-3,7-dimethylocta-2,6-dienyl] acetate",
+    "cas": "141-12-8",
+    "flavor_class": "unknown"
+  },
+  "zingerone": {
+    "smiles": "",
+    "formula": "C11H14O3",
+    "weight": "194.23",
+    "iupac": "4-(4-hydroxy-3-methoxyphenyl)butan-2-one",
+    "cas": "122-48-5",
+    "flavor_class": "unknown"
+  },
+  "isopulegol": {
+    "smiles": "",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "iupac": "(1R,2S,5R)-5-methyl-2-prop-1-en-2-ylcyclohexan-1-ol",
+    "cas": "89-79-2",
+    "flavor_class": "unknown"
+  },
+  "citronellol": {
+    "smiles": "",
+    "formula": "C10H20O",
+    "weight": "156.26",
+    "iupac": "3,7-dimethyloct-6-en-1-ol",
+    "cas": "26489-01-0",
+    "flavor_class": "unknown"
+  },
+  "heptyl_acetate": {
+    "smiles": "",
+    "formula": "C9H18O2",
+    "weight": "158.24",
+    "iupac": "heptyl acetate",
+    "cas": "112-06-1",
+    "flavor_class": "unknown"
+  },
+  "p-menth-3-en-1-ol": {
+    "smiles": "",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "iupac": "1-methyl-4-propan-2-ylcyclohex-3-en-1-ol",
+    "cas": "586-82-3",
+    "flavor_class": "unknown"
+  },
+  "2,6-dimethyl-5-heptenal": {
+    "smiles": "",
+    "formula": "C9H16O",
+    "weight": "140.22",
+    "iupac": "2,6-dimethylhept-5-enal",
+    "cas": "106-72-9",
+    "flavor_class": "unknown"
+  },
+  "3-octanol": {
+    "smiles": "",
+    "formula": "C8H18O",
+    "weight": "130.23",
+    "iupac": "octan-3-ol",
+    "cas": "589-98-0",
+    "flavor_class": "unknown"
+  },
+  "p-menth-8-en-1-ol": {
+    "smiles": "",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "iupac": "1-methyl-4-prop-1-en-2-ylcyclohexan-1-ol",
+    "cas": "138-87-4",
+    "flavor_class": "unknown"
+  },
+  "ethyl_myristate": {
+    "smiles": "",
+    "formula": "C16H32O2",
+    "weight": "256.42",
+    "iupac": "ethyl tetradecanoate",
+    "cas": "124-06-1",
+    "flavor_class": "unknown"
+  },
+  "acetaldehyde": {
+    "smiles": "",
+    "formula": "C2H4O",
+    "weight": "44.05",
+    "iupac": "acetaldehyde",
+    "cas": "75-07-0",
+    "flavor_class": "unknown"
+  },
+  "1,2,5,6-tetrahydrocuminic_acid": {
+    "smiles": "",
+    "formula": "C10H16O2",
+    "weight": "168.23",
+    "iupac": "4-propan-2-ylcyclohex-3-ene-1-carboxylic acid",
+    "cas": "56424-87-4",
+    "flavor_class": "unknown"
+  },
+  "3-methyl-2-butanol": {
+    "smiles": "",
+    "formula": "C5H12O",
+    "weight": "88.15",
+    "iupac": "3-methylbutan-2-ol",
+    "cas": "598-75-4",
+    "flavor_class": "unknown"
+  },
+  "citronellyl_formate": {
+    "smiles": "",
+    "formula": "C11H20O2",
+    "weight": "184.27",
+    "iupac": "3,7-dimethyloct-6-enyl formate",
+    "cas": "105-85-1",
+    "flavor_class": "unknown"
+  },
+  "butyl_acetate": {
+    "smiles": "",
+    "formula": "C6H12O2",
+    "weight": "116.16",
+    "iupac": "butyl acetate",
+    "cas": "123-86-4",
+    "flavor_class": "unknown"
+  },
+  "isopropyl_acetate": {
+    "smiles": "",
+    "formula": "C5H10O2",
+    "weight": "102.13",
+    "iupac": "propan-2-yl acetate",
+    "cas": "108-21-4",
+    "flavor_class": "unknown"
+  },
+  "3-methylbutyl-2-methylpropanoate": {
+    "smiles": "",
+    "formula": "C9H18O2",
+    "weight": "158.24",
+    "iupac": "3-methylbutyl 2-methylpropanoate",
+    "cas": "2050-01-3",
+    "flavor_class": "unknown"
+  },
+  "butyl_butyrate": {
+    "smiles": "",
+    "formula": "C8H16O2",
+    "weight": "144.21",
+    "iupac": "butyl butanoate",
+    "cas": "109-21-7",
+    "flavor_class": "unknown"
+  },
+  "methyl_propionate": {
+    "smiles": "",
+    "formula": "C4H8O2",
+    "weight": "88.11",
+    "iupac": "methyl propanoate",
+    "cas": "554-12-1",
+    "flavor_class": "unknown"
+  },
+  "isobutyl_butyrate": {
+    "smiles": "",
+    "formula": "C8H16O2",
+    "weight": "144.21",
+    "iupac": "2-methylpropyl butanoate",
+    "cas": "539-90-2",
+    "flavor_class": "unknown"
+  },
+  "3-hydroxy-4-phenylbutan-2-one": {
+    "smiles": "",
+    "formula": "C10H12O2",
+    "weight": "164.20",
+    "iupac": "3-hydroxy-4-phenylbutan-2-one",
+    "cas": "5355-63-5",
+    "flavor_class": "unknown"
+  },
+  "propyl_isobutyrate": {
+    "smiles": "",
+    "formula": "C7H14O2",
+    "weight": "130.18",
+    "iupac": "propyl 2-methylpropanoate",
+    "cas": "644-49-5",
+    "flavor_class": "unknown"
+  },
+  "isoamyl_formate": {
+    "smiles": "",
+    "formula": "C6H12O2",
+    "weight": "116.16",
+    "iupac": "3-methylbutyl formate",
+    "cas": "110-45-2",
+    "flavor_class": "unknown"
+  },
+  "isopropyl_benzoate": {
+    "smiles": "",
+    "formula": "C10H12O2",
+    "weight": "164.20",
+    "iupac": "propan-2-yl benzoate",
+    "cas": "939-48-0",
+    "flavor_class": "unknown"
+  },
+  "(+/?)-2-(5-methyl-5-vinyltetrahydrofuran-2-yl)propi-onaldehyde": {
+    "smiles": "",
+    "formula": "C10H16O2",
+    "weight": "168.23",
+    "iupac": "2-(5-ethenyl-5-methyloxolan-2-yl)propanal",
+    "cas": "67920-63-2",
+    "flavor_class": "unknown"
+  },
+  "cinnamic_acid": {
+    "smiles": "",
+    "formula": "C9H8O2",
+    "weight": "148.16",
+    "iupac": "(E)-3-phenylprop-2-enoic acid",
+    "cas": "621-82-9",
+    "flavor_class": "unknown"
+  },
+  "octyl_acetate": {
+    "smiles": "",
+    "formula": "C10H20O2",
+    "weight": "172.26",
+    "iupac": "octyl acetate",
+    "cas": "112-14-1",
+    "flavor_class": "unknown"
+  },
+  "pulegone": {
+    "smiles": "",
+    "formula": "C10H16O",
+    "weight": "152.23",
+    "iupac": "(5R)-5-methyl-2-propan-2-ylidenecyclohexan-1-one",
+    "cas": "89-82-7",
+    "flavor_class": "unknown"
+  },
+  "p-methoxycinnamaldehyde": {
+    "smiles": "",
+    "formula": "C10H10O2",
+    "weight": "162.18",
+    "iupac": "(E)-3-(4-methoxyphenyl)prop-2-enal",
+    "cas": "1963-36-6",
+    "flavor_class": "unknown"
+  },
+  "3-carene": {
+    "smiles": "",
+    "formula": "C10H16",
+    "weight": "136.23",
+    "iupac": "3,7,7-trimethylbicyclo[4.1.0]hept-3-ene",
+    "cas": "13466-78-9",
+    "flavor_class": "unknown"
+  },
+  "methyl-3-phenylpropionate": {
+    "smiles": "",
+    "formula": "C10H12O2",
+    "weight": "164.20",
+    "iupac": "methyl 3-phenylpropanoate",
+    "cas": "103-25-3",
+    "flavor_class": "unknown"
+  },
+  "p-menth-8-en-2-one": {
+    "smiles": "",
+    "formula": "C10H16O",
+    "weight": "152.23",
+    "iupac": "cis-(2R,5S)-2-methyl-5-prop-1-en-2-ylcyclohexan-1-one",
+    "cas": "3792-53-8",
+    "flavor_class": "unknown"
+  },
+  "terpinyl_propionate": {
+    "smiles": "",
+    "formula": "C13H22O2",
+    "weight": "210.31",
+    "iupac": "2-(4-methylcyclohex-3-en-1-yl)propan-2-yl propanoate",
+    "cas": "80-27-3",
+    "flavor_class": "unknown"
+  },
+  "valencene": {
+    "smiles": "",
+    "formula": "C15H24",
+    "weight": "204.35",
+    "iupac": "(3R,4aS,5R)-4a,5-dimethyl-3-prop-1-en-2-yl-2,3,4,5,6,7-hexahydro-1H-naphthalene",
+    "cas": "4630-07-3",
+    "flavor_class": "unknown"
+  },
+  "trans-2-methyl-2-butenoic_acid": {
+    "smiles": "",
+    "formula": "C5H8O2",
+    "weight": "100.12",
+    "iupac": "(E)-2-methylbut-2-enoic acid",
+    "cas": "80-59-1",
+    "flavor_class": "unknown"
+  },
+  "3-n-butylphthalide": {
+    "smiles": "",
+    "formula": "C12H14O2",
+    "weight": "190.24",
+    "iupac": "3-butyl-3H-2-benzofuran-1-one",
+    "cas": "6066-49-5",
+    "flavor_class": "unknown"
+  },
+  "dihydrocarvyl_acetate": {
+    "smiles": "",
+    "formula": "C12H20O2",
+    "weight": "196.29",
+    "iupac": "(2-methyl-5-prop-1-en-2-ylcyclohexyl) acetate",
+    "cas": "20777-49-5",
+    "flavor_class": "unknown"
+  },
+  "dihydrocarveol": {
+    "smiles": "",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "iupac": "2-methyl-5-prop-1-en-2-ylcyclohexan-1-ol",
+    "cas": "619-01-2",
+    "flavor_class": "unknown"
+  },
+  "carvyl_acetate": {
+    "smiles": "",
+    "formula": "C12H18O2",
+    "weight": "194.27",
+    "iupac": "(2-methyl-5-prop-1-en-2-ylcyclohex-2-en-1-yl) acetate",
+    "cas": "97-42-7",
+    "flavor_class": "unknown"
+  },
+  "o-vinylanisole": {
+    "smiles": "",
+    "formula": "C9H10O",
+    "weight": "134.17",
+    "iupac": "1-ethenyl-2-methoxybenzene",
+    "cas": "612-15-7",
+    "flavor_class": "unknown"
+  },
+  "acetic_acid": {
+    "smiles": "",
+    "formula": "C2H4O2",
+    "weight": "60.05",
+    "iupac": "acetic acid",
+    "cas": "64-19-7",
+    "flavor_class": "unknown"
+  },
+  "tetrahydrofurfuryl_alcohol": {
+    "smiles": "",
+    "formula": "C5H10O2",
+    "weight": "102.13",
+    "iupac": "oxolan-2-ylmethanol",
+    "cas": "97-99-4",
+    "flavor_class": "unknown"
+  },
+  "allyl_2-furoate": {
+    "smiles": "",
+    "formula": "C8H8O3",
+    "weight": "152.15",
+    "iupac": "prop-2-enyl furan-2-carboxylate",
+    "cas": "4208-49-5",
+    "flavor_class": "unknown"
+  },
+  "4-hydroxy-5-methyl-3(2h)-furanone": {
+    "smiles": "",
+    "formula": "C5H6O3",
+    "weight": "114.10",
+    "iupac": "4-hydroxy-5-methylfuran-3-one",
+    "cas": "19322-27-1",
+    "flavor_class": "unknown"
+  },
+  "2,3-diethylpyrazine": {
+    "smiles": "",
+    "formula": "C8H12N2",
+    "weight": "136.19",
+    "iupac": "2,3-diethylpyrazine",
+    "cas": "15707-24-1",
+    "flavor_class": "unknown"
+  },
+  "vanillin_acetate": {
+    "smiles": "",
+    "formula": "C10H10O4",
+    "weight": "194.18",
+    "iupac": "(4-formyl-2-methoxyphenyl) acetate",
+    "cas": "881-68-5",
+    "flavor_class": "unknown"
+  },
+  "2-ethyl-4-hydroxy-5-methyl-3(2h)-furanone": {
+    "smiles": "",
+    "formula": "C7H10O3",
+    "weight": "142.15",
+    "iupac": "2-ethyl-4-hydroxy-5-methylfuran-3-one",
+    "cas": "27538-10-9",
+    "flavor_class": "unknown"
+  },
+  "4-hydroxy-2,5-dimethyl-3(2h)-furanone": {
+    "smiles": "",
+    "formula": "C6H8O3",
+    "weight": "128.13",
+    "iupac": "4-hydroxy-2,5-dimethylfuran-3-one",
+    "cas": "3658-77-3",
+    "flavor_class": "unknown"
+  },
+  "3,5-dimethyl-1,2,4-trithiolane": {
+    "smiles": "",
+    "formula": "C4H8S3",
+    "weight": "152.3",
+    "iupac": "3,5-dimethyl-1,2,4-trithiolane",
+    "cas": "23654-92-4",
+    "flavor_class": "unknown"
+  },
+  "5-methylhexanoic_acid": {
+    "smiles": "",
+    "formula": "C7H14O2",
+    "weight": "130.18",
+    "iupac": "5-methylhexanoic acid",
+    "cas": "628-46-6",
+    "flavor_class": "unknown"
+  },
+  "3,5-diethyl-2-methylpyrazine": {
+    "smiles": "",
+    "formula": "C9H14N2",
+    "weight": "150.22",
+    "iupac": "3,5-diethyl-2-methylpyrazine",
+    "cas": "18138-05-1",
+    "flavor_class": "unknown"
+  },
+  "disodium_5'-guanylate": {
+    "smiles": "",
+    "formula": "C10H12N5Na2O8P",
+    "weight": "407.18",
+    "iupac": "disodium;[(2R,3S,4R,5R)-5-(2-amino-6-oxo-1H-purin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl phosphate",
+    "cas": "5550-12-9",
+    "flavor_class": "unknown"
+  },
+  "5h-5-methyl-6,7-dihydrocyclopenta(b)pyrazine": {
+    "smiles": "",
+    "formula": "C8H10N2",
+    "weight": "134.18",
+    "iupac": "5-methyl-6,7-dihydro-5H-cyclopenta[b]pyrazine",
+    "cas": "23747-48-0",
+    "flavor_class": "unknown"
+  },
+  "4-methyl-2,6-dimethoxyphenol": {
+    "smiles": "",
+    "formula": "C9H12O3",
+    "weight": "168.19",
+    "iupac": "2,6-dimethoxy-4-methylphenol",
+    "cas": "6638-05-7",
+    "flavor_class": "unknown"
+  },
+  "trans-2-hexenoic_acid": {
+    "smiles": "",
+    "formula": "C6H10O2",
+    "weight": "114.14",
+    "iupac": "(E)-hex-2-enoic acid",
+    "cas": "13419-69-7",
+    "flavor_class": "unknown"
+  },
+  "disodium_5'-inosinate": {
+    "smiles": "",
+    "formula": "C10H11N4Na2O8P",
+    "weight": "392.17",
+    "iupac": "disodium;[(2R,3S,4R,5R)-3,4-dihydroxy-5-(6-oxo-1H-purin-9-yl)oxolan-2-yl]methyl phosphate",
+    "cas": "4691-65-0",
+    "flavor_class": "unknown"
+  },
+  "(e)-2-decenoic_acid": {
+    "smiles": "",
+    "formula": "C10H18O2",
+    "weight": "170.25",
+    "iupac": "(E)-dec-2-enoic acid",
+    "cas": "334-49-6",
+    "flavor_class": "unknown"
+  },
+  "4-acetyl-2-methylpyrimidine": {
+    "smiles": "",
+    "formula": "C7H8N2O",
+    "weight": "136.15",
+    "iupac": "1-(2-methylpyrimidin-4-yl)ethanone",
+    "cas": "67860-38-2",
+    "flavor_class": "unknown"
+  },
+  "benzyl_methyl_sulfide": {
+    "smiles": "",
+    "formula": "C8H10S",
+    "weight": "138.23",
+    "iupac": "methylsulfanylmethylbenzene",
+    "cas": "766-92-7",
+    "flavor_class": "unknown"
+  },
+  "d,l-methionine": {
+    "smiles": "",
+    "formula": "C5H11NO2S",
+    "weight": "149.21",
+    "iupac": "2-amino-4-methylsulfanylbutanoic acid",
+    "cas": "59-51-8",
+    "flavor_class": "unknown"
+  },
+  "2-acetyl-3-methylpyrazine": {
+    "smiles": "",
+    "formula": "C7H8N2O",
+    "weight": "136.15",
+    "iupac": "1-(3-methylpyrazin-2-yl)ethanone",
+    "cas": "23787-80-6",
+    "flavor_class": "unknown"
+  },
+  "1-methyl-1-cyclopenten-3-one": {
+    "smiles": "",
+    "formula": "C6H8O",
+    "weight": "96.13",
+    "iupac": "3-methylcyclopent-2-en-1-one",
+    "cas": "2758-18-1",
+    "flavor_class": "unknown"
+  },
+  "ethyl_alcohol": {
+    "smiles": "",
+    "formula": "C2H6O",
+    "weight": "46.07",
+    "iupac": "ethanol",
+    "cas": "64-17-5",
+    "flavor_class": "unknown"
+  },
+  "2-methyl-3-tetrahydrofuranthiol": {
+    "smiles": "",
+    "formula": "C5H10OS",
+    "weight": "118.20",
+    "iupac": "2-methyloxolane-3-thiol",
+    "cas": "57124-87-5",
+    "flavor_class": "unknown"
+  },
+  "2,5-dimethylthiazole": {
+    "smiles": "",
+    "formula": "C5H7NS",
+    "weight": "113.18",
+    "iupac": "2,5-dimethyl-1,3-thiazole",
+    "cas": "4175-66-0",
+    "flavor_class": "unknown"
+  },
+  "2-ethyl-3,5(6)-dimethylpyrazine": {
+    "smiles": "",
+    "formula": "",
+    "weight": null,
+    "flavor_class": "unknown",
+    "cas": "27043-05-6"
+  },
+  "2-ethyl-3-methylpyrazine": {
+    "smiles": "",
+    "formula": "C7H10N2",
+    "weight": "122.17",
+    "iupac": "2-ethyl-3-methylpyrazine",
+    "cas": "15707-23-0",
+    "flavor_class": "unknown"
+  },
+  "3,5-dimethyl-1,2-cyclopentadione": {
+    "smiles": "",
+    "formula": "C7H10O2",
+    "weight": "126.15",
+    "iupac": "3,5-dimethylcyclopentane-1,2-dione",
+    "cas": "13494-07-0",
+    "flavor_class": "unknown"
+  },
+  "2-ethylpyrazine": {
+    "smiles": "",
+    "formula": "C6H8N2",
+    "weight": "108.14",
+    "iupac": "2-ethylpyrazine",
+    "cas": "13925-00-3",
+    "flavor_class": "unknown"
+  },
+  "myrtenyl_acetate": {
+    "smiles": "",
+    "formula": "C12H18O2",
+    "weight": "194.27",
+    "iupac": "[(1S,5R)-6,6-dimethyl-2-bicyclo[3.1.1]hept-2-enyl]methyl acetate",
+    "cas": "1079-01-2",
+    "flavor_class": "unknown"
+  },
+  "bornyl_acetate": {
+    "smiles": "",
+    "formula": "C12H20O2",
+    "weight": "196.29",
+    "iupac": "[(1S,2R,4S)-1,7,7-trimethyl-2-bicyclo[2.2.1]heptanyl] acetate",
+    "cas": "76-49-3",
+    "flavor_class": "unknown"
+  },
+  "bornyl_formate": {
+    "smiles": "",
+    "formula": "C11H18O2",
+    "weight": "182.26",
+    "iupac": "(1,7,7-trimethyl-2-bicyclo[2.2.1]heptanyl) formate",
+    "cas": "7492-41-3",
+    "flavor_class": "unknown"
+  },
+  "benzaldehyde_dimethyl_acetal": {
+    "smiles": "",
+    "formula": "C9H12O2",
+    "weight": "152.19",
+    "iupac": "dimethoxymethylbenzene",
+    "cas": "1125-88-8",
+    "flavor_class": "unknown"
+  },
+  "2-isobutyl-3-methylpyrazine": {
+    "smiles": "",
+    "formula": "C9H14N2",
+    "weight": "150.22",
+    "iupac": "2-methyl-3-(2-methylpropyl)pyrazine",
+    "cas": "13925-06-9",
+    "flavor_class": "unknown"
+  },
+  "(e)-2-octen-1-ol": {
+    "smiles": "",
+    "formula": "C8H16O",
+    "weight": "128.21",
+    "iupac": "(E)-oct-2-en-1-ol",
+    "cas": "18409-17-1",
+    "flavor_class": "unknown"
+  },
+  "2,4,5-trimethyl_thiazole": {
+    "smiles": "",
+    "formula": "C6H9NS",
+    "weight": "127.21",
+    "iupac": "2,4,5-trimethyl-1,3-thiazole",
+    "cas": "13623-11-5",
+    "flavor_class": "unknown"
+  },
+  "2-acetylthiazole": {
+    "smiles": "",
+    "formula": "C5H5NOS",
+    "weight": "127.17",
+    "iupac": "1-(1,3-thiazol-2-yl)ethanone",
+    "cas": "24295-03-2",
+    "flavor_class": "unknown"
+  },
+  "3-ethyl-2,6-dimethylpyrazine": {
+    "smiles": "",
+    "formula": "C8H12N2",
+    "weight": "136.19",
+    "iupac": "2-ethyl-3,5-dimethylpyrazine",
+    "cas": "13925-07-0",
+    "flavor_class": "unknown"
+  },
+  "3-octen-2-one": {
+    "smiles": "",
+    "formula": "C8H14O",
+    "weight": "126.20",
+    "iupac": "(E)-oct-3-en-2-one",
+    "cas": "1669-44-9",
+    "flavor_class": "unknown"
+  },
+  "2-isobutyl-3-methoxypyrazine": {
+    "smiles": "",
+    "formula": "C9H14N2O",
+    "weight": "166.22",
+    "iupac": "2-methoxy-3-(2-methylpropyl)pyrazine",
+    "cas": "24683-00-9",
+    "flavor_class": "unknown"
+  },
+  "2-ethylhexanethiol": {
+    "smiles": "",
+    "formula": "C8H18S",
+    "weight": "146.30",
+    "iupac": "2-ethylhexane-1-thiol",
+    "cas": "7341-17-5",
+    "flavor_class": "unknown"
+  },
+  "2-hexen-1-ol": {
+    "smiles": "",
+    "formula": "C6H12O",
+    "weight": "100.16",
+    "iupac": "(E)-hex-2-en-1-ol",
+    "cas": "2305-21-7",
+    "flavor_class": "unknown"
+  },
+  "(2-furyl)-2-propanone": {
+    "smiles": "",
+    "formula": "C7H8O2",
+    "weight": "124.14",
+    "iupac": "1-(furan-2-yl)propan-2-one",
+    "cas": "6975-60-6",
+    "flavor_class": "unknown"
+  },
+  "isoeugenol": {
+    "smiles": "",
+    "formula": "C10H12O2",
+    "weight": "164.20",
+    "iupac": "2-methoxy-4-[(E)-prop-1-enyl]phenol",
+    "cas": "97-54-1",
+    "flavor_class": "unknown"
+  },
+  "2-methyl-3-(p-isopropylphenyl)-propionaldehyde": {
+    "smiles": "",
+    "formula": "C13H18O",
+    "weight": "190.28",
+    "iupac": "2-methyl-3-(4-propan-2-ylphenyl)propanal",
+    "cas": "103-95-7",
+    "flavor_class": "unknown"
+  },
+  "menthyl_isovalerate": {
+    "smiles": "",
+    "formula": "C15H28O2",
+    "weight": "240.38",
+    "iupac": "(5-methyl-2-propan-2-ylcyclohexyl) 3-methylbutanoate",
+    "cas": "16409-46-4",
+    "flavor_class": "unknown"
+  },
+  "4-allyl-2,_6-dimethoxyphenol": {
+    "smiles": "",
+    "formula": "C11H14O3",
+    "weight": "194.23",
+    "iupac": "2,6-dimethoxy-4-prop-2-enylphenol",
+    "cas": "6627-88-9",
+    "flavor_class": "unknown"
+  },
+  "ascorbic_acid": {
+    "smiles": "",
+    "formula": "C6H8O6",
+    "weight": "176.12",
+    "iupac": "(2R)-2-[(1S)-1,2-dihydroxyethyl]-3,4-dihydroxy-2H-furan-5-one",
+    "cas": "50-81-7",
+    "flavor_class": "unknown"
+  },
+  "n-(4-hydroxy-3-methoxybenzyl)-8-methyl-6-nonena-mide": {
+    "smiles": "",
+    "formula": "C18H27NO3",
+    "weight": "305.4",
+    "iupac": "(E)-N-[(4-hydroxy-3-methoxyphenyl)methyl]-8-methylnon-6-enamide",
+    "cas": "404-86-4",
+    "flavor_class": "unknown"
+  },
+  "methyl-3-hexenoate": {
+    "smiles": "",
+    "formula": "C7H12O2",
+    "weight": "128.17",
+    "iupac": "methyl hex-3-enoate",
+    "cas": "2396-78-3",
+    "flavor_class": "unknown"
+  },
+  "dimethyl_succinate": {
+    "smiles": "",
+    "formula": "C6H10O4",
+    "weight": "146.14",
+    "iupac": "dimethyl butanedioate",
+    "cas": "106-65-0",
+    "flavor_class": "unknown"
+  },
+  "benzothiazole": {
+    "smiles": "",
+    "formula": "C7H5NS",
+    "weight": "135.19",
+    "iupac": "1,3-benzothiazole",
+    "cas": "95-16-9",
+    "flavor_class": "unknown"
+  },
+  "amyl_alcohol": {
+    "smiles": "",
+    "formula": "C5H12O",
+    "weight": "88.15",
+    "iupac": "pentan-1-ol",
+    "cas": "71-41-0",
+    "flavor_class": "unknown"
+  },
+  "ethyl-3-hydroxybutyrate": {
+    "smiles": "",
+    "formula": "C6H12O3",
+    "weight": "132.16",
+    "iupac": "ethyl 3-hydroxybutanoate",
+    "cas": "5405-41-4",
+    "flavor_class": "unknown"
+  },
+  "octyl_butyrate": {
+    "smiles": "",
+    "formula": "C12H24O2",
+    "weight": "200.32",
+    "iupac": "octyl butanoate",
+    "cas": "110-39-4",
+    "flavor_class": "unknown"
+  },
+  "citral_(neral)": {
+    "smiles": "",
+    "formula": "C10H16O",
+    "weight": "152.23",
+    "iupac": "(2E)-3,7-dimethylocta-2,6-dienal",
+    "cas": "5392-40-5",
+    "flavor_class": "unknown"
+  },
+  "nootkatone": {
+    "smiles": "",
+    "formula": "C15H22O",
+    "weight": "218.33",
+    "iupac": "(4R,4aS,6R)-4,4a-dimethyl-6-prop-1-en-2-yl-3,4,5,6,7,8-hexahydronaphthalen-2-one",
+    "cas": "4674-50-4",
+    "flavor_class": "unknown"
+  },
+  "acetal": {
+    "smiles": "",
+    "formula": "C6H14O2",
+    "weight": "118.17",
+    "iupac": "1,1-diethoxyethane",
+    "cas": "105-57-7",
+    "flavor_class": "unknown"
+  },
+  "linalool_oxide": {
+    "smiles": "",
+    "formula": "C10H18O2",
+    "weight": "170.25",
+    "iupac": "2-(5-ethenyl-5-methyloxolan-2-yl)propan-2-ol",
+    "cas": "1365-19-1",
+    "flavor_class": "unknown"
+  },
+  "ethyl_anthranilate": {
+    "smiles": "",
+    "formula": "C9H11NO2",
+    "weight": "165.19",
+    "iupac": "ethyl 2-aminobenzoate",
+    "cas": "87-25-2",
+    "flavor_class": "unknown"
+  },
+  "p-menthan-2-ol": {
+    "smiles": "",
+    "formula": "C10H20O",
+    "weight": "156.26",
+    "iupac": "(1R,2R,5R)-2-methyl-5-propan-2-ylcyclohexan-1-ol",
+    "cas": "499-69-4",
+    "flavor_class": "unknown"
+  },
+  "carveol": {
+    "smiles": "",
+    "formula": "C10H16O",
+    "weight": "152.23",
+    "iupac": "2-methyl-5-prop-1-en-2-ylcyclohex-2-en-1-ol",
+    "cas": "99-48-9",
+    "flavor_class": "unknown"
+  },
+  "1,4-cineole": {
+    "smiles": "",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "iupac": "1-methyl-4-propan-2-yl-7-oxabicyclo[2.2.1]heptane",
+    "cas": "470-67-7",
+    "flavor_class": "unknown"
+  },
+  "decyl_acetate": {
+    "smiles": "",
+    "formula": "C12H24O2",
+    "weight": "200.32",
+    "iupac": "decyl acetate",
+    "cas": "112-17-4",
+    "flavor_class": "unknown"
+  },
+  "butyl_hexanoate": {
+    "smiles": "",
+    "formula": "C10H20O2",
+    "weight": "172.26",
+    "iupac": "butyl hexanoate",
+    "cas": "626-82-4",
+    "flavor_class": "unknown"
+  },
+  "2,6-dimethyl-10-methylene-2,6,11-dodecatrienal": {
+    "smiles": "",
+    "formula": "C15H22O",
+    "weight": "218.33",
+    "iupac": "(2E,6E)-2,6-dimethyl-10-methylidenedodeca-2,6,11-trienal",
+    "cas": "60066-88-8",
+    "flavor_class": "unknown"
+  },
+  "l-_and_dl-alanine": {
+    "smiles": "",
+    "formula": "C3H7NO2",
+    "weight": "89.09",
+    "iupac": "2-aminopropanoic acid",
+    "cas": "302-72-7",
+    "flavor_class": "unknown"
+  },
+  "isoamyl_laurate": {
+    "smiles": "",
+    "formula": "C17H34O2",
+    "weight": "270.5",
+    "iupac": "3-methylbutyl dodecanoate",
+    "cas": "6309-51-9",
+    "flavor_class": "unknown"
+  },
+  "4-hexene-3-one": {
+    "smiles": "",
+    "formula": "C6H10O",
+    "weight": "98.14",
+    "iupac": "(E)-hex-4-en-3-one",
+    "cas": "2497-21-4",
+    "flavor_class": "unknown"
+  },
+  "2-trans-4-cis-7-cis-tridecatrienal": {
+    "smiles": "",
+    "formula": "C13H20O",
+    "weight": "192.30",
+    "iupac": "(2E,4Z,7Z)-trideca-2,4,7-trienal",
+    "cas": "13552-96-0",
+    "flavor_class": "unknown"
+  },
+  "4-heptanone": {
+    "smiles": "",
+    "formula": "C7H14O",
+    "weight": "114.19",
+    "iupac": "heptan-4-one",
+    "cas": "123-19-3",
+    "flavor_class": "unknown"
+  },
+  "2-methylheptan-3-one": {
+    "smiles": "",
+    "formula": "C8H16O",
+    "weight": "128.21",
+    "iupac": "2-methylheptan-3-one",
+    "cas": "13019-20-0",
+    "flavor_class": "unknown"
+  },
+  "2-trans-6-cis-dodecadienal": {
+    "smiles": "",
+    "formula": "C12H20O",
+    "weight": "180.29",
+    "iupac": "(2E,6Z)-dodeca-2,6-dienal",
+    "cas": "21662-13-5",
+    "flavor_class": "unknown"
+  },
+  "thiazole": {
+    "smiles": "",
+    "formula": "C3H3NS",
+    "weight": "85.13",
+    "iupac": "1,3-thiazole",
+    "cas": "288-47-1",
+    "flavor_class": "unknown"
+  },
+  "1-hexanethiol": {
+    "smiles": "",
+    "formula": "C6H14S",
+    "weight": "118.24",
+    "iupac": "hexane-1-thiol",
+    "cas": "111-31-9",
+    "flavor_class": "unknown"
+  },
+  "trans-2-nonen-1-ol": {
+    "smiles": "",
+    "formula": "C9H18O",
+    "weight": "142.24",
+    "iupac": "(E)-non-2-en-1-ol",
+    "cas": "31502-14-4",
+    "flavor_class": "unknown"
+  },
+  "1,2-ethanedithiol": {
+    "smiles": "",
+    "formula": "C2H6S2",
+    "weight": "94.20",
+    "iupac": "ethane-1,2-dithiol",
+    "cas": "540-63-6",
+    "flavor_class": "unknown"
+  },
+  "2,3-octanedione": {
+    "smiles": "",
+    "formula": "C8H14O2",
+    "weight": "142.20",
+    "iupac": "octane-2,3-dione",
+    "cas": "585-25-1",
+    "flavor_class": "unknown"
+  },
+  "2-tridecenal": {
+    "smiles": "",
+    "formula": "C13H24O",
+    "weight": "196.33",
+    "iupac": "(E)-tridec-2-enal",
+    "cas": "7774-82-5",
+    "flavor_class": "unknown"
+  },
+  "10-undecenal": {
+    "smiles": "",
+    "formula": "C11H20O",
+    "weight": "168.28",
+    "iupac": "undec-10-enal",
+    "cas": "112-45-8",
+    "flavor_class": "unknown"
+  },
+  "acetylpyrazine": {
+    "smiles": "",
+    "formula": "C6H6N2O",
+    "weight": "122.12",
+    "iupac": "1-pyrazin-2-ylethanone",
+    "cas": "22047-25-2",
+    "flavor_class": "unknown"
+  },
+  "(d-,_l-,_dl-,_meso)_tartaric_acid": {
+    "smiles": "",
+    "formula": "C4H6O6",
+    "weight": "150.09",
+    "iupac": "2,3-dihydroxybutanedioic acid",
+    "cas": "526-83-0",
+    "flavor_class": "unknown"
+  },
+  "methyl-3-methylthiopropionate": {
+    "smiles": "",
+    "formula": "C5H10O2S",
+    "weight": "134.20",
+    "iupac": "methyl 3-methylsulfanylpropanoate",
+    "cas": "13532-18-8",
+    "flavor_class": "unknown"
+  },
+  "geranyl_propionate": {
+    "smiles": "",
+    "formula": "C13H22O2",
+    "weight": "210.31",
+    "iupac": "[(2E)-3,7-dimethylocta-2,6-dienyl] propanoate",
+    "cas": "105-90-8",
+    "flavor_class": "unknown"
+  },
+  "lauryl_acetate": {
+    "smiles": "",
+    "formula": "C14H28O2",
+    "weight": "228.37",
+    "iupac": "dodecyl acetate",
+    "cas": "112-66-3",
+    "flavor_class": "unknown"
+  },
+  "heptyl_butyrate": {
+    "smiles": "",
+    "formula": "C11H22O2",
+    "weight": "186.29",
+    "iupac": "heptyl butanoate",
+    "cas": "5870-93-9",
+    "flavor_class": "unknown"
+  },
+  "(+/?)_heptan-3-yl_butyrate": {
+    "smiles": "",
+    "formula": "C11H22O2",
+    "weight": "186.29",
+    "iupac": "heptan-2-yl butanoate",
+    "cas": "39026-94-3",
+    "flavor_class": "unknown"
+  },
+  "neryl_propionate": {
+    "smiles": "",
+    "formula": "C13H22O2",
+    "weight": "210.31",
+    "iupac": "[(2Z)-3,7-dimethylocta-2,6-dienyl] propanoate",
+    "cas": "105-91-9",
+    "flavor_class": "unknown"
+  },
+  "propyl_butyrate": {
+    "smiles": "",
+    "formula": "C7H14O2",
+    "weight": "130.18",
+    "iupac": "propyl butanoate",
+    "cas": "105-66-8",
+    "flavor_class": "unknown"
+  },
+  "linalyl_propionate": {
+    "smiles": "",
+    "formula": "C13H22O2",
+    "weight": "210.31",
+    "iupac": "3,7-dimethylocta-1,6-dien-3-yl propanoate",
+    "cas": "144-39-8",
+    "flavor_class": "unknown"
+  },
+  "carvone": {
+    "smiles": "",
+    "formula": "C10H14O",
+    "weight": "150.22",
+    "iupac": "(5R)-2-methyl-5-prop-1-en-2-ylcyclohex-2-en-1-one",
+    "cas": "6485-40-1",
+    "flavor_class": "unknown"
+  },
+  "methyl_anthranilate": {
+    "smiles": "",
+    "formula": "C8H9NO2",
+    "weight": "151.16",
+    "iupac": "methyl 2-aminobenzoate",
+    "cas": "134-20-3",
+    "flavor_class": "unknown"
+  },
+  "phosphoric_acid": {
+    "smiles": "",
+    "formula": "H3O4P",
+    "weight": "97.995",
+    "iupac": "phosphoric acid",
+    "cas": "7664-38-2",
+    "flavor_class": "unknown"
+  },
+  "p-mentha-1,4(8)-dien-3-one": {
+    "smiles": "",
+    "formula": "C10H14O",
+    "weight": "150.22",
+    "iupac": "3-methyl-6-propan-2-ylidenecyclohex-2-en-1-one",
+    "cas": "491-09-8",
+    "flavor_class": "unknown"
+  },
+  "farnesol": {
+    "smiles": "",
+    "formula": "C15H26O",
+    "weight": "222.37",
+    "iupac": "(2E,6E)-3,7,11-trimethyldodeca-2,6,10-trien-1-ol",
+    "cas": "4602-84-0",
+    "flavor_class": "unknown"
+  },
+  "2,2,6-trimethylcyclohexanone": {
+    "smiles": "",
+    "formula": "C9H16O",
+    "weight": "140.22",
+    "iupac": "2,2,6-trimethylcyclohexan-1-one",
+    "cas": "2408-37-9",
+    "flavor_class": "unknown"
+  },
+  "hexyl_isovalerate": {
+    "smiles": "",
+    "formula": "C11H22O2",
+    "weight": "186.29",
+    "iupac": "hexyl 3-methylbutanoate",
+    "cas": "10032-13-0",
+    "flavor_class": "unknown"
+  },
+  "p-ethylphenol": {
+    "smiles": "",
+    "formula": "C8H10O",
+    "weight": "122.16",
+    "iupac": "4-ethylphenol",
+    "cas": "123-07-9",
+    "flavor_class": "unknown"
+  },
+  "4-hydroxy-3,5-dimethoxybenzaldehyde": {
+    "smiles": "",
+    "formula": "C9H10O4",
+    "weight": "182.17",
+    "iupac": "4-hydroxy-3,5-dimethoxybenzaldehyde",
+    "cas": "134-96-3",
+    "flavor_class": "unknown"
+  },
+  "4-ethylguaiacol": {
+    "smiles": "",
+    "formula": "C9H12O2",
+    "weight": "152.19",
+    "iupac": "4-ethyl-2-methoxyphenol",
+    "cas": "2785-89-9",
+    "flavor_class": "unknown"
+  },
+  "2'-aminoacetophenone": {
+    "smiles": "",
+    "formula": "C8H9NO",
+    "weight": "135.16",
+    "iupac": "1-(2-aminophenyl)ethanone",
+    "cas": "551-93-9",
+    "flavor_class": "unknown"
+  },
+  "3-(methylthio)propyl_acetate": {
+    "smiles": "",
+    "formula": "C6H12O2S",
+    "weight": "148.23",
+    "iupac": "3-methylsulfanylpropyl acetate",
+    "cas": "16630-55-0",
+    "flavor_class": "unknown"
+  },
+  "2-methylbutyl_acetate": {
+    "smiles": "",
+    "formula": "C7H14O2",
+    "weight": "130.18",
+    "iupac": "2-methylbutyl acetate",
+    "cas": "624-41-9",
+    "flavor_class": "unknown"
+  },
+  "diethyl_tartrate": {
+    "smiles": "",
+    "formula": "C8H14O6",
+    "weight": "206.19",
+    "iupac": "diethyl (2R,3R)-2,3-dihydroxybutanedioate",
+    "cas": "87-91-2",
+    "flavor_class": "unknown"
+  },
+  "(e)-3,7-dimethyl-1,5,7-octatrien-3-ol": {
+    "smiles": "",
+    "formula": "C10H16O",
+    "weight": "152.23",
+    "iupac": "3,7-dimethyloct-6-en-1-yn-3-ol",
+    "cas": "38818-60-9",
+    "flavor_class": "unknown"
+  },
+  "l-malic_acid": {
+    "smiles": "",
+    "formula": "C4H6O5",
+    "weight": "134.09",
+    "iupac": "(2S)-2-hydroxybutanedioic acid",
+    "cas": "97-67-6",
+    "flavor_class": "unknown"
+  },
+  "isoamyl_isovalerate": {
+    "smiles": "",
+    "formula": "C10H20O2",
+    "weight": "172.26",
+    "iupac": "3-methylbutyl 3-methylbutanoate",
+    "cas": "659-70-1",
+    "flavor_class": "unknown"
+  },
+  "ethyl_sorbate": {
+    "smiles": "",
+    "formula": "C8H12O2",
+    "weight": "140.18",
+    "iupac": "ethyl (2E,4E)-hexa-2,4-dienoate",
+    "cas": "2396-84-1",
+    "flavor_class": "unknown"
+  },
+  "5-isopropenyl-2-methyl-2-vinyltetrahydrofuran": {
+    "smiles": "",
+    "formula": "",
+    "weight": null,
+    "flavor_class": "unknown",
+    "cas": "13679-86-2"
+  },
+  "hydroxycitronellol": {
+    "smiles": "",
+    "formula": "C10H22O2",
+    "weight": "174.28",
+    "iupac": "3,7-dimethyloctane-1,7-diol",
+    "cas": "107-74-4",
+    "flavor_class": "unknown"
+  },
+  "isobutyl_isobutyrate": {
+    "smiles": "",
+    "formula": "C8H16O2",
+    "weight": "144.21",
+    "iupac": "2-methylpropyl 2-methylpropanoate",
+    "cas": "97-85-8",
+    "flavor_class": "unknown"
+  },
+  "(z)-3-hexenyl_(e)-2-butenoate": {
+    "smiles": "",
+    "formula": "C10H16O2",
+    "weight": "168.23",
+    "iupac": "[(Z)-hex-3-enyl] (E)-but-2-enoate",
+    "cas": "65405-80-3",
+    "flavor_class": "unknown"
+  },
+  "amyl_butyrate": {
+    "smiles": "",
+    "formula": "C9H18O2",
+    "weight": "158.24",
+    "iupac": "pentyl butanoate",
+    "cas": "540-18-1",
+    "flavor_class": "unknown"
+  },
+  "resorcinol": {
+    "smiles": "",
+    "formula": "C6H6O2",
+    "weight": "110.11",
+    "iupac": "benzene-1,3-diol",
+    "cas": "108-46-3",
+    "flavor_class": "unknown"
+  },
+  "methoxypyrazine": {
+    "smiles": "",
+    "formula": "C5H6N2O",
+    "weight": "110.11",
+    "iupac": "2-methoxypyrazine",
+    "cas": "3149-28-8",
+    "flavor_class": "unknown"
+  },
+  "diethyl_succinate": {
+    "smiles": "",
+    "formula": "C8H14O4",
+    "weight": "174.19",
+    "iupac": "diethyl butanedioate",
+    "cas": "123-25-1",
+    "flavor_class": "unknown"
+  },
+  "2,4-dihydroxybenzoic_acid": {
+    "smiles": "",
+    "formula": "C7H6O4",
+    "weight": "154.12",
+    "iupac": "2,4-dihydroxybenzoic acid",
+    "cas": "89-86-1",
+    "flavor_class": "unknown"
+  },
+  "isobutyl_hexanoate": {
+    "smiles": "",
+    "formula": "C10H20O2",
+    "weight": "172.26",
+    "iupac": "2-methylpropyl hexanoate",
+    "cas": "105-79-3",
+    "flavor_class": "unknown"
+  },
+  "2,6,6-trimethyl-6-vinyltetrahydropyran": {
+    "smiles": "",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "iupac": "2-ethenyl-2,6,6-trimethyloxane",
+    "cas": "7392-19-0",
+    "flavor_class": "unknown"
+  },
+  "2,2-dimethyl-5-(1-methylpropen-1-yl)-__________________________________tetrahydrofuran": {
+    "smiles": "",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "iupac": "5-but-2-en-2-yl-2,2-dimethyloxolane",
+    "cas": "7416-35-5",
+    "flavor_class": "unknown"
+  },
+  "ethyl_thioacetate": {
+    "smiles": "",
+    "formula": "C4H8OS",
+    "weight": "104.17",
+    "iupac": "S-ethyl ethanethioate",
+    "cas": "625-60-5",
+    "flavor_class": "unknown"
+  },
+  "diethyl_malonate": {
+    "smiles": "",
+    "formula": "C7H12O4",
+    "weight": "160.17",
+    "iupac": "diethyl propanedioate",
+    "cas": "105-53-3",
+    "flavor_class": "unknown"
+  },
+  "ethyl_3-hydroxyhexanoate": {
+    "smiles": "",
+    "formula": "C8H16O3",
+    "weight": "160.21",
+    "iupac": "ethyl 3-hydroxyhexanoate",
+    "cas": "2305-25-1",
+    "flavor_class": "unknown"
+  },
+  "2,6-dimethyl-4-heptanol": {
+    "smiles": "",
+    "formula": "C9H20O",
+    "weight": "144.25",
+    "iupac": "2,6-dimethylheptan-4-ol",
+    "cas": "108-82-7",
+    "flavor_class": "unknown"
+  },
+  "geranyl_formate": {
+    "smiles": "",
+    "formula": "C11H18O2",
+    "weight": "182.26",
+    "iupac": "[(2E)-3,7-dimethylocta-2,6-dienyl] formate",
+    "cas": "105-86-2",
+    "flavor_class": "unknown"
+  },
+  "triethyl_citrate": {
+    "smiles": "",
+    "formula": "C12H20O7",
+    "weight": "276.28",
+    "iupac": "triethyl 2-hydroxypropane-1,2,3-tricarboxylate",
+    "cas": "77-93-0",
+    "flavor_class": "unknown"
+  },
+  "ethyl_crotonate": {
+    "smiles": "",
+    "formula": "C6H10O2",
+    "weight": "114.14",
+    "iupac": "ethyl (E)-but-2-enoate",
+    "cas": "623-70-1",
+    "flavor_class": "unknown"
+  },
+  "2-methylpropyl-3-methylbutyrate": {
+    "smiles": "",
+    "formula": "C9H18O2",
+    "weight": "158.24",
+    "iupac": "2-methylpropyl 3-methylbutanoate",
+    "cas": "589-59-3",
+    "flavor_class": "unknown"
+  },
+  "1,1-dimethoxyethane": {
+    "smiles": "",
+    "formula": "C4H10O2",
+    "weight": "90.12",
+    "iupac": "1,1-dimethoxyethane",
+    "cas": "534-15-6",
+    "flavor_class": "unknown"
+  },
+  "3,6-dihydro-4-methyl-2-(2-methylpropen-1-yl)-2h-pyran": {
+    "smiles": "",
+    "formula": "C10H16O",
+    "weight": "152.23",
+    "iupac": "4-methyl-2-(2-methylprop-1-enyl)-3,6-dihydro-2H-pyran",
+    "cas": "1786-08-9",
+    "flavor_class": "unknown"
+  },
+  "hexyl_octanoate": {
+    "smiles": "",
+    "formula": "C14H28O2",
+    "weight": "228.37",
+    "iupac": "hexyl octanoate",
+    "cas": "1117-55-1",
+    "flavor_class": "unknown"
+  },
+  "3-phenyl-1-propanol": {
+    "smiles": "",
+    "formula": "C9H12O",
+    "weight": "136.19",
+    "iupac": "3-phenylpropan-1-ol",
+    "cas": "122-97-4",
+    "flavor_class": "unknown"
+  },
+  "glycerol": {
+    "smiles": "",
+    "formula": "C3H8O3",
+    "weight": "92.09",
+    "iupac": "propane-1,2,3-triol",
+    "cas": "56-81-5",
+    "flavor_class": "unknown"
+  },
+  "phenethyl_hexanoate": {
+    "smiles": "",
+    "formula": "C14H20O2",
+    "weight": "220.31",
+    "iupac": "2-phenylethyl hexanoate",
+    "cas": "6290-37-5",
+    "flavor_class": "unknown"
+  },
+  "amyl_octanoate": {
+    "smiles": "",
+    "formula": "C13H26O2",
+    "weight": "214.34",
+    "iupac": "pentyl octanoate",
+    "cas": "638-25-5",
+    "flavor_class": "unknown"
+  },
+  "theaspirane": {
+    "smiles": "",
+    "formula": "C13H22O",
+    "weight": "194.31",
+    "iupac": "2,6,6,10-tetramethyl-1-oxaspiro[4.5]dec-9-ene",
+    "cas": "36431-72-8",
+    "flavor_class": "unknown"
+  },
+  "decyl_butyrate": {
+    "smiles": "",
+    "formula": "C14H28O2",
+    "weight": "228.37",
+    "iupac": "decyl butanoate",
+    "cas": "5454-09-1",
+    "flavor_class": "unknown"
+  },
+  "ethyl_phenylacetate": {
+    "smiles": "",
+    "formula": "C10H12O2",
+    "weight": "164.20",
+    "iupac": "ethyl 2-phenylacetate",
+    "cas": "101-97-3",
+    "flavor_class": "unknown"
+  },
+  "tetrahydro-4-methyl-2-(2-methylpropen-1-yl)pyran": {
+    "smiles": "",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "iupac": "4-methyl-2-(2-methylprop-1-enyl)oxane",
+    "cas": "16409-43-1",
+    "flavor_class": "unknown"
+  },
+  "3-hexenoic_acid": {
+    "smiles": "",
+    "formula": "C6H10O2",
+    "weight": "114.14",
+    "iupac": "hex-3-enoic acid",
+    "cas": "4219-24-3",
+    "flavor_class": "unknown"
+  },
+  "n-hexyl-2-butenoate": {
+    "smiles": "",
+    "formula": "C10H18O2",
+    "weight": "170.25",
+    "iupac": "hexyl (E)-but-2-enoate",
+    "cas": "19089-92-0",
+    "flavor_class": "unknown"
+  },
+  "butyl_lactate": {
+    "smiles": "",
+    "formula": "C7H14O3",
+    "weight": "146.18",
+    "iupac": "butyl 2-hydroxypropanoate",
+    "cas": "138-22-7",
+    "flavor_class": "unknown"
+  },
+  "diethyl_malate": {
+    "smiles": "",
+    "formula": "C8H14O5",
+    "weight": "190.19",
+    "iupac": "diethyl 2-hydroxybutanedioate",
+    "cas": "7554-12-3",
+    "flavor_class": "unknown"
+  },
+  "phenethyl_octanoate": {
+    "smiles": "",
+    "formula": "C16H24O2",
+    "weight": "248.36",
+    "iupac": "2-phenylethyl octanoate",
+    "cas": "5457-70-5",
+    "flavor_class": "unknown"
+  },
+  "ethyl_p-anisate": {
+    "smiles": "",
+    "formula": "C10H12O3",
+    "weight": "180.20",
+    "iupac": "ethyl 4-methoxybenzoate",
+    "cas": "94-30-4",
+    "flavor_class": "unknown"
+  },
+  "4-hydroxy-4-methyl-5-hexenoic_acid_gamma-lactone": {
+    "smiles": "",
+    "formula": "C7H10O2",
+    "weight": "126.15",
+    "iupac": "5-ethenyl-5-methyloxolan-2-one",
+    "cas": "1073-11-6",
+    "flavor_class": "unknown"
+  },
+  "amyl_hexanoate": {
+    "smiles": "",
+    "formula": "C11H22O2",
+    "weight": "186.29",
+    "iupac": "pentyl hexanoate",
+    "cas": "540-07-8",
+    "flavor_class": "unknown"
+  },
+  "phenethyl_butyrate": {
+    "smiles": "",
+    "formula": "C12H16O2",
+    "weight": "192.25",
+    "iupac": "2-phenylethyl butanoate",
+    "cas": "103-52-6",
+    "flavor_class": "unknown"
+  },
+  "hexyl_isobutyrate": {
+    "smiles": "",
+    "formula": "C10H20O2",
+    "weight": "172.26",
+    "iupac": "hexyl 2-methylpropanoate",
+    "cas": "2349-07-7",
+    "flavor_class": "unknown"
+  },
+  "4-hydroxy-3-methyloctanoic_acid_lactone": {
+    "smiles": "",
+    "formula": "C9H16O2",
+    "weight": "156.22",
+    "iupac": "5-butyl-4-methyloxolan-2-one",
+    "cas": "39212-23-2",
+    "flavor_class": "unknown"
+  },
+  "hexyl_butyrate": {
+    "smiles": "",
+    "formula": "C10H20O2",
+    "weight": "172.26",
+    "iupac": "hexyl butanoate",
+    "cas": "2639-63-6",
+    "flavor_class": "unknown"
+  },
+  "isoamyl_nonanoate": {
+    "smiles": "",
+    "formula": "C14H28O2",
+    "weight": "228.37",
+    "iupac": "3-methylbutyl nonanoate",
+    "cas": "7779-70-6",
+    "flavor_class": "unknown"
+  },
+  "methyl_linoleate_(48%)_methyl_linolenate_(52%)_mix-ture": {
+    "smiles": "",
+    "formula": "",
+    "weight": null,
+    "flavor_class": "unknown",
+    "cas": "977136-80-3"
+  },
+  "methyl_isobutyrate": {
+    "smiles": "",
+    "formula": "C5H10O2",
+    "weight": "102.13",
+    "iupac": "methyl 2-methylpropanoate",
+    "cas": "547-63-7",
+    "flavor_class": "unknown"
+  },
+  "isobutyl_benzoate": {
+    "smiles": "",
+    "formula": "C11H14O2",
+    "weight": "178.23",
+    "iupac": "2-methylpropyl benzoate",
+    "cas": "120-50-3",
+    "flavor_class": "unknown"
+  },
+  "2-pentyl_butyrate": {
+    "smiles": "",
+    "formula": "C9H18O2",
+    "weight": "158.24",
+    "iupac": "pentan-2-yl butanoate",
+    "cas": "60415-61-4",
+    "flavor_class": "unknown"
+  },
+  "trans-2-octen-1-yl_acetate": {
+    "smiles": "",
+    "formula": "C10H18O2",
+    "weight": "170.25",
+    "iupac": "[(E)-oct-2-enyl] acetate",
+    "cas": "3913-80-2",
+    "flavor_class": "unknown"
+  },
+  "cis-3-octen-1-ol": {
+    "smiles": "",
+    "formula": "C8H16O",
+    "weight": "128.21",
+    "iupac": "(Z)-oct-3-en-1-ol",
+    "cas": "20125-84-2",
+    "flavor_class": "unknown"
+  },
+  "3-methyl-2-oxobutanoic_acid": {
+    "smiles": "",
+    "formula": "C5H8O3",
+    "weight": "116.11",
+    "iupac": "3-methyl-2-oxobutanoic acid",
+    "cas": "759-05-7",
+    "flavor_class": "unknown"
+  },
+  "cis-5-octen-1-ol": {
+    "smiles": "",
+    "formula": "C8H16O",
+    "weight": "128.21",
+    "iupac": "(Z)-oct-5-en-1-ol",
+    "cas": "64275-73-6",
+    "flavor_class": "unknown"
+  },
+  "n-butyl-2-methylbutyrate": {
+    "smiles": "",
+    "formula": "C9H18O2",
+    "weight": "158.24",
+    "iupac": "butyl 2-methylbutanoate",
+    "cas": "15706-73-7",
+    "flavor_class": "unknown"
+  },
+  "2-undecanol": {
+    "smiles": "",
+    "formula": "C11H24O",
+    "weight": "172.31",
+    "iupac": "undecan-2-ol",
+    "cas": "1653-30-1",
+    "flavor_class": "unknown"
+  },
+  "propyl_isovalerate": {
+    "smiles": "",
+    "formula": "C8H16O2",
+    "weight": "144.21",
+    "iupac": "propyl 3-methylbutanoate",
+    "cas": "557-00-6",
+    "flavor_class": "unknown"
+  },
+  "3-methylbutyl_2-methylbutanoate": {
+    "smiles": "",
+    "formula": "C10H20O2",
+    "weight": "172.26",
+    "iupac": "3-methylbutyl 2-methylbutanoate",
+    "cas": "27625-35-0",
+    "flavor_class": "unknown"
+  },
+  "(+/?)-1-phenylethylmercaptan": {
+    "smiles": "",
+    "formula": "C8H10S",
+    "weight": "138.23",
+    "iupac": "1-phenylethanethiol",
+    "cas": "6263-65-6",
+    "flavor_class": "unknown"
+  },
+  "allyl_heptanoate": {
+    "smiles": "",
+    "formula": "C10H18O2",
+    "weight": "170.25",
+    "iupac": "prop-2-enyl heptanoate",
+    "cas": "142-19-8",
+    "flavor_class": "unknown"
+  },
+  "isopropyl_formate": {
+    "smiles": "",
+    "formula": "C4H8O2",
+    "weight": "88.11",
+    "iupac": "propan-2-yl formate",
+    "cas": "625-55-8",
+    "flavor_class": "unknown"
+  },
+  "benzyl_butyl_ether": {
+    "smiles": "",
+    "formula": "C11H16O",
+    "weight": "164.24",
+    "iupac": "butoxymethylbenzene",
+    "cas": "588-67-0",
+    "flavor_class": "unknown"
+  },
+  "2-methoxy-4-propylphenol": {
+    "smiles": "",
+    "formula": "C10H14O2",
+    "weight": "166.22",
+    "iupac": "2-methoxy-4-propylphenol",
+    "cas": "2785-87-7",
+    "flavor_class": "unknown"
+  },
+  "(z)-4-hydroxy-6-dodecenoic_acid_lactone": {
+    "smiles": "",
+    "formula": "C12H20O2",
+    "weight": "196.29",
+    "iupac": "5-[(Z)-oct-2-enyl]oxolan-2-one",
+    "cas": "18679-18-0",
+    "flavor_class": "unknown"
+  },
+  "allyl_hexanoate": {
+    "smiles": "",
+    "formula": "C9H16O2",
+    "weight": "156.22",
+    "iupac": "prop-2-enyl hexanoate",
+    "cas": "123-68-2",
+    "flavor_class": "unknown"
+  },
+  "2-phenylpropionaldehyde": {
+    "smiles": "",
+    "formula": "C9H10O",
+    "weight": "134.17",
+    "iupac": "2-phenylpropanal",
+    "cas": "93-53-8",
+    "flavor_class": "unknown"
+  },
+  "1-octen-3-yl_acetate": {
+    "smiles": "",
+    "formula": "C10H18O2",
+    "weight": "170.25",
+    "iupac": "oct-1-en-3-yl acetate",
+    "cas": "2442-10-6",
+    "flavor_class": "unknown"
+  },
+  "linalyl_benzoate": {
+    "smiles": "",
+    "formula": "C17H22O2",
+    "weight": "258.35",
+    "iupac": "3,7-dimethylocta-1,6-dien-3-yl benzoate",
+    "cas": "126-64-7",
+    "flavor_class": "unknown"
+  },
+  "methyl_o-methoxybenzoate": {
+    "smiles": "",
+    "formula": "C9H10O3",
+    "weight": "166.17",
+    "iupac": "methyl 2-methoxybenzoate",
+    "cas": "606-45-1",
+    "flavor_class": "unknown"
+  },
+  "butyl_sulfide": {
+    "smiles": "",
+    "formula": "C8H18S",
+    "weight": "146.30",
+    "iupac": "1-butylsulfanylbutane",
+    "cas": "544-40-1",
+    "flavor_class": "unknown"
+  },
+  "1-hydroxy-2-butanone": {
+    "smiles": "",
+    "formula": "C4H8O2",
+    "weight": "88.11",
+    "iupac": "1-hydroxybutan-2-one",
+    "cas": "5077-67-8",
+    "flavor_class": "unknown"
+  },
+  "methyl-2-methylbutyrate": {
+    "smiles": "",
+    "formula": "C6H12O2",
+    "weight": "116.16",
+    "iupac": "methyl 2-methylbutanoate",
+    "cas": "868-57-5",
+    "flavor_class": "unknown"
+  },
+  "phenethyl_isovalerate": {
+    "smiles": "",
+    "formula": "C13H18O2",
+    "weight": "206.28",
+    "iupac": "2-phenylethyl 3-methylbutanoate",
+    "cas": "140-26-1",
+    "flavor_class": "unknown"
+  },
+  "4-ethylbenzaldehyde": {
+    "smiles": "",
+    "formula": "C9H10O",
+    "weight": "134.17",
+    "iupac": "4-ethylbenzaldehyde",
+    "cas": "4748-78-1",
+    "flavor_class": "unknown"
+  },
+  "propyl_propionate": {
+    "smiles": "",
+    "formula": "C6H12O2",
+    "weight": "116.16",
+    "iupac": "propyl propanoate",
+    "cas": "106-36-5",
+    "flavor_class": "unknown"
+  },
+  "(z)-4-propenylphenol": {
+    "smiles": "",
+    "formula": "C9H10O",
+    "weight": "134.17",
+    "iupac": "4-[(Z)-prop-1-enyl]phenol",
+    "cas": "85960-81-2",
+    "flavor_class": "unknown"
+  },
+  "phenethyl_isobutyrate": {
+    "smiles": "",
+    "formula": "C12H16O2",
+    "weight": "192.25",
+    "iupac": "2-phenylethyl 2-methylpropanoate",
+    "cas": "103-48-0",
+    "flavor_class": "unknown"
+  },
+  "acetaldehyde_diisoamyl_acetal": {
+    "smiles": "",
+    "formula": "C12H26O2",
+    "weight": "202.33",
+    "iupac": "3-methyl-1-[1-(3-methylbutoxy)ethoxy]butane",
+    "cas": "13002-09-0",
+    "flavor_class": "unknown"
+  },
+  "4-methyl-5-thiazoleethanol": {
+    "smiles": "",
+    "formula": "C6H9NOS",
+    "weight": "143.21",
+    "iupac": "2-(4-methyl-1,3-thiazol-5-yl)ethanol",
+    "cas": "137-00-8",
+    "flavor_class": "unknown"
+  },
+  "theobromine": {
+    "smiles": "",
+    "formula": "C7H8N4O2",
+    "weight": "180.16",
+    "iupac": "3,7-dimethylpurine-2,6-dione",
+    "cas": "83-67-0",
+    "flavor_class": "unknown"
+  },
+  "2-acetylpyridine": {
+    "smiles": "",
+    "formula": "C7H7NO",
+    "weight": "121.14",
+    "iupac": "1-pyridin-2-ylethanone",
+    "cas": "1122-62-9",
+    "flavor_class": "unknown"
+  },
+  "propiophenone": {
+    "smiles": "",
+    "formula": "C9H10O",
+    "weight": "134.17",
+    "iupac": "1-phenylpropan-1-one",
+    "cas": "93-55-0",
+    "flavor_class": "unknown"
+  },
+  "5-methyl-2-phenyl-2-hexenal": {
+    "smiles": "",
+    "formula": "C13H16O",
+    "weight": "188.26",
+    "iupac": "(E)-5-methyl-2-phenylhex-2-enal",
+    "cas": "21834-92-4",
+    "flavor_class": "unknown"
+  },
+  "n-furfuryl_pyrrole": {
+    "smiles": "",
+    "formula": "C9H9NO",
+    "weight": "147.17",
+    "iupac": "1-(furan-2-ylmethyl)pyrrole",
+    "cas": "1438-94-4",
+    "flavor_class": "unknown"
+  },
+  "2(4)-isobutyl-4(2),6-dimethyldihydro-4h-1,3,5-dithiazine": {
+    "smiles": "",
+    "formula": "",
+    "weight": null,
+    "flavor_class": "unknown",
+    "cas": "977161-98-0"
+  },
+  "methyl_ethyl_trisulfide": {
+    "smiles": "",
+    "formula": "C3H8S3",
+    "weight": "140.3",
+    "iupac": "(methyltrisulfanyl)ethane",
+    "cas": "31499-71-5",
+    "flavor_class": "unknown"
+  },
+  "5,6,7,8-tetrahydroquinoxaline": {
+    "smiles": "",
+    "formula": "C8H10N2",
+    "weight": "134.18",
+    "iupac": "5,6,7,8-tetrahydroquinoxaline",
+    "cas": "34413-35-9",
+    "flavor_class": "unknown"
+  },
+  "1-buten-1-yl_methyl_sulfide": {
+    "smiles": "",
+    "formula": "C5H10S",
+    "weight": "102.20",
+    "iupac": "(E)-1-methylsulfanylbut-1-ene",
+    "cas": "32951-19-2",
+    "flavor_class": "unknown"
+  },
+  "4,5-dimethyl_thiazole": {
+    "smiles": "",
+    "formula": "C5H7NS",
+    "weight": "113.18",
+    "iupac": "4,5-dimethyl-1,3-thiazole",
+    "cas": "3581-91-7",
+    "flavor_class": "unknown"
+  },
+  "2-propionylpyrrole": {
+    "smiles": "",
+    "formula": "C7H9NO",
+    "weight": "123.15",
+    "iupac": "1-(1H-pyrrol-2-yl)propan-1-one",
+    "cas": "1073-26-3",
+    "flavor_class": "unknown"
+  },
+  "4,5-dihydro-3-(2h)thiophenone": {
+    "smiles": "",
+    "formula": "C4H6OS",
+    "weight": "102.16",
+    "iupac": "thiolan-3-one",
+    "cas": "1003-04-9",
+    "flavor_class": "unknown"
+  },
+  "2-ethyl-6-methylpyrazine": {
+    "smiles": "",
+    "formula": "C7H10N2",
+    "weight": "122.17",
+    "iupac": "2-ethyl-6-methylpyrazine",
+    "cas": "13925-03-6",
+    "flavor_class": "unknown"
+  },
+  "methyl_benzyl_disulfide": {
+    "smiles": "",
+    "formula": "C8H10S2",
+    "weight": "170.3",
+    "iupac": "(methyldisulfanyl)methylbenzene",
+    "cas": "699-10-5",
+    "flavor_class": "unknown"
+  },
+  "2,4,5-trimethyl-d-3-oxazoline": {
+    "smiles": "",
+    "formula": "C6H11NO",
+    "weight": "113.16",
+    "iupac": "2,4,5-trimethyl-2,5-dihydro-1,3-oxazole",
+    "cas": "22694-96-8",
+    "flavor_class": "unknown"
+  },
+  "2,4-pentadienal": {
+    "smiles": "",
+    "formula": "C5H6O",
+    "weight": "82.10",
+    "iupac": "(2E)-penta-2,4-dienal",
+    "cas": "746-40-9",
+    "flavor_class": "unknown"
+  },
+  "butyl_anthranilate": {
+    "smiles": "",
+    "formula": "C11H15NO2",
+    "weight": "193.24",
+    "iupac": "butyl 2-aminobenzoate",
+    "cas": "7756-96-9",
+    "flavor_class": "unknown"
+  },
+  "cinnamyl_butyrate": {
+    "smiles": "",
+    "formula": "C13H16O2",
+    "weight": "204.26",
+    "iupac": "[(E)-3-phenylprop-2-enyl] butanoate",
+    "cas": "103-61-7",
+    "flavor_class": "unknown"
+  },
+  "butyl_stearate": {
+    "smiles": "",
+    "formula": "C22H44O2",
+    "weight": "340.6",
+    "iupac": "butyl octadecanoate",
+    "cas": "123-95-5",
+    "flavor_class": "unknown"
+  },
+  "hexyl_formate": {
+    "smiles": "",
+    "formula": "C7H14O2",
+    "weight": "130.18",
+    "iupac": "hexyl formate",
+    "cas": "629-33-4",
+    "flavor_class": "unknown"
+  },
+  "benzyl_alcohol": {
+    "smiles": "",
+    "formula": "C7H8O",
+    "weight": "108.14",
+    "iupac": "phenylmethanol",
+    "cas": "100-51-6",
+    "flavor_class": "unknown"
+  },
+  "propyl_heptanoate": {
+    "smiles": "",
+    "formula": "C10H20O2",
+    "weight": "172.26",
+    "iupac": "propyl heptanoate",
+    "cas": "7778-87-2",
+    "flavor_class": "unknown"
+  },
+  "2-methylbutyl-2-methyl_butyrate": {
+    "smiles": "",
+    "formula": "C10H20O2",
+    "weight": "172.26",
+    "iupac": "2-methylbutyl 2-methylbutanoate",
+    "cas": "2445-78-5",
+    "flavor_class": "unknown"
+  },
+  "isobutyl_formate": {
+    "smiles": "",
+    "formula": "C5H10O2",
+    "weight": "102.13",
+    "iupac": "2-methylpropyl formate",
+    "cas": "542-55-2",
+    "flavor_class": "unknown"
+  },
+  "2-hexen-1-yl_acetate": {
+    "smiles": "",
+    "formula": "C8H14O2",
+    "weight": "142.20",
+    "iupac": "[(E)-hex-2-enyl] acetate",
+    "cas": "2497-18-9",
+    "flavor_class": "unknown"
+  },
+  "hexyl_propionate": {
+    "smiles": "",
+    "formula": "C9H18O2",
+    "weight": "158.24",
+    "iupac": "hexyl propanoate",
+    "cas": "2445-76-3",
+    "flavor_class": "unknown"
+  },
+  "butyl_propionate": {
+    "smiles": "",
+    "formula": "C7H14O2",
+    "weight": "130.18",
+    "iupac": "butyl propanoate",
+    "cas": "590-01-2",
+    "flavor_class": "unknown"
+  },
+  "d-sorbitol": {
+    "smiles": "",
+    "formula": "C6H14O6",
+    "weight": "182.17",
+    "iupac": "(2R,3R,4R,5S)-hexane-1,2,3,4,5,6-hexol",
+    "cas": "50-70-4",
+    "flavor_class": "unknown"
+  },
+  "butyl_heptanoate": {
+    "smiles": "",
+    "formula": "C11H22O2",
+    "weight": "186.29",
+    "iupac": "butyl heptanoate",
+    "cas": "5454-28-4",
+    "flavor_class": "unknown"
+  },
+  "ethyl_trans-2-octenoate": {
+    "smiles": "",
+    "formula": "C10H18O2",
+    "weight": "170.25",
+    "iupac": "ethyl (E)-oct-2-enoate",
+    "cas": "7367-82-0",
+    "flavor_class": "unknown"
+  },
+  "hexyl_2-methylbutyrate": {
+    "smiles": "",
+    "formula": "C11H22O2",
+    "weight": "186.29",
+    "iupac": "hexyl 2-methylbutanoate",
+    "cas": "10032-15-2",
+    "flavor_class": "unknown"
+  },
+  "ethyl_cis-4-octenoate": {
+    "smiles": "",
+    "formula": "C10H18O2",
+    "weight": "170.25",
+    "iupac": "ethyl (Z)-oct-4-enoate",
+    "cas": "34495-71-1",
+    "flavor_class": "unknown"
+  },
+  "butyl_laurate": {
+    "smiles": "",
+    "formula": "C16H32O2",
+    "weight": "256.42",
+    "iupac": "butyl dodecanoate",
+    "cas": "106-18-3",
+    "flavor_class": "unknown"
+  },
+  "cis-6-nonenal": {
+    "smiles": "",
+    "formula": "C9H16O",
+    "weight": "140.22",
+    "iupac": "(Z)-non-6-enal",
+    "cas": "2277-19-2",
+    "flavor_class": "unknown"
+  },
+  "2,6-nonadien-1-ol": {
+    "smiles": "",
+    "formula": "C9H16O",
+    "weight": "140.22",
+    "iupac": "nona-2,6-dien-1-ol",
+    "cas": "7786-44-9",
+    "flavor_class": "unknown"
+  },
+  "(z)(z)-3,6-nonadien-1-ol": {
+    "smiles": "",
+    "formula": "C9H16O",
+    "weight": "140.22",
+    "iupac": "nona-3,6-dien-1-ol",
+    "cas": "76649-25-7",
+    "flavor_class": "unknown"
+  },
+  "cis-6-nonen-1-ol": {
+    "smiles": "",
+    "formula": "C9H18O",
+    "weight": "142.24",
+    "iupac": "(Z)-non-6-en-1-ol",
+    "cas": "35854-86-5",
+    "flavor_class": "unknown"
+  },
+  "4-methyl-2-phenyl-2-pentenal": {
+    "smiles": "",
+    "formula": "C12H14O",
+    "weight": "174.24",
+    "iupac": "(Z)-4-methyl-2-phenylpent-2-enal",
+    "cas": "26643-91-4",
+    "flavor_class": "unknown"
+  },
+  "(e)-7-methyl-3-octen-2-one": {
+    "smiles": "",
+    "formula": "C9H16O",
+    "weight": "140.22",
+    "iupac": "(E)-7-methyloct-3-en-2-one",
+    "cas": ".",
+    "flavor_class": "unknown"
+  },
+  "butter_starter_distillate": {
+    "smiles": "",
+    "formula": "",
+    "weight": null,
+    "flavor_class": "unknown",
+    "cas": "977019-27-4"
+  },
+  "10-undecenoic_acid": {
+    "smiles": "",
+    "formula": "C11H20O2",
+    "weight": "184.27",
+    "iupac": "undec-10-enoic acid",
+    "cas": "112-38-9",
+    "flavor_class": "unknown"
+  },
+  "4,5-dimethyl-3-hydroxy-2,5-dihydrofuran-2-one": {
+    "smiles": "",
+    "formula": "C6H8O3",
+    "weight": "128.13",
+    "iupac": "4-hydroxy-2,3-dimethyl-2H-furan-5-one",
+    "cas": "28664-35-9",
+    "flavor_class": "unknown"
+  },
+  "ethyl_octadecanoate": {
+    "smiles": "",
+    "formula": "C20H40O2",
+    "weight": "312.5",
+    "iupac": "ethyl octadecanoate",
+    "cas": "111-61-5",
+    "flavor_class": "unknown"
+  },
+  "ethyl_acetoacetate": {
+    "smiles": "",
+    "formula": "C6H10O3",
+    "weight": "130.14",
+    "iupac": "ethyl 3-oxobutanoate",
+    "cas": "141-97-9",
+    "flavor_class": "unknown"
+  },
+  "2,6,6-trimethylcyclohex-2-ene-1,4-dione": {
+    "smiles": "",
+    "formula": "C9H12O2",
+    "weight": "152.19",
+    "iupac": "2,6,6-trimethylcyclohex-2-ene-1,4-dione",
+    "cas": "1125-21-9",
+    "flavor_class": "unknown"
+  },
+  "p-dimethoxybenzene": {
+    "smiles": "",
+    "formula": "C8H10O2",
+    "weight": "138.16",
+    "iupac": "1,4-dimethoxybenzene",
+    "cas": "150-78-7",
+    "flavor_class": "unknown"
+  },
+  "5-ethyl-2-methylpyridine": {
+    "smiles": "",
+    "formula": "C8H11N",
+    "weight": "121.18",
+    "iupac": "5-ethyl-2-methylpyridine",
+    "cas": "104-90-5",
+    "flavor_class": "unknown"
+  },
+  "3-ethylpyridine": {
+    "smiles": "",
+    "formula": "C7H9N",
+    "weight": "107.15",
+    "iupac": "3-ethylpyridine",
+    "cas": "536-78-7",
+    "flavor_class": "unknown"
+  },
+  "methyl_thiobutyrate": {
+    "smiles": "",
+    "formula": "C5H10OS",
+    "weight": "118.20",
+    "iupac": "S-methyl butanethioate",
+    "cas": "2432-51-1",
+    "flavor_class": "unknown"
+  },
+  "2-undecen-1-ol": {
+    "smiles": "",
+    "formula": "C11H22O",
+    "weight": "170.29",
+    "iupac": "(E)-undec-2-en-1-ol",
+    "cas": "37617-03-1",
+    "flavor_class": "unknown"
+  },
+  "4-methyl-2,3-pentanedione": {
+    "smiles": "",
+    "formula": "C6H10O2",
+    "weight": "114.14",
+    "iupac": "4-methylpentane-2,3-dione",
+    "cas": "7493-58-5",
+    "flavor_class": "unknown"
+  },
+  "a-methylbenzyl_acetate": {
+    "smiles": "",
+    "formula": "C10H12O2",
+    "weight": "164.20",
+    "iupac": "1-phenylethyl acetate",
+    "cas": "93-92-5",
+    "flavor_class": "unknown"
+  },
+  "p-a-dimethylbenzyl_alcohol": {
+    "smiles": "",
+    "formula": "C9H12O",
+    "weight": "136.19",
+    "iupac": "1-(4-methylphenyl)ethanol",
+    "cas": "536-50-5",
+    "flavor_class": "unknown"
+  },
+  "3-methylthiopropyl_isothiocyanate": {
+    "smiles": "",
+    "formula": "C5H9NS2",
+    "weight": "147.3",
+    "iupac": "1-isothiocyanato-3-methylsulfanylpropane",
+    "cas": "505-79-3",
+    "flavor_class": "unknown"
+  },
+  "phenethyl_isothiocyanate": {
+    "smiles": "",
+    "formula": "C9H9NS",
+    "weight": "163.24",
+    "iupac": "2-isothiocyanatoethylbenzene",
+    "cas": "2257-09-2",
+    "flavor_class": "unknown"
+  },
+  "citric_acid": {
+    "smiles": "",
+    "formula": "C6H8O7",
+    "weight": "192.12",
+    "iupac": "2-hydroxypropane-1,2,3-tricarboxylic acid",
+    "cas": "77-92-9",
+    "flavor_class": "unknown"
+  },
+  "a,a-dimethylphenethyl_alcohol": {
+    "smiles": "",
+    "formula": "C10H14O",
+    "weight": "150.22",
+    "iupac": "2-methyl-1-phenylpropan-2-ol",
+    "cas": "100-86-7",
+    "flavor_class": "unknown"
+  },
+  "5-isopropyl-2-methylpyrazine": {
+    "smiles": "",
+    "formula": "C8H12N2",
+    "weight": "136.19",
+    "iupac": "2-methyl-5-propan-2-ylpyrazine",
+    "cas": "13925-05-8",
+    "flavor_class": "unknown"
+  },
+  "3-methyl-2-butenal": {
+    "smiles": "",
+    "formula": "C5H8O",
+    "weight": "84.12",
+    "iupac": "3-methylbut-2-enal",
+    "cas": "107-86-8",
+    "flavor_class": "unknown"
+  },
+  "ethyl_oleate": {
+    "smiles": "",
+    "formula": "C20H38O2",
+    "weight": "310.5",
+    "iupac": "ethyl (Z)-octadec-9-enoate",
+    "cas": "111-62-6",
+    "flavor_class": "unknown"
+  },
+  "methyl_phenyl_disulfide": {
+    "smiles": "",
+    "formula": "C7H8S2",
+    "weight": "156.3",
+    "iupac": "(methyldisulfanyl)benzene",
+    "cas": "14173-25-2",
+    "flavor_class": "unknown"
+  },
+  "3-methylpentanoic_acid": {
+    "smiles": "",
+    "formula": "C6H12O2",
+    "weight": "116.16",
+    "iupac": "3-methylpentanoic acid",
+    "cas": "105-43-1",
+    "flavor_class": "unknown"
+  },
+  "2-acetyl-3-ethylpyrazine": {
+    "smiles": "",
+    "formula": "C8H10N2O",
+    "weight": "150.18",
+    "iupac": "1-(3-ethylpyrazin-2-yl)ethanone",
+    "cas": "32974-92-8",
+    "flavor_class": "unknown"
+  },
+  "3-methylcrotonic_acid": {
+    "smiles": "",
+    "formula": "C5H8O2",
+    "weight": "100.12",
+    "iupac": "3-methylbut-2-enoic acid",
+    "cas": "541-47-9",
+    "flavor_class": "unknown"
+  },
+  "isoamyl_benzoate": {
+    "smiles": "",
+    "formula": "C12H16O2",
+    "weight": "192.25",
+    "iupac": "3-methylbutyl benzoate",
+    "cas": "94-46-2",
+    "flavor_class": "unknown"
+  },
+  "3-hydroxy-2-oxopropionic_acid": {
+    "smiles": "",
+    "formula": "C3H4O4",
+    "weight": "104.06",
+    "iupac": "3-hydroxy-2-oxopropanoic acid",
+    "cas": "1113-60-6",
+    "flavor_class": "unknown"
+  },
+  "6,7-dihydro-2,3-dimethyl-5h-cyclopentapyrazine": {
+    "smiles": "",
+    "formula": "C9H12N2",
+    "weight": "148.20",
+    "iupac": "2,3-dimethyl-6,7-dihydro-5H-cyclopenta[b]pyrazine",
+    "cas": "38917-63-4",
+    "flavor_class": "unknown"
+  },
+  "p-methyl_diphenyl": {
+    "smiles": "",
+    "formula": "C13H12",
+    "weight": "168.23",
+    "iupac": "1-methyl-4-phenylbenzene",
+    "cas": "644-08-6",
+    "flavor_class": "unknown"
+  },
+  "3-methyl-2-cyclohexen-1-one": {
+    "smiles": "",
+    "formula": "C7H10O",
+    "weight": "110.15",
+    "iupac": "3-methylcyclohex-2-en-1-one",
+    "cas": "1193-18-6",
+    "flavor_class": "unknown"
+  },
+  "phenylacetaldehyde_dimethyl_acetal": {
+    "smiles": "",
+    "formula": "C10H14O2",
+    "weight": "166.22",
+    "iupac": "2,2-dimethoxyethylbenzene",
+    "cas": "101-48-4",
+    "flavor_class": "unknown"
+  },
+  "heptanal": {
+    "smiles": "",
+    "formula": "C7H14O",
+    "weight": "114.19",
+    "iupac": "heptanal",
+    "cas": "111-71-7",
+    "flavor_class": "unknown"
+  },
+  "phenoxyacetic_acid": {
+    "smiles": "",
+    "formula": "C8H8O3",
+    "weight": "152.15",
+    "iupac": "2-phenoxyacetic acid",
+    "cas": "122-59-8",
+    "flavor_class": "unknown"
+  },
+  "5-hydroxy-4-octanone": {
+    "smiles": "",
+    "formula": "C8H16O2",
+    "weight": "144.21",
+    "iupac": "5-hydroxyoctan-4-one",
+    "cas": "496-77-5",
+    "flavor_class": "unknown"
+  },
+  "2-isopropyl-5-methyl-2-hexenal": {
+    "smiles": "",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "iupac": "5-methyl-2-propan-2-ylhex-2-enal",
+    "cas": "35158-25-9",
+    "flavor_class": "unknown"
+  },
+  "2-acetoxy-3-butanone": {
+    "smiles": "",
+    "formula": "C6H10O3",
+    "weight": "130.14",
+    "iupac": "3-oxobutan-2-yl acetate",
+    "cas": "4906-24-5",
+    "flavor_class": "unknown"
+  },
+  "2-phenyl-2-butenal": {
+    "smiles": "",
+    "formula": "C10H10O",
+    "weight": "146.19",
+    "iupac": "2-phenylbut-2-enal",
+    "cas": "4411-89-6",
+    "flavor_class": "unknown"
+  },
+  "isobutyl_phenylacetate": {
+    "smiles": "",
+    "formula": "C12H16O2",
+    "weight": "192.25",
+    "iupac": "2-methylpropyl 2-phenylacetate",
+    "cas": "102-13-6",
+    "flavor_class": "unknown"
+  },
+  "benzyl_ethyl_ether": {
+    "smiles": "",
+    "formula": "C9H12O",
+    "weight": "136.19",
+    "iupac": "ethoxymethylbenzene",
+    "cas": "539-30-0",
+    "flavor_class": "unknown"
+  },
+  "quinoline": {
+    "smiles": "",
+    "formula": "C9H7N",
+    "weight": "129.16",
+    "iupac": "quinoline",
+    "cas": "91-22-5",
+    "flavor_class": "unknown"
+  },
+  "cis-3-hexenyl_butyrate": {
+    "smiles": "",
+    "formula": "C10H18O2",
+    "weight": "170.25",
+    "iupac": "[(Z)-hex-3-enyl] butanoate",
+    "cas": "16491-36-4",
+    "flavor_class": "unknown"
+  },
+  "p-mentha-1,8-dien-7-yl-acetate": {
+    "smiles": "",
+    "formula": "C12H18O2",
+    "weight": "194.27",
+    "iupac": "(4-prop-1-en-2-ylcyclohexen-1-yl)methyl acetate",
+    "cas": "15111-96-3",
+    "flavor_class": "unknown"
+  },
+  "2-undecanone": {
+    "smiles": "",
+    "formula": "C11H22O",
+    "weight": "170.29",
+    "iupac": "undecan-2-one",
+    "cas": "112-12-9",
+    "flavor_class": "unknown"
+  },
+  "cis-3-hexenyl_formate": {
+    "smiles": "",
+    "formula": "C7H12O2",
+    "weight": "128.17",
+    "iupac": "[(Z)-hex-3-enyl] formate",
+    "cas": "33467-73-1",
+    "flavor_class": "unknown"
+  },
+  "2-acetyl-2-thiazoline": {
+    "smiles": "",
+    "formula": "C5H7NOS",
+    "weight": "129.18",
+    "iupac": "1-(4,5-dihydro-1,3-thiazol-2-yl)ethanone",
+    "cas": "29926-41-8",
+    "flavor_class": "unknown"
+  },
+  "ethyl_acrylate": {
+    "smiles": "",
+    "formula": "C5H8O2",
+    "weight": "100.12",
+    "iupac": "ethyl prop-2-enoate",
+    "cas": "140-88-5",
+    "flavor_class": "unknown"
+  },
+  "2,5-dimethyl-4-methoxy-3(2h)-furanone": {
+    "smiles": "",
+    "formula": "C7H10O3",
+    "weight": "142.15",
+    "iupac": "4-methoxy-2,5-dimethylfuran-3-one",
+    "cas": "4077-47-8",
+    "flavor_class": "unknown"
+  },
+  "ethyl_trans-2-hexenoate": {
+    "smiles": "",
+    "formula": "C8H14O2",
+    "weight": "142.20",
+    "iupac": "ethyl (E)-hex-2-enoate",
+    "cas": "27829-72-7",
+    "flavor_class": "unknown"
+  },
+  "methyl-cis-4-octenoate": {
+    "smiles": "",
+    "formula": "C9H16O2",
+    "weight": "156.22",
+    "iupac": "methyl (Z)-oct-4-enoate",
+    "cas": "21063-71-8",
+    "flavor_class": "unknown"
+  },
+  "methyl-4-methylvalerate": {
+    "smiles": "",
+    "formula": "C7H14O2",
+    "weight": "130.18",
+    "iupac": "methyl 4-methylpentanoate",
+    "cas": "2412-80-8",
+    "flavor_class": "unknown"
+  },
+  "isoprenyl_acetate": {
+    "smiles": "",
+    "formula": "C7H12O2",
+    "weight": "128.17",
+    "iupac": "3-methylbut-3-enyl acetate",
+    "cas": "5205-07-2",
+    "flavor_class": "unknown"
+  },
+  "(+/?)-ethyl_3-acetoxy-2-methylbutyrate": {
+    "smiles": "",
+    "formula": "C9H16O4",
+    "weight": "188.22",
+    "iupac": "ethyl 3-acetyloxy-2-methylbutanoate",
+    "cas": "139564-43-5",
+    "flavor_class": "unknown"
+  },
+  "methyl_(methylthio)acetate": {
+    "smiles": "",
+    "formula": "C4H8O2S",
+    "weight": "120.17",
+    "iupac": "methyl 2-methylsulfanylacetate",
+    "cas": "16630-66-3",
+    "flavor_class": "unknown"
+  },
+  "ethyl_2-(methylthio)acetate": {
+    "smiles": "",
+    "formula": "C5H10O2S",
+    "weight": "134.20",
+    "iupac": "ethyl 2-methylsulfanylacetate",
+    "cas": "4455-13-4",
+    "flavor_class": "unknown"
+  },
+  "methyl_sorbate": {
+    "smiles": "",
+    "formula": "C7H10O2",
+    "weight": "126.15",
+    "iupac": "methyl (2E,4E)-hexa-2,4-dienoate",
+    "cas": "686-89-4",
+    "flavor_class": "unknown"
+  },
+  "ethyl_3-hexenoate": {
+    "smiles": "",
+    "formula": "C8H14O2",
+    "weight": "142.20",
+    "iupac": "ethyl (E)-hex-3-enoate",
+    "cas": "2396-83-0",
+    "flavor_class": "unknown"
+  },
+  "ethyl_5-hexenoate": {
+    "smiles": "",
+    "formula": "C8H14O2",
+    "weight": "142.20",
+    "iupac": "ethyl hex-5-enoate",
+    "cas": "54653-25-7",
+    "flavor_class": "unknown"
+  },
+  "methyl-4-(methylthio)butyrate": {
+    "smiles": "",
+    "formula": "C6H12O2S",
+    "weight": "148.23",
+    "iupac": "methyl 4-methylsulfanylbutanoate",
+    "cas": "53053-51-3",
+    "flavor_class": "unknown"
+  },
+  "methyl_3-hydroxyhexanoate": {
+    "smiles": "",
+    "formula": "C7H14O3",
+    "weight": "146.18",
+    "iupac": "methyl 3-hydroxyhexanoate",
+    "cas": "21188-58-9",
+    "flavor_class": "unknown"
+  },
+  "(+/?)-methyl_5-acetoxyhexanoate": {
+    "smiles": "",
+    "formula": "C9H16O4",
+    "weight": "188.22",
+    "iupac": "methyl 5-acetyloxyhexanoate",
+    "cas": "35234-22-1",
+    "flavor_class": "unknown"
+  },
+  "levulinic_acid": {
+    "smiles": "",
+    "formula": "C5H8O3",
+    "weight": "116.11",
+    "iupac": "4-oxopentanoic acid",
+    "cas": "123-76-2",
+    "flavor_class": "unknown"
+  },
+  "a-hexyl_cinnamaldehyde": {
+    "smiles": "",
+    "formula": "C15H20O",
+    "weight": "216.32",
+    "iupac": "(2E)-2-benzylideneoctanal",
+    "cas": "101-86-0",
+    "flavor_class": "unknown"
+  },
+  "cis-3-hexenyl_isovalerate": {
+    "smiles": "",
+    "formula": "C11H20O2",
+    "weight": "184.27",
+    "iupac": "[(Z)-hex-3-enyl] 3-methylbutanoate",
+    "cas": "35154-45-1",
+    "flavor_class": "unknown"
+  },
+  "2-pentylpyridine": {
+    "smiles": "",
+    "formula": "C10H15N",
+    "weight": "149.23",
+    "iupac": "2-pentylpyridine",
+    "cas": "2294-76-0",
+    "flavor_class": "unknown"
+  },
+  "a-campholenic_alcohol": {
+    "smiles": "",
+    "formula": "C10H18O",
+    "weight": "154.25",
+    "iupac": "2-(2,2,3-trimethylcyclopent-3-en-1-yl)ethanol",
+    "cas": "1901-38-8",
+    "flavor_class": "unknown"
+  },
+  "2-(2-butyl)-4,5-dimethyl-3-thiazoline": {
+    "smiles": "",
+    "formula": "C9H17NS",
+    "weight": "171.31",
+    "iupac": "2-butan-2-yl-4,5-dimethyl-2,5-dihydro-1,3-thiazole",
+    "cas": "65894-82-8",
+    "flavor_class": "unknown"
+  },
+  "l-glutamic_acid": {
+    "smiles": "",
+    "formula": "C5H9NO4",
+    "weight": "147.13",
+    "iupac": "(2S)-2-aminopentanedioic acid",
+    "cas": "56-86-0",
+    "flavor_class": "unknown"
+  },
+  "s-methyl_4-methylpentanethioate": {
+    "smiles": "",
+    "formula": "C7H14OS",
+    "weight": "146.25",
+    "iupac": "S-methyl 4-methylpentanethioate",
+    "cas": "53966-59-9",
+    "flavor_class": "unknown"
+  },
+  "4-ethyl-2,6-dimethoxyphenol": {
+    "smiles": "",
+    "formula": "C10H14O3",
+    "weight": "182.22",
+    "iupac": "4-ethyl-2,6-dimethoxyphenol",
+    "cas": "14059-92-8",
+    "flavor_class": "unknown"
+  },
+  "heptyl_formate": {
+    "smiles": "",
+    "formula": "C8H16O2",
+    "weight": "144.21",
+    "iupac": "heptyl formate",
+    "cas": "112-23-2",
+    "flavor_class": "unknown"
+  },
+  "2-hepten-4-one": {
+    "smiles": "",
+    "formula": "C7H12O",
+    "weight": "112.17",
+    "iupac": "(E)-hept-2-en-4-one",
+    "cas": "4643-25-8",
+    "flavor_class": "unknown"
+  },
+  "s-methyl_hexanethioate": {
+    "smiles": "",
+    "formula": "C7H14OS",
+    "weight": "146.25",
+    "iupac": "S-methyl hexanethioate",
+    "cas": "2432-77-1",
+    "flavor_class": "unknown"
+  },
+  "2-oxobutyric_acid": {
+    "smiles": "",
+    "formula": "C4H6O3",
+    "weight": "102.09",
+    "iupac": "2-oxobutanoic acid",
+    "cas": "600-18-0",
+    "flavor_class": "unknown"
+  },
+  "3-methylbutanethiol": {
+    "smiles": "",
+    "formula": "C5H12S",
+    "weight": "104.22",
+    "iupac": "3-methylbutane-1-thiol",
+    "cas": "541-31-4",
+    "flavor_class": "unknown"
+  },
+  "4-decenoic_acid": {
+    "smiles": "",
+    "formula": "C10H18O2",
+    "weight": "170.25",
+    "iupac": "dec-4-enoic acid",
+    "cas": "26303-90-2",
+    "flavor_class": "unknown"
+  },
+  "4-propenyl-2,6-dimethoxyphenol": {
+    "smiles": "",
+    "formula": "C11H14O3",
+    "weight": "194.23",
+    "iupac": "2,6-dimethoxy-4-[(E)-prop-1-enyl]phenol",
+    "cas": "20675-95-0",
+    "flavor_class": "unknown"
+  },
+  "3-acetylpyridine": {
+    "smiles": "",
+    "formula": "C7H7NO",
+    "weight": "121.14",
+    "iupac": "1-pyridin-3-ylethanone",
+    "cas": "350-03-8",
+    "flavor_class": "unknown"
+  },
+  "4-mercapto-4-methyl-2-pentanone": {
+    "smiles": "",
+    "formula": "C6H12OS",
+    "weight": "132.23",
+    "iupac": "4-methyl-4-sulfanylpentan-2-one",
+    "cas": "19872-52-7",
+    "flavor_class": "unknown"
+  },
+  "benzyl_isobutyrate": {
+    "smiles": "",
+    "formula": "C11H14O2",
+    "weight": "178.23",
+    "iupac": "benzyl 2-methylpropanoate",
+    "cas": "103-28-6",
+    "flavor_class": "unknown"
+  },
+  "prenylthiol": {
+    "smiles": "",
+    "formula": "C5H10S",
+    "weight": "102.20",
+    "iupac": "3-methylbut-2-ene-1-thiol",
+    "cas": "5287-45-6",
+    "flavor_class": "unknown"
+  },
+  "3-methyl-2,4-nonanedione": {
+    "smiles": "",
+    "formula": "C10H18O2",
+    "weight": "170.25",
+    "iupac": "3-methylnonane-2,4-dione",
+    "cas": "113486-29-6",
+    "flavor_class": "unknown"
+  },
+  "erythrobic_acid": {
+    "smiles": "",
+    "formula": "C6H8O6",
+    "weight": "176.12",
+    "iupac": "(2R)-2-[(1R)-1,2-dihydroxyethyl]-3,4-dihydroxy-2H-furan-5-one",
+    "cas": "89-65-6",
+    "flavor_class": "unknown"
+  },
+  "linalyl_formate": {
+    "smiles": "",
+    "formula": "C11H18O2",
+    "weight": "182.26",
+    "iupac": "3,7-dimethylocta-1,6-dien-3-yl formate",
+    "cas": "115-99-1",
+    "flavor_class": "unknown"
+  },
+  "m-dimethoxybenzene": {
+    "smiles": "",
+    "formula": "C8H10O2",
+    "weight": "138.16",
+    "iupac": "1,3-dimethoxybenzene",
+    "cas": "151-10-0",
+    "flavor_class": "unknown"
+  },
+  "isopropyl_butyrate": {
+    "smiles": "",
+    "formula": "C7H14O2",
+    "weight": "130.18",
+    "iupac": "propan-2-yl butanoate",
+    "cas": "638-11-9",
+    "flavor_class": "unknown"
+  },
+  "cis-3-hexenyl-2-methylbutyrate": {
+    "smiles": "",
+    "formula": "C11H20O2",
+    "weight": "184.27",
+    "iupac": "[(Z)-hex-3-enyl] 2-methylbutanoate",
+    "cas": "53398-85-9",
+    "flavor_class": "unknown"
+  },
+  "(z)-3_&amp;_(e)-2-hexenyl_propionate_(mixture)": {
+    "smiles": "",
+    "formula": "C9H16O2",
+    "weight": "156.22",
+    "iupac": "[(Z)-hex-3-enyl] propanoate",
+    "cas": "33467-74-2",
+    "flavor_class": "unknown"
+  },
+  "cis-3-hexenyl_hexanoate": {
+    "smiles": "",
+    "formula": "C12H22O2",
+    "weight": "198.30",
+    "iupac": "[(Z)-hex-3-enyl] hexanoate",
+    "cas": "31501-11-8",
+    "flavor_class": "unknown"
+  },
+  "5-hydroxy-2,4-decadienoic_acid_d-lactone": {
+    "smiles": "",
+    "formula": "C10H14O2",
+    "weight": "166.22",
+    "iupac": "6-pentylpyran-2-one",
+    "cas": ".",
+    "flavor_class": "unknown"
+  },
+  "benzyl_tiglate": {
+    "smiles": "",
+    "formula": "C7H12O2",
+    "weight": "128.17",
+    "iupac": "ethyl 2-methylbut-2-enoate",
+    "cas": "5837-78-5",
+    "flavor_class": "unknown"
+  },
+  "benzyl_salicylate": {
+    "smiles": "",
+    "formula": "C14H12O3",
+    "weight": "228.24",
+    "iupac": "benzyl 2-hydroxybenzoate",
+    "cas": "118-58-1",
+    "flavor_class": "unknown"
+  },
+  "2-octen-4-one": {
+    "smiles": "",
+    "formula": "C8H14O",
+    "weight": "126.20",
+    "iupac": "(E)-oct-2-en-4-one",
+    "cas": "4643-27-0",
+    "flavor_class": "unknown"
+  },
+  "isopropyl_myristate": {
+    "smiles": "",
+    "formula": "C17H34O2",
+    "weight": "270.5",
+    "iupac": "propan-2-yl tetradecanoate",
+    "cas": "110-27-0",
+    "flavor_class": "unknown"
+  },
+  "6-undecanone": {
+    "smiles": "",
+    "formula": "C11H22O",
+    "weight": "170.29",
+    "iupac": "undecan-6-one",
+    "cas": "927-49-1",
+    "flavor_class": "unknown"
+  },
+  "(z)-4-dodecenal": {
+    "smiles": "",
+    "formula": "C12H22O",
+    "weight": "182.30",
+    "iupac": "(Z)-dodec-4-enal",
+    "cas": "21944-98-9",
+    "flavor_class": "unknown"
+  },
+  "octyl_propionate": {
+    "smiles": "",
+    "formula": "C11H22O2",
+    "weight": "186.29",
+    "iupac": "octyl propanoate",
+    "cas": "142-60-9",
+    "flavor_class": "unknown"
+  },
+  "ethyl_tiglate": {
+    "smiles": "",
+    "formula": "C7H12O2",
+    "weight": "128.17",
+    "iupac": "ethyl 2-methylbut-2-enoate",
+    "cas": "5837-78-5",
+    "flavor_class": "unknown"
+  },
+  "benzyl_propionate": {
+    "smiles": "",
+    "formula": "C10H12O2",
+    "weight": "164.20",
+    "iupac": "benzyl propanoate",
+    "cas": "122-63-4",
+    "flavor_class": "unknown"
+  },
+  "verbenol": {
+    "smiles": "",
+    "formula": "C10H16O",
+    "weight": "152.23",
+    "iupac": "4,6,6-trimethylbicyclo[3.1.1]hept-3-en-2-ol",
+    "cas": "473-67-6",
+    "flavor_class": "unknown"
+  },
+  "(e)-2-hexenyl_hexanoate": {
+    "smiles": "",
+    "formula": "C12H22O2",
+    "weight": "198.30",
+    "iupac": "[(E)-hex-2-enyl] hexanoate",
+    "cas": "53398-86-0",
+    "flavor_class": "unknown"
+  },
+  "octyl_2-methylbutyrate": {
+    "smiles": "",
+    "formula": "C13H26O2",
+    "weight": "214.34",
+    "iupac": "octyl 2-methylbutanoate",
+    "cas": "29811-50-5",
+    "flavor_class": "unknown"
+  },
+  "isopropyl_2-methylbutyrate": {
+    "smiles": "",
+    "formula": "C8H16O2",
+    "weight": "144.21",
+    "iupac": "propan-2-yl 2-methylbutanoate",
+    "cas": "66576-71-4",
+    "flavor_class": "unknown"
+  },
+  "p-mentha-1,8-dien-7-ol": {
+    "smiles": "",
+    "formula": "C10H16O",
+    "weight": "152.23",
+    "iupac": "(4-prop-1-en-2-ylcyclohexen-1-yl)methanol",
+    "cas": "536-59-4",
+    "flavor_class": "unknown"
+  },
+  "2-methyl-3-pentenoic_acid": {
+    "smiles": "",
+    "formula": "C6H10O2",
+    "weight": "114.14",
+    "iupac": "2-methylpent-3-enoic acid",
+    "cas": "37674-63-8",
+    "flavor_class": "unknown"
+  },
+  "4-acetoxy-2,5-dimethyl-3(2h)-furanone": {
+    "smiles": "",
+    "formula": "C8H10O4",
+    "weight": "170.16",
+    "iupac": "(2,5-dimethyl-4-oxofuran-3-yl) acetate",
+    "cas": "4166-20-5",
+    "flavor_class": "unknown"
+  },
+  "cis-2-nonen-1-ol": {
+    "smiles": "",
+    "formula": "C9H18O",
+    "weight": "142.24",
+    "iupac": "(Z)-non-2-en-1-ol",
+    "cas": "41453-56-9",
+    "flavor_class": "unknown"
+  },
+  "1-methyl-2-acetylpyrrole": {
+    "smiles": "",
+    "formula": "C7H9NO",
+    "weight": "123.15",
+    "iupac": "1-(1-methylpyrrol-2-yl)ethanone",
+    "cas": "932-16-1",
+    "flavor_class": "unknown"
+  },
+  "2-methyl-3-furanthiol": {
+    "smiles": "",
+    "formula": "C5H6OS",
+    "weight": "114.17",
+    "iupac": "2-methylfuran-3-thiol",
+    "cas": "28588-74-1",
+    "flavor_class": "unknown"
+  },
+  "diethyl_trisulfide": {
+    "smiles": "",
+    "formula": "C4H10S3",
+    "weight": "154.3",
+    "iupac": "(ethyltrisulfanyl)ethane",
+    "cas": "3600-24-6",
+    "flavor_class": "unknown"
+  },
+  "2-methyl-1-butanethiol": {
+    "smiles": "",
+    "formula": "C5H12S",
+    "weight": "104.22",
+    "iupac": "2-methylbutane-1-thiol",
+    "cas": "1878-18-8",
+    "flavor_class": "unknown"
+  },
+  "3-octyl_acetate": {
+    "smiles": "",
+    "formula": "C10H20O2",
+    "weight": "172.26",
+    "iupac": "octan-3-yl acetate",
+    "cas": "4864-61-3",
+    "flavor_class": "unknown"
+  },
+  "cyclohexanecarboxylic_acid": {
+    "smiles": "",
+    "formula": "C7H12O2",
+    "weight": "128.17",
+    "iupac": "cyclohexanecarboxylic acid",
+    "cas": "98-89-5",
+    "flavor_class": "unknown"
+  },
+  "diisopropyl_disulfide": {
+    "smiles": "",
+    "formula": "C6H14S2",
+    "weight": "150.3",
+    "iupac": "2-(propan-2-yldisulfanyl)propane",
+    "cas": "4253-89-8",
+    "flavor_class": "unknown"
+  },
+  "2-propylpyridine": {
+    "smiles": "",
+    "formula": "C8H11N",
+    "weight": "121.18",
+    "iupac": "2-propylpyridine",
+    "cas": "622-39-9",
+    "flavor_class": "unknown"
+  },
+  "2-heptylfuran": {
+    "smiles": "",
+    "formula": "C11H18O",
+    "weight": "166.26",
+    "iupac": "2-heptylfuran",
+    "cas": "3777-71-7",
+    "flavor_class": "unknown"
+  },
+  "3-methyl-1-butanethiol": {
+    "smiles": "",
+    "formula": "C5H12S",
+    "weight": "104.22",
+    "iupac": "3-methylbutane-2-thiol",
+    "cas": "2084-18-6",
+    "flavor_class": "unknown"
+  },
+  "benzenethiol": {
+    "smiles": "",
+    "formula": "C6H6S",
+    "weight": "110.18",
+    "iupac": "benzenethiol",
+    "cas": "108-98-5",
+    "flavor_class": "unknown"
+  },
+  "furfuryl_mercaptan": {
+    "smiles": "",
+    "formula": "C5H6OS",
+    "weight": "114.17",
+    "iupac": "furan-2-ylmethanethiol",
+    "cas": "98-02-2",
+    "flavor_class": "unknown"
+  },
+  "trithioacetone": {
+    "smiles": "",
+    "formula": "C9H18S3",
+    "weight": "222.4",
+    "iupac": "2,2,4,4,6,6-hexamethyl-1,3,5-trithiane",
+    "cas": "828-26-2",
+    "flavor_class": "unknown"
+  },
+  "3-acetyl-2,5-dimethylthiophene": {
+    "smiles": "",
+    "formula": "C8H10OS",
+    "weight": "154.23",
+    "iupac": "1-(2,5-dimethylthiophen-3-yl)ethanone",
+    "cas": "2530-10-1",
+    "flavor_class": "unknown"
+  },
+  "2,2'-(dithiodimethylene)-difuran": {
+    "smiles": "",
+    "formula": "C10H10O2S2",
+    "weight": "226.3",
+    "iupac": "2-[(furan-2-ylmethyldisulfanyl)methyl]furan",
+    "cas": "4437-20-1",
+    "flavor_class": "unknown"
+  },
+  "4-hydroxy-2,3-dimethyl-2,4-nonadienoic_acid_gamma-lactone": {
+    "smiles": "",
+    "formula": "C11H16O2",
+    "weight": "180.24",
+    "iupac": "3,4-dimethyl-5-pentylidenefuran-2-one",
+    "cas": "774-64-1",
+    "flavor_class": "unknown"
+  }
+}
