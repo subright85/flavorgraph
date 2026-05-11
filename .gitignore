@@ -5,3 +5,18 @@ node_modules/
 
 *.db-shm
 *.db-wal
+
+# ML model weights — large binary artifacts, not version controlled
+scripts/gnn/*.pt
+
+# Build artifacts
+tsconfig.tsbuildinfo
+.vercel/
+
+# Large data files
+data/PP_*.csv
+data/RAW_*.csv
+data/interactions_*.csv
+data/mapping_batches/
+data/*.pkl
+data/*.npy
