@@ -1,6 +1,6 @@
 # Ahn Hypothesis Review — FlavorGraph v4/v5
 **Prepared for**: RecSys 2026 Workshop (deadline July 20, 2026)  
-**Status**: W1 draft
+**Status**: W2 draft — empirical correlation analysis added
 
 ---
 
@@ -117,7 +117,67 @@ Based on the above, the most hypothesis-motivated next architecture:
 
 ---
 
-## 6. Open Questions for Paper
+---
+
+## 6. Empirical Correlation Analysis (v5.db direct)
+
+Direct Spearman correlation between shared compound count and NPMI, computed across all 66,295 unique pairs in flavorgraph_v5.db:
+
+| Filter | N pairs | Spearman r | Interpretation |
+|--------|---------|-----------|----------------|
+| All pairs | 66,295 | **0.019** | Near-zero overall |
+| Both ingredients >=5 compounds | 49,615 | **0.012** | Sparsity not main driver |
+| Both ingredients >=20 compounds | 36,458 | **0.071** | 4x stronger for compound-rich pairs |
+
+### 6.1 NPMI by shared compound bucket
+
+| Shared compounds | N pairs | Mean NPMI | Median NPMI |
+|-----------------|---------|----------|------------|
+| 0 | 20,673 | 0.0661 | 0.0619 |
+| 1-5 | 18,593 | 0.0635 | 0.0604 |
+| 6-20 | 17,106 | 0.0642 | 0.0614 |
+| 21-50 | 7,246 | 0.0690 | 0.0664 |
+| 51-200 | 2,677 | **0.0906** | **0.0817** |
+
+The signal is nearly flat until very high compound sharing (51+). Only 2,677 pairs (4%) enter that regime.
+
+### 6.2 Ahn-confirmed pairs
+
+High-NPMI (>0.2) pairs with substantial compound sharing:
+
+| Pair | NPMI | Shared | Note |
+|------|------|--------|------|
+| mirin + sake | 0.633 | 29 | Japanese cooking bases |
+| oyster + shiitake mushrooms | 0.597 | 117 | Asian mushroom umami |
+| red + yellow bell pepper | 0.587 | 36 | Same botanical, color variants |
+| blackberry + raspberries | 0.587 | 72 | Berry family |
+| mozzarella + ricotta | 0.494 | 127 | Italian dairy |
+| feta + kalamata olive | 0.516 | 26 | Mediterranean staples |
+| mango + papaya | 0.531 | 55 | Tropical fruits |
+
+### 6.3 Counter-examples
+
+High-NPMI (>0.3) pairs with zero shared compounds (415 total):
+
+| Pair | NPMI | Culinary explanation |
+|------|------|---------------------|
+| ginger (cured) + wasabi | 0.653 | Sushi condiment set - cultural tradition |
+| sesame oil + soy sauce | 0.544 | East Asian base - Ahn inverted regime |
+| basil + oregano | 0.559 | Both Lamiaceae - FlavorDB data gap |
+| tahini + chickpeas | 0.493 | Hummus - texture/protein tradition |
+| parsnip + turnip | 0.576 | Root vegetable - no FlavorDB overlap |
+
+### 6.4 Interpretation
+
+**The Ahn hypothesis is real but weak in our corpus**:
+- At 51+ shared compounds (top 4% of pairs), mean NPMI is 37% above average
+- Overall correlation is near-zero: Spearman r = 0.019
+- East Asian pairs follow Ahn inverted prediction exactly
+- Compound sharing explains ~0.04% of NPMI variance overall; ~0.5% for compound-rich pairs
+
+**Why AntiHomo still helps in v4**: The HGN encodes compound-sharing as embedding similarity for ALL pairs, not just the top-4% where Ahn signal exists. Correcting this over-encoding lets the model weight the 96% of pairs where PPMI is driven by other factors.
+
+## 7. Open Questions for Paper
 
 1. **Significance threshold**: Should we report v4 delta as "marginally positive" or wait for a v4-scale clean dataset to achieve significance?
 2. **Comparison baseline**: Need a non-GNN baseline (BM25/collaborative-filter on recipe co-occurrence alone) to show GNN adds value beyond corpus statistics.
@@ -126,7 +186,7 @@ Based on the above, the most hypothesis-motivated next architecture:
 
 ---
 
-## 7. Version Comparison Summary
+## 8. Version Comparison Summary
 
 | Version | Ingredients | Unique Botanicals | Ratio | AntiHomo Δ | CI | Verdict |
 |---------|-------------|-------------------|-------|-----------|-----|---------|
