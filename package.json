@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "seed": "npx ts-node -e \"require('./src/lib/seed').seed()\""
+    "start": "next start"
   },
   "dependencies": {
     "@types/d3": "^7.4.3",
