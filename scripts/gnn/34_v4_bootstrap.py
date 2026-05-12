@@ -5,13 +5,15 @@ Compares 1L-HGN vs AntiHomo-0.2 across 10 seeds.
 Baselines: v3 (239/9305), v2 (151/11269)
 """
 import json, sqlite3, time
+from pathlib import Path
 import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from scipy.stats import spearmanr
 
-DB_PATH = "flavorgraph_v4.db"
+ROOT    = Path(__file__).parent.parent.parent
+DB_PATH = ROOT / "flavorgraph_v4.db"
 TIME_BUDGET = 240
 SEEDS = [42, 123, 2024, 7, 99, 314, 777, 1001, 2000, 9999]
 TEST_RATIO = 0.2

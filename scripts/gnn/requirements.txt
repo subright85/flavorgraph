@@ -6,6 +6,7 @@ torch==2.8.0
 torch-geometric==2.6.1
 numpy==2.0.2
 scipy==1.13.1
+anthropic>=0.25.0        # used by 32_expand_mapping.py (LLM-assisted mapping)
 
 # torch-geometric optional deps (needed for HGTConv)
 # pip install torch-scatter torch-sparse -f https://data.pyg.org/whl/torch-2.8.0+cpu.html
