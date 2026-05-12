@@ -16,9 +16,7 @@
     "react-dom": "^18.3.0"
   },
   "devDependencies": {
-    "@types/better-sqlite3": "^7.6.8",
     "@types/node": "^20",
-    "better-sqlite3": "^9.4.3",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "typescript": "^5"
