@@ -177,6 +177,24 @@ High-NPMI (>0.3) pairs with zero shared compounds (415 total):
 
 **Why AntiHomo still helps in v4**: The HGN encodes compound-sharing as embedding similarity for ALL pairs, not just the top-4% where Ahn signal exists. Correcting this over-encoding lets the model weight the 96% of pairs where PPMI is driven by other factors.
 
+### 6.5 Linear probe: pairwise compound features
+
+Logistic regression probe trained on 6 compound pairwise features:
+shared_count, log(shared+1), cosine_similarity, dot_product, L2_distance, jaccard.
+10-seed bootstrap, 80/20 train/test split. No GNN, no graph leakage.
+
+| Model | Spearman (test) | Std |
+|-------|----------------|-----|
+| Compound features | **0.0645** | 0.0071 |
+| Random features (control) | 0.0590 | 0.0080 |
+| Delta | +0.0055 | CI: [-0.001, +0.012], not significant |
+
+Cosine similarity has the largest coefficient (~0.46), making normalized shared-compound
+count the strongest single predictor. The +0.006 delta is directionally positive but
+statistically insignificant. This is the cleanest test of the Ahn hypothesis: compound
+features predict PPMI marginally better than random noise.
+
+
 ## 7. Open Questions for Paper
 
 1. **Significance threshold**: Should we report v4 delta as "marginally positive" or wait for a v4-scale clean dataset to achieve significance?

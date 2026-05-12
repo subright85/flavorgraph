@@ -1,0 +1,10 @@
+n_ing=1094, n_comp=983
+total_pairs=66295
+PPMI edges (positive): 49666
+
+Seed 42: train=53036 test=13259
+  [compound] seed=42 steps=4039 spearman=0.8113
+  [identity] seed=42 steps=3914 spearman=0.7707
+  [random] seed=42 steps=4128 spearman=0.8538
+
+Seed 123: train=53036 test=13259
